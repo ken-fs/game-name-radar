@@ -1,0 +1,2900 @@
+{
+ "my anime mine": {
+  "name": "My Anime Mine",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-10-26",
+  "release": null,
+  "prerelease": false,
+  "term": "my anime mine",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 54.3,
+    "now": 37,
+    "ratio": 0.68,
+    "last": "2026-10-28",
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 54.3,
+    "now": 37,
+    "ratio": 0.68,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 54.3,
+    "now": 37.7,
+    "ratio": 0.69,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 54.3,
+    "now": 41.3,
+    "ratio": 0.76,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 54.3,
+    "now": 54,
+    "ratio": 0.99,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "merkado": {
+  "name": "Merkado",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-26",
+  "release": null,
+  "prerelease": false,
+  "term": "merkado game",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "sites": []
+   }
+  ]
+ },
+ "pa deliber": {
+  "name": "Pa Deliber",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-26",
+  "release": null,
+  "prerelease": false,
+  "term": "pa deliber",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "sites": []
+   }
+  ]
+ },
+ "build a pc": {
+  "name": "Build a PC",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "build a pc",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 70.3,
+    "now": 62.3,
+    "ratio": 0.89,
+    "last": "2026-10-29",
+    "sites": [
+     "buildapc.uk"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 70.3,
+    "now": 59.3,
+    "ratio": 0.84,
+    "last": "2026-10-30",
+    "sites": [
+     "buildapc.uk"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 70.3,
+    "now": 58,
+    "ratio": 0.82,
+    "last": "2026-10-31",
+    "sites": [
+     "buildapc.uk"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 70.3,
+    "now": 57.7,
+    "ratio": 0.82,
+    "last": "2026-11-01",
+    "sites": [
+     "buildapc.uk"
+    ]
+   }
+  ]
+ },
+ "ride a dino": {
+  "name": "Ride a Dino",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "ride a dino",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 64.3,
+    "now": 35.3,
+    "ratio": 0.55,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 64.3,
+    "now": 32.7,
+    "ratio": 0.51,
+    "last": "2026-10-30",
+    "sites": [
+     "rideadino.net"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 64.3,
+    "now": 36.7,
+    "ratio": 0.57,
+    "last": "2026-10-31",
+    "sites": [
+     "rideadino.net"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 64.3,
+    "now": 35.7,
+    "ratio": 0.55,
+    "last": "2026-11-01",
+    "sites": [
+     "rideadino.net"
+    ]
+   }
+  ]
+ },
+ "ride pet for egg": {
+  "name": "RIDE PET FOR EGG",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "ride pet for egg",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 0,
+    "now": 17.3,
+    "ratio": 17.33,
+    "last": "2026-10-29",
+    "sites": []
+   }
+  ]
+ },
+ "duck duck": {
+  "name": "Duck Duck",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "duck duck",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 77.7,
+    "now": 73.7,
+    "ratio": 0.95,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 77.7,
+    "now": 74.7,
+    "ratio": 0.96,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 77.7,
+    "now": 80,
+    "ratio": 1.03,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 77.7,
+    "now": 78.3,
+    "ratio": 1.01,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "tape to tape": {
+  "name": "Tape to Tape",
+  "type": "Steam",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "tape to tape",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 84.7,
+    "now": 85,
+    "ratio": 1,
+    "last": "2026-10-29",
+    "sites": [
+     "tapetotape.ca",
+     "tapetotape.site"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 84.7,
+    "now": 86.3,
+    "ratio": 1.02,
+    "last": "2026-10-30",
+    "sites": [
+     "tapetotape.ca",
+     "tapetotape.site"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 84.7,
+    "now": 88.7,
+    "ratio": 1.05,
+    "last": "2026-10-31",
+    "sites": [
+     "tapetotape.ca",
+     "tapetotape.site"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 84.7,
+    "now": 79,
+    "ratio": 0.93,
+    "last": "2026-11-01",
+    "sites": [
+     "tapetotape.ca",
+     "tapetotape.site"
+    ]
+   }
+  ]
+ },
+ "tales of eternia remastered": {
+  "name": "Tales of Eternia Remastered",
+  "type": "Steam",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "tales of eternia remastered",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 19.3,
+    "now": 11.3,
+    "ratio": 0.59,
+    "last": "2026-10-29",
+    "sites": [
+     "talesofeterniaremasteredwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 19.3,
+    "now": 11.7,
+    "ratio": 0.6,
+    "last": "2026-10-30",
+    "sites": [
+     "talesofeterniaremasteredwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 19.3,
+    "now": 12,
+    "ratio": 0.62,
+    "last": "2026-10-31",
+    "sites": [
+     "talesofeterniaremasteredwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 19.3,
+    "now": 14,
+    "ratio": 0.72,
+    "last": "2026-11-01",
+    "sites": [
+     "talesofeterniaremasteredwiki.wiki"
+    ]
+   }
+  ]
+ },
+ "orbit engineer": {
+  "name": "Orbit Engineer",
+  "type": "Steam",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "orbit engineer",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 0,
+    "now": 29.7,
+    "ratio": 29.67,
+    "last": "2026-10-29",
+    "sites": [
+     "orbitengineers.club"
+    ]
+   }
+  ]
+ },
+ "moon sweepers": {
+  "name": "Moon Sweepers",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-23",
+  "prerelease": false,
+  "term": "moon sweepers",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 85,
+    "now": 91,
+    "ratio": 1.07,
+    "last": "2026-10-28",
+    "sites": [
+     "moonsweepers-wiki.wiki",
+     "moonsweepers.info"
+    ]
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 85,
+    "now": 76.7,
+    "ratio": 0.9,
+    "last": "2026-10-29",
+    "sites": [
+     "moonsweepers-wiki.wiki",
+     "moonsweepers.info",
+     "moonsweepersgames.com"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 85,
+    "now": 60.3,
+    "ratio": 0.71,
+    "last": "2026-10-30",
+    "sites": [
+     "moonsweepers-wiki.wiki",
+     "moonsweepers.info",
+     "moonsweepersgames.com",
+     "moon-sweepers.org"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 85,
+    "now": 54,
+    "ratio": 0.64,
+    "last": "2026-10-31",
+    "sites": [
+     "moonsweepers-wiki.wiki",
+     "moonsweepers.info",
+     "moonsweepersgames.com",
+     "moon-sweepers.org"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 85,
+    "now": 54.7,
+    "ratio": 0.64,
+    "last": "2026-11-01",
+    "sites": [
+     "moonsweepers-wiki.wiki",
+     "moonsweepers.info",
+     "moonsweepersgames.com",
+     "moon-sweepers.org"
+    ]
+   }
+  ]
+ },
+ "ebbtide": {
+  "name": "Ebbtide",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": true,
+  "term": "ebbtide game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 37.3,
+    "now": 21.7,
+    "ratio": 0.58,
+    "last": "2026-10-29",
+    "sites": [
+     "ebbtide.wiki",
+     "ebbtide.site"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 37.3,
+    "now": 20.3,
+    "ratio": 0.54,
+    "last": "2026-10-30",
+    "sites": [
+     "ebbtide.wiki",
+     "ebbtide.site"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 37.3,
+    "now": 19.3,
+    "ratio": 0.52,
+    "last": "2026-10-31",
+    "sites": [
+     "ebbtide.wiki",
+     "ebbtide.site"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 37.3,
+    "now": 11.7,
+    "ratio": 0.31,
+    "last": "2026-11-01",
+    "sites": [
+     "ebbtide.wiki",
+     "ebbtide.site"
+    ]
+   }
+  ]
+ },
+ "project exhibitionist": {
+  "name": "Project Exhibitionist",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-27",
+  "prerelease": true,
+  "term": "project exhibitionist",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 24.7,
+    "now": 73.3,
+    "ratio": 2.97,
+    "last": "2026-10-29",
+    "sites": []
+   }
+  ]
+ },
+ "football manager 27": {
+  "name": "Football Manager 27",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-11-10",
+  "prerelease": true,
+  "term": "football manager 27",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "probably stolen cyberpunk shopkeeper sim": {
+  "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-28",
+  "prerelease": true,
+  "term": "probably stolen",
+  "due": "2026-10-30",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 2.7,
+    "now": 35.3,
+    "ratio": 13.25,
+    "last": "2026-10-30",
+    "sites": [
+     "probablystolen.rest"
+    ]
+   }
+  ]
+ },
+ "crack": {
+  "name": "CRACK",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "crack game",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 63.7,
+    "now": 71.7,
+    "ratio": 1.13,
+    "last": "2026-10-28",
+    "sites": [
+     "crackgame.xyz"
+    ]
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 63.7,
+    "now": 77.3,
+    "ratio": 1.21,
+    "last": "2026-10-29",
+    "sites": [
+     "crackgame.xyz"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 63.7,
+    "now": 60.3,
+    "ratio": 0.95,
+    "last": "2026-10-30",
+    "sites": [
+     "crackgame.xyz"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 63.7,
+    "now": 54.7,
+    "ratio": 0.86,
+    "last": "2026-10-31",
+    "sites": [
+     "crackgame.xyz"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 63.7,
+    "now": 56.3,
+    "ratio": 0.88,
+    "last": "2026-11-01",
+    "sites": [
+     "crackgame.xyz"
+    ]
+   }
+  ]
+ },
+ "reka": {
+  "name": "REKA",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "reka game",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 54.3,
+    "now": 55.7,
+    "ratio": 1.02,
+    "last": "2026-10-28",
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 54.3,
+    "now": 51.3,
+    "ratio": 0.94,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 54.3,
+    "now": 44.7,
+    "ratio": 0.82,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 54.3,
+    "now": 50.7,
+    "ratio": 0.93,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 54.3,
+    "now": 69.7,
+    "ratio": 1.28,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "abyss ring": {
+  "name": "Abyss Ring",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "abyss ring",
+  "due": "2026-10-28",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 14,
+    "now": 10.3,
+    "ratio": 0.74,
+    "last": "2026-10-28",
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 14,
+    "now": 9.7,
+    "ratio": 0.69,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 14,
+    "now": 9.3,
+    "ratio": 0.67,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 14,
+    "now": 11,
+    "ratio": 0.79,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 14,
+    "now": 19.3,
+    "ratio": 1.38,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "pao pao": {
+  "name": "PAO PAO",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "pao pao game",
+  "due": "2026-10-28",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 41.7,
+    "now": 53.7,
+    "ratio": 1.29,
+    "last": "2026-10-28",
+    "sites": []
+   },
+   {
+    "date": "2026-10-29",
+    "day": 2,
+    "base": 41.7,
+    "now": 57.3,
+    "ratio": 1.38,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 3,
+    "base": 41.7,
+    "now": 52.3,
+    "ratio": 1.26,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 4,
+    "base": 41.7,
+    "now": 55,
+    "ratio": 1.32,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 5,
+    "base": 41.7,
+    "now": 69.3,
+    "ratio": 1.66,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "magical girl er": {
+  "name": "Magical Girl ER",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-27",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "magical girl er",
+  "due": "2026-10-28",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-28",
+    "day": 1,
+    "base": 52.3,
+    "now": 81,
+    "ratio": 1.55,
+    "last": "2026-10-28",
+    "sites": []
+   }
+  ]
+ },
+ "anime galaxies": {
+  "name": "anime galaxies",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "anime galaxies",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 33,
+    "now": 45,
+    "ratio": 1.36,
+    "last": "2026-10-29",
+    "sites": [
+     "animegalaxieswiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 33,
+    "now": 49.3,
+    "ratio": 1.49,
+    "last": "2026-10-30",
+    "sites": [
+     "animegalaxieswiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 33,
+    "now": 61.7,
+    "ratio": 1.87,
+    "last": "2026-10-31",
+    "sites": [
+     "animegalaxieswiki.wiki"
+    ]
+   }
+  ]
+ },
+ "clover rpg": {
+  "name": "clover rpg",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "clover rpg",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 52,
+    "now": 27.3,
+    "ratio": 0.53,
+    "last": "2026-10-29",
+    "sites": [
+     "cloverrpg.xyz"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 52,
+    "now": 23.7,
+    "ratio": 0.46,
+    "last": "2026-10-30",
+    "sites": [
+     "cloverrpg.xyz"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 52,
+    "now": 24,
+    "ratio": 0.46,
+    "last": "2026-10-31",
+    "sites": [
+     "cloverrpg.xyz",
+     "cloverrpgcodes.com"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 52,
+    "now": 28.7,
+    "ratio": 0.55,
+    "last": "2026-11-01",
+    "sites": [
+     "cloverrpg.xyz",
+     "cloverrpgcodes.com"
+    ]
+   }
+  ]
+ },
+ "inkhead": {
+  "name": "inkhead",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "inkhead game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-29",
+    "sites": [
+     "inkheadwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-30",
+    "sites": [
+     "inkheadwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-31",
+    "sites": [
+     "inkheadwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-01",
+    "sites": [
+     "inkheadwiki.wiki"
+    ]
+   }
+  ]
+ },
+ "bay rivals": {
+  "name": "bay rivals",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "bay rivals",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 33.7,
+    "now": 25,
+    "ratio": 0.74,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 33.7,
+    "now": 32,
+    "ratio": 0.95,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 33.7,
+    "now": 45.3,
+    "ratio": 1.35,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 33.7,
+    "now": 56.7,
+    "ratio": 1.68,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "runaway": {
+  "name": "runaway",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "term": "runaway game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 27,
+    "now": 26,
+    "ratio": 0.96,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 27,
+    "now": 28,
+    "ratio": 1.04,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 27,
+    "now": 25.7,
+    "ratio": 0.95,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 27,
+    "now": 23.7,
+    "ratio": 0.88,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "krillion": {
+  "name": "krillion",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "krillion",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 74.7,
+    "now": 87,
+    "ratio": 1.17,
+    "last": "2026-10-29",
+    "sites": [
+     "krillion.click",
+     "krillion.best",
+     "krillion.cc",
+     "krillion.club",
+     "krillionio.online",
+     "krilliononline.com",
+     "krillion.art"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 74.7,
+    "now": 92.7,
+    "ratio": 1.24,
+    "last": "2026-10-30",
+    "sites": [
+     "krillion.click",
+     "krillion.best",
+     "krillion.cc",
+     "krillion.club",
+     "krillionio.online",
+     "krilliononline.com",
+     "krillion.art"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 74.7,
+    "now": 83.3,
+    "ratio": 1.12,
+    "last": "2026-10-31",
+    "sites": [
+     "krillion.click",
+     "krillion.best",
+     "krillion.cc",
+     "krillion.club",
+     "krillionio.online",
+     "krilliononline.com",
+     "krillion.art"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 74.7,
+    "now": 72,
+    "ratio": 0.96,
+    "last": "2026-11-01",
+    "sites": [
+     "krillion.click",
+     "krillion.best",
+     "krillion.cc",
+     "krillion.club",
+     "krillionio.online",
+     "krilliononline.com",
+     "krillion.art"
+    ]
+   }
+  ]
+ },
+ "reskate": {
+  "name": "reskate",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "reskate game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 18.7,
+    "now": 13.7,
+    "ratio": 0.73,
+    "last": "2026-10-29",
+    "sites": [
+     "reskate.online"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 18.7,
+    "now": 13.3,
+    "ratio": 0.71,
+    "last": "2026-10-30",
+    "sites": [
+     "reskate.online"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 18.7,
+    "now": 12,
+    "ratio": 0.64,
+    "last": "2026-10-31",
+    "sites": [
+     "reskate.online"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 18.7,
+    "now": 13.3,
+    "ratio": 0.71,
+    "last": "2026-11-01",
+    "sites": [
+     "reskate.online"
+    ]
+   }
+  ]
+ },
+ "azeroth survivors": {
+  "name": "azeroth survivors",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "azeroth survivors",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 81.7,
+    "now": 73,
+    "ratio": 0.89,
+    "last": "2026-10-29",
+    "sites": [
+     "azeroth-survivors.wiki",
+     "azeroth-survivors.online",
+     "azerothsurvivorsguide.wiki",
+     "azeroth-survivors.net",
+     "azerothsurvivors.cc",
+     "azerothsurvivors.lat"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 81.7,
+    "now": 68.7,
+    "ratio": 0.84,
+    "last": "2026-10-30",
+    "sites": [
+     "azeroth-survivors.wiki",
+     "azeroth-survivors.online",
+     "azerothsurvivorsguide.wiki",
+     "azeroth-survivors.net",
+     "azerothsurvivors.cc",
+     "azerothsurvivors.lat",
+     "azerothsurvivorsguide.com",
+     "azerothsurvivorsgame.net"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 81.7,
+    "now": 64.7,
+    "ratio": 0.79,
+    "last": "2026-10-31",
+    "sites": [
+     "azeroth-survivors.wiki",
+     "azeroth-survivors.online",
+     "azerothsurvivorsguide.wiki",
+     "azeroth-survivors.net",
+     "azerothsurvivors.cc",
+     "azerothsurvivors.lat",
+     "azerothsurvivorsguide.com",
+     "azerothsurvivorsgame.net"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 81.7,
+    "now": 66,
+    "ratio": 0.81,
+    "last": "2026-11-01",
+    "sites": [
+     "azeroth-survivors.wiki",
+     "azeroth-survivors.online",
+     "azerothsurvivorsguide.wiki",
+     "azeroth-survivors.net",
+     "azerothsurvivors.cc",
+     "azerothsurvivors.lat",
+     "azerothsurvivorsguide.com",
+     "azerothsurvivorsgame.net"
+    ]
+   }
+  ]
+ },
+ "black ops zombies browser": {
+  "name": "black ops zombies browser",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "black ops zombies browser",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 5,
+    "now": 5.7,
+    "ratio": 1.13,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 5,
+    "now": 5.7,
+    "ratio": 1.13,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 5,
+    "now": 5.3,
+    "ratio": 1.07,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 5,
+    "now": 4,
+    "ratio": 0.8,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "threshing day game": {
+  "name": "threshing day game",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "threshing day game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 1,
+    "now": 1,
+    "ratio": 1,
+    "last": "2026-10-29",
+    "sites": [
+     "threshingdaygame.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 1,
+    "now": 1,
+    "ratio": 1,
+    "last": "2026-10-30",
+    "sites": [
+     "threshingdaygame.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 1,
+    "now": 1,
+    "ratio": 1,
+    "last": "2026-10-31",
+    "sites": [
+     "threshingdaygame.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 1,
+    "now": 1,
+    "ratio": 1,
+    "last": "2026-11-01",
+    "sites": [
+     "threshingdaygame.wiki"
+    ]
+   }
+  ]
+ },
+ "fourth wing game": {
+  "name": "fourth wing game",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "fourth wing game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 4,
+    "now": 3.7,
+    "ratio": 0.92,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 4,
+    "now": 3.3,
+    "ratio": 0.83,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 4,
+    "now": 3.7,
+    "ratio": 0.92,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 4,
+    "now": 3.3,
+    "ratio": 0.83,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "cyberpunk": {
+  "name": "cyberpunk",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-10-27",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "cyberpunk",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 89.7,
+    "now": 75.7,
+    "ratio": 0.84,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 89.7,
+    "now": 72.3,
+    "ratio": 0.81,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 89.7,
+    "now": 74.7,
+    "ratio": 0.83,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 89.7,
+    "now": 84.3,
+    "ratio": 0.94,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "junkyard simulator": {
+  "name": "Junkyard Simulator",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "junkyard simulator",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 43.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 43.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 43.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "left left left": {
+  "name": "Left! Left! LEFT!",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": true,
+  "term": "left left left",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 91.3,
+    "now": 85.7,
+    "ratio": 0.94,
+    "last": "2026-10-30",
+    "sites": [
+     "leftleftleft.sbs"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 91.3,
+    "now": 80.3,
+    "ratio": 0.88,
+    "last": "2026-10-31",
+    "sites": [
+     "leftleftleft.sbs"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 91.3,
+    "now": 77,
+    "ratio": 0.84,
+    "last": "2026-11-01",
+    "sites": [
+     "leftleftleft.sbs"
+    ]
+   }
+  ]
+ },
+ "you are empty absolute edition": {
+  "name": "You Are Empty: Absolute Edition",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-10-27",
+  "prerelease": false,
+  "term": "you are empty",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 64.7,
+    "now": 66.3,
+    "ratio": 1.03,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 64.7,
+    "now": 70,
+    "ratio": 1.08,
+    "last": "2026-10-30",
+    "sites": [
+     "you-are-empty-absolute-edition.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 64.7,
+    "now": 66,
+    "ratio": 1.02,
+    "last": "2026-10-31",
+    "sites": [
+     "you-are-empty-absolute-edition.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 64.7,
+    "now": 74.7,
+    "ratio": 1.15,
+    "last": "2026-11-01",
+    "sites": [
+     "you-are-empty-absolute-edition.wiki"
+    ]
+   }
+  ]
+ },
+ "defilade": {
+  "name": "Defilade",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": true,
+  "term": "defilade",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 34.3,
+    "now": 30.3,
+    "ratio": 0.88,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 34.3,
+    "now": 31,
+    "ratio": 0.9,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 34.3,
+    "now": 30.3,
+    "ratio": 0.88,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "culdcept begins": {
+  "name": "Culdcept BEGINS",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-10-27",
+  "prerelease": false,
+  "term": "culdcept begins",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 27.7,
+    "now": 32.7,
+    "ratio": 1.18,
+    "last": "2026-10-29",
+    "sites": [
+     "culdceptbeginswiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 27.7,
+    "now": 29.3,
+    "ratio": 1.06,
+    "last": "2026-10-30",
+    "sites": [
+     "culdceptbeginswiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 27.7,
+    "now": 24.7,
+    "ratio": 0.89,
+    "last": "2026-10-31",
+    "sites": [
+     "culdceptbeginswiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 27.7,
+    "now": 25,
+    "ratio": 0.9,
+    "last": "2026-11-01",
+    "sites": [
+     "culdceptbeginswiki.wiki"
+    ]
+   }
+  ]
+ },
+ "northgard battlegrounds": {
+  "name": "Northgard Battlegrounds",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-10-27",
+  "prerelease": false,
+  "term": "northgard battlegrounds",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 20.3,
+    "now": 19.7,
+    "ratio": 0.97,
+    "last": "2026-10-29",
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "base": 20.3,
+    "now": 15.3,
+    "ratio": 0.75,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "base": 20.3,
+    "now": 8.3,
+    "ratio": 0.41,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "base": 20.3,
+    "now": 5.3,
+    "ratio": 0.26,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "nomad drive": {
+  "name": "Nomad Drive",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-10-27",
+  "prerelease": false,
+  "term": "nomad drive",
+  "due": "2026-10-29",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "base": 22,
+    "now": 34.7,
+    "ratio": 1.58,
+    "last": "2026-10-29",
+    "sites": [
+     "nomad-drive.wiki"
+    ]
+   }
+  ]
+ },
+ "archeage chronicles": {
+  "name": "ArcheAge Chronicles",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-11-03",
+  "prerelease": true,
+  "term": "archeage chronicles",
+  "due": "2026-11-05",
+  "status": "pending",
+  "checks": []
+ },
+ "elbab": {
+  "name": "ELbab",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-28",
+  "release": "2026-10-26",
+  "prerelease": false,
+  "term": "elbab game",
+  "due": "2026-10-29",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-29",
+    "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-10-30",
+    "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 3,
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 4,
+    "sites": []
+   }
+  ]
+ },
+ "chop a forest": {
+  "name": "chop a forest",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "chop a forest",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 40.3,
+    "now": 33,
+    "ratio": 0.82,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 40.3,
+    "now": 38.7,
+    "ratio": 0.96,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 40.3,
+    "now": 49.7,
+    "ratio": 1.23,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "idle mafia": {
+  "name": "idle mafia",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "idle mafia",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 8,
+    "now": 6.3,
+    "ratio": 0.79,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 8,
+    "now": 5,
+    "ratio": 0.63,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 8,
+    "now": 3,
+    "ratio": 0.38,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "unscathed rng": {
+  "name": "unscathed rng",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "unscathed rng",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "urban reload": {
+  "name": "urban reload",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "urban reload",
+  "due": "2026-10-30",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 31.7,
+    "now": 50.7,
+    "ratio": 1.6,
+    "last": "2026-10-30",
+    "sites": [
+     "urbanreload.wiki"
+    ]
+   }
+  ]
+ },
+ "xp hero": {
+  "name": "xp hero",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-28",
+  "release": null,
+  "prerelease": false,
+  "term": "xp hero game",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 24,
+    "now": 24.7,
+    "ratio": 1.03,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 24,
+    "now": 24.7,
+    "ratio": 1.03,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 24,
+    "now": 24.7,
+    "ratio": 1.03,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "my dino empire": {
+  "name": "My Dino Empire",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "my dino empire",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 4.7,
+    "now": 5,
+    "ratio": 1.07,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 4.7,
+    "now": 2.7,
+    "ratio": 0.57,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "crazy 8 ball": {
+  "name": "CRAZY 8 Ball",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "crazy 8 ball",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 92.7,
+    "now": 76.7,
+    "ratio": 0.83,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 92.7,
+    "now": 77.7,
+    "ratio": 0.84,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "anomalith": {
+  "name": "ANOMALITH",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-29",
+  "release": "2026-10-28",
+  "prerelease": false,
+  "term": "anomalith",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 76,
+    "now": 87.3,
+    "ratio": 1.15,
+    "last": "2026-10-30",
+    "sites": [
+     "anomalith.space"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 76,
+    "now": 72.7,
+    "ratio": 0.96,
+    "last": "2026-10-31",
+    "sites": [
+     "anomalith.space",
+     "anomalith.org"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 76,
+    "now": 72.7,
+    "ratio": 0.96,
+    "last": "2026-11-01",
+    "sites": [
+     "anomalith.space",
+     "anomalith.org"
+    ]
+   }
+  ]
+ },
+ "airport contraband": {
+  "name": "Airport Contraband",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-29",
+  "release": "2026-10-28",
+  "prerelease": false,
+  "term": "airport contraband",
+  "due": "2026-10-30",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 7.7,
+    "now": 7.7,
+    "ratio": 1,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 7.7,
+    "now": 7,
+    "ratio": 0.91,
+    "last": "2026-10-31",
+    "sites": [
+     "airportcontrabandwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "day": 3,
+    "base": 7.7,
+    "now": 9,
+    "ratio": 1.17,
+    "last": "2026-11-01",
+    "sites": [
+     "airportcontrabandwiki.wiki"
+    ]
+   }
+  ]
+ },
+ "geoplanetical": {
+  "name": "Geoplanetical",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-29",
+  "release": "2026-10-28",
+  "prerelease": false,
+  "term": "geoplanetical",
+  "due": "2026-10-30",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-30",
+    "day": 1,
+    "base": 20.7,
+    "now": 30.7,
+    "ratio": 1.48,
+    "last": "2026-10-30",
+    "sites": []
+   },
+   {
+    "date": "2026-10-31",
+    "day": 2,
+    "base": 20.7,
+    "now": 44,
+    "ratio": 2.13,
+    "last": "2026-10-31",
+    "sites": []
+   }
+  ]
+ },
+ "carolina leaners": {
+  "name": "carolina leaners",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "carolina leaners",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 57.3,
+    "now": 66.7,
+    "ratio": 1.16,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 57.3,
+    "now": 70.3,
+    "ratio": 1.23,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "dodgeball zero": {
+  "name": "dodgeball zero",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "dodgeball zero",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 79.7,
+    "now": 68.7,
+    "ratio": 0.86,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 79.7,
+    "now": 84,
+    "ratio": 1.05,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "become a striker": {
+  "name": "become a striker",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "become a striker",
+  "due": "2026-10-31",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 15.7,
+    "now": 24.3,
+    "ratio": 1.55,
+    "last": "2026-10-31",
+    "sites": [
+     "becomeastriker.com"
+    ]
+   }
+  ]
+ },
+ "death order simon says": {
+  "name": "death order simon says",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-29",
+  "release": null,
+  "prerelease": false,
+  "term": "death order simon says",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 17.7,
+    "now": 8.7,
+    "ratio": 0.49,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 17.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "build a zombie": {
+  "name": "Build A Zombie",
+  "type": "Roblox 错配",
+  "kind": "roblox",
+  "firstSeen": "2026-10-30",
+  "release": null,
+  "prerelease": false,
+  "term": "build a zombie",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "base": 74.7,
+    "now": 75,
+    "ratio": 1,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "the serena villa files": {
+  "name": "The Serena Villa Files",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": null,
+  "prerelease": false,
+  "term": "the serena villa files",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "base": 28.3,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "atmosfar": {
+  "name": "ATMOSFAR",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": "2026-10-29",
+  "prerelease": false,
+  "term": "atmosfar",
+  "due": "2026-10-31",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 39.3,
+    "now": 69.7,
+    "ratio": 1.77,
+    "last": "2026-10-31",
+    "sites": []
+   }
+  ]
+ },
+ "the wolf among us remastered": {
+  "name": "The Wolf Among Us Remastered",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": "2026-10-29",
+  "prerelease": false,
+  "term": "the wolf among us remastered",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 73,
+    "now": 69,
+    "ratio": 0.95,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 73,
+    "now": 50,
+    "ratio": 0.68,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "hunting simulator 3": {
+  "name": "Hunting Simulator 3",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": "2026-10-29",
+  "prerelease": false,
+  "term": "hunting simulator 3",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 64.3,
+    "now": 85.3,
+    "ratio": 1.33,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 64.3,
+    "now": 83.3,
+    "ratio": 1.3,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "terrible lizards": {
+  "name": "Terrible Lizards",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": "2026-10-29",
+  "prerelease": false,
+  "term": "terrible lizards",
+  "due": "2026-10-31",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 40,
+    "now": 69.7,
+    "ratio": 1.74,
+    "last": "2026-10-31",
+    "sites": [
+     "terriblelizards.site"
+    ]
+   }
+  ]
+ },
+ "s o n a r submarine operators not actually ready": {
+  "name": "S.O.N.A.R. - Submarine Operators Not Actually Ready",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-30",
+  "release": "2026-10-29",
+  "prerelease": false,
+  "term": "s o n a r",
+  "due": "2026-10-31",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-10-31",
+    "day": 1,
+    "base": 70,
+    "now": 65.3,
+    "ratio": 0.93,
+    "last": "2026-10-31",
+    "sites": []
+   },
+   {
+    "date": "2026-11-01",
+    "day": 2,
+    "base": 70,
+    "now": 60,
+    "ratio": 0.86,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "gag 2": {
+  "name": "gag 2",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-30",
+  "release": null,
+  "prerelease": false,
+  "term": "gag 2 game",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "sites": []
+   }
+  ]
+ },
+ "german moped days": {
+  "name": "german moped days",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-30",
+  "release": null,
+  "prerelease": false,
+  "term": "german moped days",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "base": 83,
+    "now": 61.3,
+    "ratio": 0.74,
+    "last": "2026-11-01",
+    "sites": [
+     "germanmopeddays.com"
+    ]
+   }
+  ]
+ },
+ "just volleyball": {
+  "name": "just volleyball",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-10-31",
+  "release": "2026-11-04",
+  "prerelease": true,
+  "term": "just volleyball",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "queen s domain": {
+  "name": "Queen's Domain",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-31",
+  "release": "2026-10-30",
+  "prerelease": false,
+  "term": "queen s domain",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "sites": [
+     "queens-domain.wiki",
+     "queensdomain.site"
+    ]
+   }
+  ]
+ },
+ "silberheim evolving card game": {
+  "name": "Silberheim Evolving Card Game",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-31",
+  "release": "2026-10-30",
+  "prerelease": false,
+  "term": "silberheim evolving card game",
+  "due": "2026-11-01",
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "sites": []
+   }
+  ]
+ },
+ "rip it card collector": {
+  "name": "Rip It! Card Collector",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-10-31",
+  "release": "2026-10-30",
+  "prerelease": false,
+  "term": "rip it card collector",
+  "due": "2026-11-01",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-11-01",
+    "day": 1,
+    "base": 26,
+    "now": 59.3,
+    "ratio": 2.28,
+    "last": "2026-11-01",
+    "sites": []
+   }
+  ]
+ },
+ "anime piece": {
+  "name": "anime piece",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-31",
+  "release": null,
+  "prerelease": false,
+  "term": "anime piece",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "essential mod": {
+  "name": "essential mod",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-31",
+  "release": null,
+  "prerelease": false,
+  "term": "essential mod",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "night rider": {
+  "name": "night rider",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-31",
+  "release": null,
+  "prerelease": false,
+  "term": "night rider",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "own a catboy cafe": {
+  "name": "own a catboy cafe",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-31",
+  "release": null,
+  "prerelease": false,
+  "term": "own a catboy cafe",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "vantage": {
+  "name": "vantage",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-10-31",
+  "release": null,
+  "prerelease": false,
+  "term": "vantage game",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "anime vs anime": {
+  "name": "Anime vs Anime",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-01",
+  "release": null,
+  "prerelease": false,
+  "term": "anime vs anime",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "airline legacy": {
+  "name": "Airline Legacy",
+  "type": "Steam",
+  "kind": "steam",
+  "firstSeen": "2026-11-01",
+  "release": null,
+  "prerelease": false,
+  "term": "airline legacy",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "drawquarium": {
+  "name": "Drawquarium",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-01",
+  "release": "2026-11-13",
+  "prerelease": true,
+  "term": "drawquarium",
+  "due": "2026-11-15",
+  "status": "pending",
+  "checks": []
+ },
+ "lacey s flash games": {
+  "name": "Lacey's Flash Games",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-01",
+  "release": "2026-10-31",
+  "prerelease": false,
+  "term": "lacey s flash games",
+  "due": "2026-11-02",
+  "status": "pending",
+  "checks": []
+ },
+ "titan evolution": {
+  "name": "titan evolution",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-01",
+  "release": null,
+  "prerelease": false,
+  "term": "titan evolution",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "euromillions": {
+  "name": "euromillions",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-01",
+  "release": null,
+  "prerelease": false,
+  "term": "euromillions",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "femboy tycoon": {
+  "name": "femboy tycoon",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-01",
+  "release": null,
+  "prerelease": false,
+  "term": "femboy tycoon",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ }
+}

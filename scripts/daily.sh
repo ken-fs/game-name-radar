@@ -129,9 +129,16 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 #    复用现有 Roblox / Steam 闸门；只有「判决上升 + 有需求证据」才推翻转，网络失败次日重试。
 "$NODE" --env-file-if-exists=.env lib/rejection-recheck.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings
 
+# 7b. 新词待复查 + 稳涨冷门（2026-11-01 加，复盘 Nomad Drive / Rip It 等 7 个漏词：首见热度低或未发售就被弃）
+#     当天总报告的 Steam / Roblox / 联想新词 / H5 候选全部进 data/fresh-recheck-queue.json；
+#     有发售日 → 发售后 48h 复查，没有 → 首见第 2 天复查：pytrends（免费）≥首见 ×1.5 且专用站 ≤1 → 推 GO；
+#     另查稳涨冷门（连续 3 周 ≥+30%、近 4 周 ≥ 前 4 周 ×2）。专用站只做 NRD + RDAP 启发式，SERP 标「需人工核」，
+#     不用 SearchAPI / SerpAPI / treg。→ reports/recheck/RADAR-RECHECK-<日期>.md；失败不挡管线。
+"$NODE" --env-file-if-exists=.env lib/fresh-recheck.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings -e '^\[pytrends\]'
+
 # 8. occupy / 否决账本数据入库（2026-10-16 加）：管线每天改、以前没人 commit → 巡检第二天必报「改了没 commit」。
 #    跑完顺手提交 + 推送（失败不挡管线，巡检会抓）。
-git add data/occupy-state.json data/occupy-domains.json data/rejections.json
+git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json
 if ! git diff --cached --quiet; then
   git commit -q -m "chore: occupy-queue 每日状态 $TODAY"
   GIT_TERMINAL_PROMPT=0 git push -q origin main \
