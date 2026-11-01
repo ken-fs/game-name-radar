@@ -156,8 +156,8 @@
       "verdict": "🟡 观察",
       "reason": "至少 30 Index 档位，但实体需求未过、CCU 低于 2K",
       "status": "active",
-      "nextRecheck": "2026-11-01",
-      "lastChecked": "2026-10-30",
+      "nextRecheck": "2026-11-05",
+      "lastChecked": "2026-11-01",
       "history": [
         {
           "date": "2026-10-30",
@@ -165,6 +165,15 @@
           "to": "🟡 观察",
           "outcome": "stable",
           "ccu": 1327
+        },
+        {
+          "date": "2026-11-01",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 2268,
+          "trend": "no-data",
+          "guideWords": 2
         }
       ]
     },
