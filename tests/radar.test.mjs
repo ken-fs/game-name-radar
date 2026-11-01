@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { cleanRobloxName, parseDemand, parseGrowth, parseMismatch, parseSteady, withoutRejected } from "../radar.mjs";
+import { cleanRobloxName, collectSteadyRising, parseDemand, parseGrowth, parseMismatch, parseSteady, withoutRejected } from "../radar.mjs";
 
 test("cleanRobloxName strips update tags and emoji", () => {
   assert.equal(cleanRobloxName("[🐟UPDATE] Hole Fishing"), "Hole Fishing");
@@ -19,6 +19,21 @@ test("已否决候选只有翻转后才重新进头条", () => {
     { name: "Hole Fishing", status: "flipped" },
   ] };
   assert.deepEqual(withoutRejected(items, ledger), [{ name: "Hole Fishing" }]);
+});
+
+test("collectSteadyRising adds wiki and H5 candidates without filtering existing verdicts", () => {
+  const signal = { match: true, growths: [0.5, 0.5, 0.556], ratio: 2.06 };
+  const rows = collectSteadyRising(
+    { candidates: [
+      { gameName: "Slow Wiki", trend: { classification: "weak", steadyRising: signal } },
+      { gameName: "Flat Wiki", trend: { steadyRising: { match: false } } },
+    ] },
+    { names: {
+      "slow-h5": { trend: { steady: signal } },
+      "flat-h5": { trend: { steady: { match: false } } },
+    } },
+  );
+  assert.deepEqual(rows.map((row) => [row.kind, row.name]), [["wiki", "Slow Wiki"], ["h5", "slow-h5"]]);
 });
 
 test("parseGrowth reads the growth-scan table", () => {

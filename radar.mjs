@@ -194,6 +194,30 @@ function readReport(kind) {
   return existsSync(file) ? readFileSync(file, "utf8") : null;
 }
 
+function readData(name, fallback) {
+  try { return JSON.parse(readFileSync(join(HERE, "data", name), "utf8")); } catch { return fallback; }
+}
+
+/** 稳涨冷门只扩充候选来源；不参与、也不改变任何现有判决。 */
+export function collectSteadyRising(candidatePayload = {}, playableState = {}) {
+  const rows = [];
+  for (const candidate of candidatePayload.candidates ?? []) {
+    const signal = candidate.trend?.steadyRising;
+    if (signal?.match) rows.push({ kind: "wiki", name: candidate.gameName, ...signal });
+  }
+  for (const [name, entry] of Object.entries(playableState.names ?? {})) {
+    const signal = entry.trend?.steady;
+    if (signal?.match) rows.push({ kind: "h5", name, ...signal });
+  }
+  return rows;
+}
+
+function steadyNote(row) {
+  const growth = (row.growths ?? []).map((value) => value === null ? "从零起量" : `+${Math.round(value * 100)}%`).join(" / ");
+  const ratio = row.ratio === null ? "从零起量" : `${Number(row.ratio).toFixed(1)}x`;
+  return `最近 3 周 ${growth}，近 4 周÷前 4 周 ${ratio}`;
+}
+
 /** 表格里以某些判决开头的行，原样带出（最多 n 行）。 */
 function rowsStartingWith(md, marks, n = 8) {
   if (!md) return [];
@@ -268,6 +292,18 @@ async function daily() {
   const charts = readReport("STEAMCHARTS");
   const roblox = args.includes("--skip-roblox") ? null : await robloxLayer();
 
+  // 稳涨冷门是独立入口：持续命中只留栏目，首次 / 重新进入才进头条。
+  const steadyRows = collectSteadyRising(
+    readData("candidates.json", {}),
+    readData("playable-watch-state.json", {}),
+  );
+  const steadyStateFile = join(HERE, "data", "steady-rising-state.json");
+  const steadyPrevious = readData("steady-rising-state.json", null);
+  const previousActive = new Set(steadyPrevious?.active ?? []);
+  const steadyActive = steadyRows.map((row) => `${row.kind}:${row.name.toLowerCase()}`);
+  const steadyFresh = steadyPrevious ? steadyRows.filter((row) => !previousActive.has(`${row.kind}:${row.name.toLowerCase()}`)) : [];
+  writeFileSync(steadyStateFile, JSON.stringify({ updatedAt: new Date().toISOString(), active: steadyActive }, null, 2) + "\n");
+
   const steamTop = rowsStartingWith(invest, ["🟢", "🔔"]);
   const steamWatch = rowsStartingWith(invest, ["🟡"], 5);
   const playableTop = rowsStartingWith(playable, ["🟢", "🟡 待复核"]);
@@ -326,6 +362,11 @@ async function daily() {
       const [, game, intents] = cells(r);
       return { kind: "suggest", line: "suggest-diff", name: game, text: `- **联想新词** ${game}：Google 联想刚冒出（${intents}）`, data: { verdict: cells(r)[0], signals: { intents } } };
     }),
+    ...steadyFresh.map((row) => ({
+      kind: "steady", line: "steady-rising", name: row.name,
+      text: `- **稳涨冷门** ${row.name}（${row.kind === "wiki" ? "Wiki" : "H5"}）：${steadyNote(row)}`,
+      data: { verdict: "🟡 观察", signals: { steadyKind: row.kind, steadyGrowths: row.growths, steadyRatio: row.ratio } },
+    })),
     ...playableTop.map((r) => {
       const [verdict, , heat, growth, yoy, peak] = cells(r);
       return { line: "playable", name: r.split("|")[2]?.trim(), text: `- **可玩游戏** ${r.split("|")[2]?.trim()}：${r.split("|")[1]?.trim()}`,
@@ -424,6 +465,9 @@ async function daily() {
   lines.push("## 早期每日 / 社交（Trends 未成型，不当 🟢）", "");
   if (!earlySource) lines.push("（今天的早期每日还没生成）", "");
   else lines.push(...table("| 判决 | 游戏 | 综合 | S | M | N | L | C | 上线 | Trends | 嵌入路径 | 内容路径 | 开源部署 | 来源 | 备注 |", playableEarly), "");
+  lines.push("## 稳涨冷门（只增加候选）", "");
+  lines.push("> 最近 3 周每周 ≥+30% 且近 4 周均值 ≥ 前 4 周 2 倍；不设绝对量下限。独立补充入口，不改变现有候选、阈值或 GO 判决；首次 / 重新进入才进头条。", "");
+  lines.push(...table("| 类型 | 游戏 | 趋势 |", steadyRows.slice(0, 20).map((row) => `| ${row.kind === "wiki" ? "Wiki" : "H5"} | ${row.name} | ${steadyNote(row)} |`)), "");
   lines.push("## 梗游戏", "");
   if (!meme) lines.push("（今天的 RADAR-MEME 还没生成）", "");
   else lines.push(...table("| 判决 | 梗 | 各市场可玩补全 | 例子 | 来源 | 首见 | 域名 |", memeTop), "");
@@ -580,7 +624,7 @@ async function morning() {
   ];
 
   const stateFile = join(HERE, "data", "roblox-morning-state.json");
-  const prev = existsSync(stateFile) ? JSON.parse(readFileSync(stateFile, "utf8")) : null;
+  const prev = readData("roblox-morning-state.json", null);
   const seen = new Set(prev?.seen ?? []);
   const fresh = hot.filter((h) => !seen.has(h.id));
   for (const f of fresh.slice(0, 8)) {

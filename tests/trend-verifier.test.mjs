@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { calculateTrendVerdict, parseSerpApiTimeline } from '../lib/trend-verifier.mjs';
+import { calculateTrendVerdict, parseSerpApiTimeline, steadyRising } from '../lib/trend-verifier.mjs';
 
 test('parses SerpApi interest-over-time values',()=>{
   const payload={interest_over_time:{timeline_data:[
@@ -10,6 +10,15 @@ test('parses SerpApi interest-over-time values',()=>{
   assert.deepEqual(parseSerpApiTimeline(payload,0),[12,18]);
   assert.deepEqual(parseSerpApiTimeline(payload,1),[7,9]);
   assert.deepEqual(parseSerpApiTimeline(payload,2),[1,30]);
+});
+
+test('steadyRising is an additive signal for weekly and daily curves',()=>{
+  const weeks=[4,4,4,4,4,6,9,14];
+  assert.equal(steadyRising(weeks).match,true);
+  assert.equal(steadyRising([4,4,4,4,4,6,9,12]).match,false);
+  const daily=weeks.flatMap((value)=>Array(7).fill(value)).concat([99]);
+  assert.equal(steadyRising(daily,{daily:true}).match,true);
+  assert.equal(steadyRising([0,0,0,0,0,1,2,3]).match,true); // 观察层允许从零起量，不设绝对量下限
 });
 
 test('rejects all-zero trend demand',()=>{
