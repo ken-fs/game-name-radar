@@ -33,6 +33,10 @@ data/codes-media-cache.json
 data/serp-gap-cache.json
 data/codes-media-spend.jsonl
 
+# Tavily 查询缓存 + 全入口共享月度账本
+data/tavily-cache.json
+data/tavily-usage.json
+
 # Steam 畅销 / 在玩榜快照（2026-10-13 加，每天重写）
 data/steam-charts-state.json
 data/verdict-log.jsonl
