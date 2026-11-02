@@ -136,9 +136,14 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 #     不用 SearchAPI / SerpAPI / treg。→ reports/recheck/RADAR-RECHECK-<日期>.md；失败不挡管线。
 "$NODE" --env-file-if-exists=.env lib/fresh-recheck.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings -e '^\[pytrends\]'
 
+# 7.5 每天挑「今天能做的 codes 站」（2026-11-02 用户定：找到能做的就发、不限数量，没有就不做）：
+#     读当天 verdict-log + 复查 GO → Roblox / 联想 / SERP / 域名四道闸 → 推飞书「请买 X」或「今天没有」。
+#     只用免费接口（DDG 直连优先，Tavily 免费档兜底且有月上限），约 3–8 分钟；失败不挡管线。
+"$NODE" --env-file-if-exists=.env lib/codes-pick.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings | tail -5
+
 # 8. occupy / 否决账本数据入库（2026-10-16 加）：管线每天改、以前没人 commit → 巡检第二天必报「改了没 commit」。
 #    跑完顺手提交 + 推送（失败不挡管线，巡检会抓）。
-git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json
+git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json data/pick-state.json
 if ! git diff --cached --quiet; then
   git commit -q -m "chore: occupy-queue 每日状态 $TODAY"
   GIT_TERMINAL_PROMPT=0 git push -q origin main \

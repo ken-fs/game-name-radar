@@ -1,0 +1,19 @@
+{
+ "_usage": {
+  "month": "2026-11",
+  "ddg": 16,
+  "tavily": 0
+ },
+ "10766468833": {
+  "name": "Cut a Rock",
+  "firstPicked": "2026-11-02",
+  "lastPicked": "2026-11-02",
+  "buy": "cutarock.com"
+ },
+ "10768383600": {
+  "name": "Ragdoll Playground",
+  "firstPicked": "2026-11-02",
+  "lastPicked": "2026-11-02",
+  "buy": "ragdollplayground.site"
+ }
+}
