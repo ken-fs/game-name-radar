@@ -479,7 +479,7 @@
   "available": false,
   "registered": "2026-07-12",
   "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
-  "checkedAt": "2026-10-11"
+  "checkedAt": "2026-11-02"
  },
  "silverpines.wiki": {
   "available": false,
@@ -488,8 +488,8 @@
   "checkedAt": "2026-10-27"
  },
  "easportsfc27game.com": {
-  "available": true,
-  "checkedAt": "2026-10-11"
+  "available": null,
+  "checkedAt": "2026-11-02"
  },
  "deadlock.wiki": {
   "available": false,
@@ -498,8 +498,8 @@
   "checkedAt": "2026-10-11"
  },
  "easportsfc27wiki.com": {
-  "available": true,
-  "checkedAt": "2026-10-11"
+  "available": null,
+  "checkedAt": "2026-11-02"
  },
  "silverpinesgame.com": {
   "available": false,
@@ -1519,7 +1519,7 @@
  },
  "trashday.wiki": {
   "available": null,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-02"
  },
  "nosuchplacegame.com": {
   "available": true,
@@ -1537,11 +1537,11 @@
  },
  "trashdaygame.com": {
   "available": null,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-02"
  },
  "trashdaywiki.com": {
   "available": null,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-02"
  },
  "voodoofishin.wiki": {
   "available": true,
@@ -1708,8 +1708,10 @@
   "checkedAt": "2026-11-01"
  },
  "endfieldgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-01"
+  "available": false,
+  "registered": "2022-01-30",
+  "ns": "DNS19.HICHINA.COM,DNS20.HICHINA.COM",
+  "checkedAt": "2026-11-02"
  },
  "warhammer40000boltgun2game.com": {
   "available": true,
@@ -3342,8 +3344,8 @@
   "checkedAt": "2026-11-01"
  },
  "anomalithgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-01"
+  "available": true,
+  "checkedAt": "2026-11-02"
  },
  "anomalithwiki.com": {
   "available": true,
@@ -3398,8 +3400,8 @@
   "checkedAt": "2026-11-01"
  },
  "roadtripwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-01"
+  "available": true,
+  "checkedAt": "2026-11-02"
  },
  "ghostinthesqldata.wiki": {
   "available": false,
@@ -3414,5 +3416,61 @@
  "ghostinthesqldatagame.com": {
   "available": true,
   "checkedAt": "2026-11-01"
+ },
+ "hamburgerhill.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "hamburgerhillwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "hamburgerhillgame.com": {
+  "available": false,
+  "registered": "2026-10-29",
+  "ns": "JESSICA.NS.CLOUDFLARE.COM,SIMON.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-02"
+ },
+ "finalsweek.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "epicseven.wiki": {
+  "available": false,
+  "registered": "2026-08-26",
+  "ns": "michelle.ns.cloudflare.com,neil.ns.cloudflare.com",
+  "checkedAt": "2026-11-02"
+ },
+ "epicsevengame.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "epicsevenwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "magiscapes.wiki": {
+  "available": false,
+  "registered": "2024-04-02",
+  "ns": "joselyn.ns.cloudflare.com,stanley.ns.cloudflare.com",
+  "checkedAt": "2026-11-02"
+ },
+ "magiscapesgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "magiscapeswiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "finalsweekwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-02"
+ },
+ "finalsweekgame.com": {
+  "available": false,
+  "registered": "2026-06-29",
+  "ns": "DNS106.OVH.NET,NS106.OVH.NET",
+  "checkedAt": "2026-11-02"
  }
 }

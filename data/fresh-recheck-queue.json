@@ -187,6 +187,17 @@
     "sites": [
      "buildapc.uk"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 73,
+    "now": 66,
+    "ratio": 0.9,
+    "last": "2026-11-02",
+    "sites": [
+     "buildapc.uk"
+    ]
    }
   ]
  },
@@ -239,6 +250,17 @@
     "now": 35.7,
     "ratio": 0.55,
     "last": "2026-11-01",
+    "sites": [
+     "rideadino.net"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 63,
+    "now": 29.3,
+    "ratio": 0.47,
+    "last": "2026-11-02",
     "sites": [
      "rideadino.net"
     ]
@@ -313,6 +335,15 @@
     "ratio": 1.01,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 79.3,
+    "now": 84.3,
+    "ratio": 1.06,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -374,6 +405,18 @@
      "tapetotape.ca",
      "tapetotape.site"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 83.7,
+    "now": 82.3,
+    "ratio": 0.98,
+    "last": "2026-11-02",
+    "sites": [
+     "tapetotape.ca",
+     "tapetotape.site"
+    ]
    }
   ]
  },
@@ -428,6 +471,17 @@
     "now": 14,
     "ratio": 0.72,
     "last": "2026-11-01",
+    "sites": [
+     "talesofeterniaremasteredwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 20.7,
+    "now": 10.3,
+    "ratio": 0.5,
+    "last": "2026-11-02",
     "sites": [
      "talesofeterniaremasteredwiki.wiki"
     ]
@@ -592,6 +646,18 @@
     "now": 11.7,
     "ratio": 0.31,
     "last": "2026-11-01",
+    "sites": [
+     "ebbtide.wiki",
+     "ebbtide.site"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 22,
+    "now": 11,
+    "ratio": 0.5,
+    "last": "2026-11-02",
     "sites": [
      "ebbtide.wiki",
      "ebbtide.site"
@@ -1023,6 +1089,18 @@
      "cloverrpg.xyz",
      "cloverrpgcodes.com"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 52,
+    "now": 29.7,
+    "ratio": 0.57,
+    "last": "2026-11-02",
+    "sites": [
+     "cloverrpg.xyz",
+     "cloverrpgcodes.com"
+    ]
    }
   ]
  },
@@ -1077,6 +1155,17 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-01",
+    "sites": [
+     "inkheadwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
     "sites": [
      "inkheadwiki.wiki"
     ]
@@ -1178,6 +1267,15 @@
     "ratio": 0.88,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 23,
+    "now": 19.7,
+    "ratio": 0.86,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -1260,6 +1358,23 @@
      "krilliononline.com",
      "krillion.art"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 77.3,
+    "now": 65,
+    "ratio": 0.84,
+    "last": "2026-11-02",
+    "sites": [
+     "krillion.click",
+     "krillion.best",
+     "krillion.cc",
+     "krillion.club",
+     "krillionio.online",
+     "krilliononline.com",
+     "krillion.art"
+    ]
    }
   ]
  },
@@ -1315,6 +1430,17 @@
     "now": 13.3,
     "ratio": 0.71,
     "last": "2026-11-01",
+    "sites": [
+     "reskate.online"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 16.7,
+    "now": 7,
+    "ratio": 0.42,
+    "last": "2026-11-02",
     "sites": [
      "reskate.online"
     ]
@@ -1402,6 +1528,25 @@
      "azerothsurvivorsguide.com",
      "azerothsurvivorsgame.net"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 83,
+    "now": 57.3,
+    "ratio": 0.69,
+    "last": "2026-11-02",
+    "sites": [
+     "azeroth-survivors.wiki",
+     "azeroth-survivors.online",
+     "azerothsurvivorsguide.wiki",
+     "azeroth-survivors.net",
+     "azerothsurvivors.cc",
+     "azerothsurvivors.lat",
+     "azerothsurvivorsguide.com",
+     "azerothsurvivorsgame.net",
+     "azerothsurvivorshub.wiki"
+    ]
    }
   ]
  },
@@ -1451,6 +1596,15 @@
     "now": 4,
     "ratio": 0.8,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 4.7,
+    "now": 2,
+    "ratio": 0.43,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -1510,6 +1664,17 @@
     "sites": [
      "threshingdaygame.wiki"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 1,
+    "now": 1.3,
+    "ratio": 1.33,
+    "last": "2026-11-02",
+    "sites": [
+     "threshingdaygame.wiki"
+    ]
    }
   ]
  },
@@ -1559,6 +1724,15 @@
     "now": 3.3,
     "ratio": 0.83,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 4.3,
+    "now": 4,
+    "ratio": 0.92,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -1610,6 +1784,15 @@
     "ratio": 0.94,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 87.3,
+    "now": 82.7,
+    "ratio": 0.95,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -1649,6 +1832,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 21.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -1693,6 +1885,17 @@
     "now": 77,
     "ratio": 0.84,
     "last": "2026-11-01",
+    "sites": [
+     "leftleftleft.sbs"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 86.3,
+    "now": 75.3,
+    "ratio": 0.87,
+    "last": "2026-11-02",
     "sites": [
      "leftleftleft.sbs"
     ]
@@ -1751,6 +1954,17 @@
     "sites": [
      "you-are-empty-absolute-edition.wiki"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 68.3,
+    "now": 72.3,
+    "ratio": 1.06,
+    "last": "2026-11-02",
+    "sites": [
+     "you-are-empty-absolute-edition.wiki"
+    ]
    }
   ]
  },
@@ -1790,6 +2004,15 @@
     "now": 30.3,
     "ratio": 0.88,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 47.3,
+    "now": 37.7,
+    "ratio": 0.8,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -1848,6 +2071,17 @@
     "sites": [
      "culdceptbeginswiki.wiki"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 74.3,
+    "now": 40.3,
+    "ratio": 0.54,
+    "last": "2026-11-02",
+    "sites": [
+     "culdceptbeginswiki.wiki"
+    ]
    }
   ]
  },
@@ -1896,6 +2130,15 @@
     "now": 5.3,
     "ratio": 0.26,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 18,
+    "now": 5,
+    "ratio": 0.28,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -1966,6 +2209,15 @@
     "date": "2026-11-01",
     "day": 4,
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 5,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2005,6 +2257,15 @@
     "now": 49.7,
     "ratio": 1.23,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 41.3,
+    "now": 56,
+    "ratio": 1.35,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2046,6 +2307,15 @@
     "ratio": 0.38,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 9,
+    "now": 5.7,
+    "ratio": 0.63,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2085,6 +2355,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2150,6 +2429,15 @@
     "ratio": 1.03,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 55.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2181,6 +2469,15 @@
     "ratio": 0.57,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 19.7,
+    "now": 23,
+    "ratio": 1.17,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2211,6 +2508,15 @@
     "now": 77.7,
     "ratio": 0.84,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 94,
+    "now": 75,
+    "ratio": 0.8,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2260,6 +2566,18 @@
      "anomalith.space",
      "anomalith.org"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 77,
+    "now": 56.7,
+    "ratio": 0.74,
+    "last": "2026-11-02",
+    "sites": [
+     "anomalith.space",
+     "anomalith.org"
+    ]
    }
   ]
  },
@@ -2301,6 +2619,17 @@
     "now": 9,
     "ratio": 1.17,
     "last": "2026-11-01",
+    "sites": [
+     "airportcontrabandwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 4,
+    "base": 67.7,
+    "now": 45.7,
+    "ratio": 0.67,
+    "last": "2026-11-02",
     "sites": [
      "airportcontrabandwiki.wiki"
     ]
@@ -2366,6 +2695,15 @@
     "ratio": 1.23,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 49,
+    "now": 68.3,
+    "ratio": 1.39,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2396,6 +2734,15 @@
     "now": 84,
     "ratio": 1.05,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 57.7,
+    "now": 82.3,
+    "ratio": 1.43,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2452,6 +2799,15 @@
     "ratio": 0,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 3.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2474,6 +2830,15 @@
     "ratio": 1,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
+    "base": 26.7,
+    "now": 21.7,
+    "ratio": 0.81,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2495,6 +2860,11 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
     "sites": []
    }
   ]
@@ -2549,6 +2919,15 @@
     "ratio": 0.68,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 73.3,
+    "now": 38.3,
+    "ratio": 0.52,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2579,6 +2958,15 @@
     "now": 83.3,
     "ratio": 1.3,
     "last": "2026-11-01",
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 64.3,
+    "now": 86,
+    "ratio": 1.34,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2635,6 +3023,15 @@
     "ratio": 0.86,
     "last": "2026-11-01",
     "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 3,
+    "base": 71.7,
+    "now": 59.3,
+    "ratio": 0.83,
+    "last": "2026-11-02",
+    "sites": []
    }
   ]
  },
@@ -2647,11 +3044,20 @@
   "prerelease": false,
   "term": "gag 2 game",
   "due": "2026-11-01",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-01",
     "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
+    "base": 0,
+    "now": 33.3,
+    "ratio": 33.33,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2674,6 +3080,17 @@
     "now": 61.3,
     "ratio": 0.74,
     "last": "2026-11-01",
+    "sites": [
+     "germanmopeddays.com"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
+    "base": 10.3,
+    "now": 6.3,
+    "ratio": 0.61,
+    "last": "2026-11-02",
     "sites": [
      "germanmopeddays.com"
     ]
@@ -2710,6 +3127,18 @@
      "queens-domain.wiki",
      "queensdomain.site"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
+    "sites": [
+     "queens-domain.wiki",
+     "queensdomain.site"
+    ]
    }
   ]
  },
@@ -2727,6 +3156,15 @@
    {
     "date": "2026-11-01",
     "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-11-02",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-02",
     "sites": []
    }
   ]
@@ -2762,8 +3200,21 @@
   "prerelease": false,
   "term": "anime piece",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "base": 67.7,
+    "now": 85.3,
+    "ratio": 1.26,
+    "last": "2026-11-02",
+    "sites": [
+     "animepiece.xyz",
+     "animepiece.wiki"
+    ]
+   }
+  ]
  },
  "essential mod": {
   "name": "essential mod",
@@ -2774,8 +3225,18 @@
   "prerelease": false,
   "term": "essential mod",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "base": 49.7,
+    "now": 63,
+    "ratio": 1.27,
+    "last": "2026-11-02",
+    "sites": []
+   }
+  ]
  },
  "night rider": {
   "name": "night rider",
@@ -2786,8 +3247,18 @@
   "prerelease": false,
   "term": "night rider",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "base": 33,
+    "now": 36.7,
+    "ratio": 1.11,
+    "last": "2026-11-02",
+    "sites": []
+   }
+  ]
  },
  "own a catboy cafe": {
   "name": "own a catboy cafe",
@@ -2798,8 +3269,18 @@
   "prerelease": false,
   "term": "own a catboy cafe",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "base": 77,
+    "now": 57,
+    "ratio": 0.74,
+    "last": "2026-11-02",
+    "sites": []
+   }
+  ]
  },
  "vantage": {
   "name": "vantage",
@@ -2810,8 +3291,23 @@
   "prerelease": false,
   "term": "vantage game",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "taken",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "base": 19,
+    "now": 29,
+    "ratio": 1.53,
+    "last": "2026-11-02",
+    "sites": [
+     "vantage.house",
+     "vantage-play.ru",
+     "vantagehub.space",
+     "vantagetrading.digital"
+    ]
+   }
+  ]
  },
  "anime vs anime": {
   "name": "Anime vs Anime",
@@ -2858,8 +3354,14 @@
   "prerelease": false,
   "term": "lacey s flash games",
   "due": "2026-11-02",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-02",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "titan evolution": {
   "name": "titan evolution",
@@ -2894,6 +3396,90 @@
   "prerelease": false,
   "term": "femboy tycoon",
   "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "cut a rock": {
+  "name": "Cut a Rock",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": false,
+  "term": "cut a rock",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "can em all": {
+  "name": "Can 'Em All",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-02",
+  "release": "2026-10-30",
+  "prerelease": false,
+  "term": "can em all",
+  "due": "2026-11-03",
+  "status": "pending",
+  "checks": []
+ },
+ "fart together": {
+  "name": "Fart Together",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": true,
+  "term": "fart together",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "ragdoll playground": {
+  "name": "ragdoll playground",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": false,
+  "term": "ragdoll playground",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "fall for brainrots": {
+  "name": "fall for brainrots",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": false,
+  "term": "fall for brainrots",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "fall for brainrots in": {
+  "name": "fall for brainrots in",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": false,
+  "term": "fall for brainrots in",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "tunados brasil": {
+  "name": "tunados brasil",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-02",
+  "release": null,
+  "prerelease": false,
+  "term": "tunados brasil",
+  "due": "2026-11-04",
   "status": "pending",
   "checks": []
  }
