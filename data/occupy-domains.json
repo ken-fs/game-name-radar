@@ -133,7 +133,7 @@
  },
  "lovemaniacwiki.com": {
   "available": true,
-  "checkedAt": "2026-10-27"
+  "checkedAt": "2026-11-03"
  },
  "aion2.wiki": {
   "available": false,
@@ -488,8 +488,8 @@
   "checkedAt": "2026-10-27"
  },
  "easportsfc27game.com": {
-  "available": null,
-  "checkedAt": "2026-11-02"
+  "available": true,
+  "checkedAt": "2026-11-03"
  },
  "deadlock.wiki": {
   "available": false,
@@ -498,8 +498,8 @@
   "checkedAt": "2026-10-11"
  },
  "easportsfc27wiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-02"
+  "available": true,
+  "checkedAt": "2026-11-03"
  },
  "silverpinesgame.com": {
   "available": false,
@@ -1519,7 +1519,7 @@
  },
  "trashday.wiki": {
   "available": null,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-10-26"
  },
  "nosuchplacegame.com": {
   "available": true,
@@ -1537,11 +1537,11 @@
  },
  "trashdaygame.com": {
   "available": null,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-10-26"
  },
  "trashdaywiki.com": {
   "available": null,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-10-26"
  },
  "voodoofishin.wiki": {
   "available": true,
@@ -1949,7 +1949,7 @@
  },
  "tenebrissomniawiki.com": {
   "available": true,
-  "checkedAt": "2026-10-27"
+  "checkedAt": "2026-11-03"
  },
  "penguincolony.wiki": {
   "available": null,
@@ -3352,16 +3352,16 @@
   "checkedAt": "2026-11-01"
  },
  "ragdollsandbox.wiki": {
-  "available": null,
-  "checkedAt": "2026-10-24"
+  "available": true,
+  "checkedAt": "2026-11-03"
  },
  "ragdollsandboxgame.com": {
-  "available": null,
-  "checkedAt": "2026-10-24"
+  "available": true,
+  "checkedAt": "2026-11-03"
  },
  "ragdollsandboxwiki.com": {
   "available": null,
-  "checkedAt": "2026-10-24"
+  "checkedAt": "2026-11-03"
  },
  "raidersofthenorth.wiki": {
   "available": true,
@@ -3472,5 +3472,65 @@
   "registered": "2026-06-29",
   "ns": "DNS106.OVH.NET,NS106.OVH.NET",
   "checkedAt": "2026-11-02"
+ },
+ "sulfurgame.com": {
+  "available": false,
+  "registered": "2025-08-30",
+  "ns": "RIDGE.NS.CLOUDFLARE.COM,SAVANNA.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-03"
+ },
+ "sulfur.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-03"
+ },
+ "terriblelizards.wiki": {
+  "available": false,
+  "registered": "2026-09-25",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-03"
+ },
+ "terriblelizardsgame.com": {
+  "available": false,
+  "registered": "2023-11-25",
+  "ns": "DNS1.P08.NSONE.NET,DNS2.P08.NSONE.NET,DNS3.P08.NSONE.NET,DNS4.P08.NSONE.NET,NS01.SQUARESPACEDNS.COM,NS02.SQUARESPACEDNS.COM,NS03.SQUARESPACEDNS.COM,NS04.SQUARESPACEDNS.COM",
+  "checkedAt": "2026-11-03"
+ },
+ "terriblelizardswiki.com": {
+  "available": false,
+  "registered": "2026-11-02",
+  "ns": "GABRIELLA.NS.CLOUDFLARE.COM,PIERS.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-03"
+ },
+ "queensdomain.wiki": {
+  "available": false,
+  "registered": "2026-10-04",
+  "ns": "jade.ns.cloudflare.com,kellen.ns.cloudflare.com",
+  "checkedAt": "2026-11-03"
+ },
+ "sulfurwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-03"
+ },
+ "ripitcardcollector.wiki": {
+  "available": false,
+  "registered": "2026-10-23",
+  "ns": "cruz.ns.cloudflare.com,vick.ns.cloudflare.com",
+  "checkedAt": "2026-11-03"
+ },
+ "queensdomaingame.com": {
+  "available": true,
+  "checkedAt": "2026-11-03"
+ },
+ "queensdomainwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-03"
+ },
+ "ripitcardcollectorgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-03"
+ },
+ "ripitcardcollectorwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-03"
  }
 }

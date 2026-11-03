@@ -2,7 +2,7 @@
  "_usage": {
   "month": "2026-11",
   "ddg": 16,
-  "tavily": 0
+  "tavily": 4
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -15,5 +15,11 @@
   "firstPicked": "2026-11-02",
   "lastPicked": "2026-11-02",
   "buy": "ragdollplayground.site"
+ },
+ "6324644175": {
+  "name": "Death Order: Simon Says",
+  "firstPicked": "2026-11-03",
+  "lastPicked": "2026-11-03",
+  "buy": "deathordersimonsays.site"
  }
 }

@@ -1842,6 +1842,15 @@
     "ratio": 0,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 26.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -1896,6 +1905,17 @@
     "now": 75.3,
     "ratio": 0.87,
     "last": "2026-11-02",
+    "sites": [
+     "leftleftleft.sbs"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 94,
+    "now": 86.7,
+    "ratio": 0.92,
+    "last": "2026-11-03",
     "sites": [
      "leftleftleft.sbs"
     ]
@@ -2013,6 +2033,15 @@
     "now": 37.7,
     "ratio": 0.8,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 37.7,
+    "now": 30.3,
+    "ratio": 0.81,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -2267,6 +2296,15 @@
     "ratio": 1.35,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 39.3,
+    "now": 52.7,
+    "ratio": 1.34,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2316,6 +2354,15 @@
     "ratio": 0.63,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 9.7,
+    "now": 4.7,
+    "ratio": 0.48,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2364,6 +2411,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -2438,6 +2494,15 @@
     "ratio": 0,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 22.7,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2478,6 +2543,15 @@
     "ratio": 1.17,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 37.7,
+    "now": 38,
+    "ratio": 1.01,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2517,6 +2591,15 @@
     "now": 75,
     "ratio": 0.8,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 71.7,
+    "now": 71.7,
+    "ratio": 1,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -2578,6 +2661,18 @@
      "anomalith.space",
      "anomalith.org"
     ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 75.7,
+    "now": 49.3,
+    "ratio": 0.65,
+    "last": "2026-11-03",
+    "sites": [
+     "anomalith.space",
+     "anomalith.org"
+    ]
    }
   ]
  },
@@ -2630,6 +2725,17 @@
     "now": 45.7,
     "ratio": 0.67,
     "last": "2026-11-02",
+    "sites": [
+     "airportcontrabandwiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 5,
+    "base": 58,
+    "now": 54.7,
+    "ratio": 0.94,
+    "last": "2026-11-03",
     "sites": [
      "airportcontrabandwiki.wiki"
     ]
@@ -2704,6 +2810,15 @@
     "ratio": 1.39,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 62,
+    "now": 73.3,
+    "ratio": 1.18,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2744,6 +2859,15 @@
     "ratio": 1.43,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 80.7,
+    "now": 69.3,
+    "ratio": 0.86,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2780,7 +2904,7 @@
   "prerelease": false,
   "term": "death order simon says",
   "due": "2026-10-31",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-10-31",
@@ -2807,6 +2931,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 0,
+    "now": 2.7,
+    "ratio": 2.67,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -2839,6 +2972,15 @@
     "ratio": 0.81,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 3,
+    "base": 22,
+    "now": 26,
+    "ratio": 1.18,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2865,6 +3007,11 @@
    {
     "date": "2026-11-02",
     "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 3,
     "sites": []
    }
   ]
@@ -2928,6 +3075,15 @@
     "ratio": 0.52,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 73,
+    "now": 35.3,
+    "ratio": 0.48,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -2967,6 +3123,15 @@
     "now": 86,
     "ratio": 1.34,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 64.7,
+    "now": 70.3,
+    "ratio": 1.09,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -3032,6 +3197,15 @@
     "ratio": 0.83,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 4,
+    "base": 66.3,
+    "now": 60,
+    "ratio": 0.9,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -3094,6 +3268,17 @@
     "sites": [
      "germanmopeddays.com"
     ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 3,
+    "base": 78.7,
+    "now": 29.7,
+    "ratio": 0.38,
+    "last": "2026-11-03",
+    "sites": [
+     "germanmopeddays.com"
+    ]
    }
   ]
  },
@@ -3139,6 +3324,14 @@
      "queens-domain.wiki",
      "queensdomain.site"
     ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 3,
+    "sites": [
+     "queens-domain.wiki",
+     "queensdomain.site"
+    ]
    }
   ]
  },
@@ -3165,6 +3358,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 3,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -3213,6 +3415,18 @@
      "animepiece.xyz",
      "animepiece.wiki"
     ]
+   },
+   {
+    "date": "2026-11-03",
+    "day": 2,
+    "base": 66.7,
+    "now": 85.7,
+    "ratio": 1.28,
+    "last": "2026-11-03",
+    "sites": [
+     "animepiece.xyz",
+     "animepiece.wiki"
+    ]
    }
   ]
  },
@@ -3234,6 +3448,15 @@
     "now": 63,
     "ratio": 1.27,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 2,
+    "base": 52,
+    "now": 56,
+    "ratio": 1.08,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -3257,6 +3480,15 @@
     "ratio": 1.11,
     "last": "2026-11-02",
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 2,
+    "base": 63,
+    "now": 72.3,
+    "ratio": 1.15,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -3278,6 +3510,15 @@
     "now": 57,
     "ratio": 0.74,
     "last": "2026-11-02",
+    "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 2,
+    "base": 64,
+    "now": 82.3,
+    "ratio": 1.29,
+    "last": "2026-11-03",
     "sites": []
    }
   ]
@@ -3318,8 +3559,18 @@
   "prerelease": false,
   "term": "anime vs anime",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "base": 66,
+    "now": 80.3,
+    "ratio": 1.22,
+    "last": "2026-11-03",
+    "sites": []
+   }
+  ]
  },
  "airline legacy": {
   "name": "Airline Legacy",
@@ -3330,8 +3581,18 @@
   "prerelease": false,
   "term": "airline legacy",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "base": 68.7,
+    "now": 49,
+    "ratio": 0.71,
+    "last": "2026-11-03",
+    "sites": []
+   }
+  ]
  },
  "drawquarium": {
   "name": "Drawquarium",
@@ -3360,6 +3621,15 @@
     "date": "2026-11-02",
     "day": 1,
     "sites": []
+   },
+   {
+    "date": "2026-11-03",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-03",
+    "sites": []
    }
   ]
  },
@@ -3372,8 +3642,18 @@
   "prerelease": false,
   "term": "titan evolution",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "base": 23.3,
+    "now": 22.3,
+    "ratio": 0.96,
+    "last": "2026-11-03",
+    "sites": []
+   }
+  ]
  },
  "euromillions": {
   "name": "euromillions",
@@ -3384,8 +3664,18 @@
   "prerelease": false,
   "term": "euromillions",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "base": 4,
+    "now": 1.3,
+    "ratio": 0.33,
+    "last": "2026-11-03",
+    "sites": []
+   }
+  ]
  },
  "femboy tycoon": {
   "name": "femboy tycoon",
@@ -3396,8 +3686,14 @@
   "prerelease": false,
   "term": "femboy tycoon",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "cut a rock": {
   "name": "Cut a Rock",
@@ -3420,8 +3716,18 @@
   "prerelease": false,
   "term": "can em all",
   "due": "2026-11-03",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-03",
+    "day": 1,
+    "base": 73,
+    "now": 87,
+    "ratio": 1.19,
+    "last": "2026-11-03",
+    "sites": []
+   }
+  ]
  },
  "fart together": {
   "name": "Fart Together",
@@ -3480,6 +3786,102 @@
   "prerelease": false,
   "term": "tunados brasil",
   "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "hull rupture": {
+  "name": "Hull Rupture",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-03",
+  "release": "2026-11-04",
+  "prerelease": true,
+  "term": "hull rupture",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "lyssa goddess of rage": {
+  "name": "LYSSA: Goddess of Rage",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-03",
+  "release": "2026-11-05",
+  "prerelease": true,
+  "term": "lyssa game",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "gravhounds": {
+  "name": "GRAVHOUNDS",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-03",
+  "release": "2026-11-02",
+  "prerelease": false,
+  "term": "gravhounds",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "legend of defenders": {
+  "name": "Legend of Defenders",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-03",
+  "release": "2026-11-02",
+  "prerelease": false,
+  "term": "legend of defenders",
+  "due": "2026-11-04",
+  "status": "pending",
+  "checks": []
+ },
+ "hajime rising": {
+  "name": "hajime rising",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-03",
+  "release": null,
+  "prerelease": false,
+  "term": "hajime rising",
+  "due": "2026-11-05",
+  "status": "pending",
+  "checks": []
+ },
+ "sip a lake": {
+  "name": "sip a lake",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-03",
+  "release": null,
+  "prerelease": false,
+  "term": "sip a lake",
+  "due": "2026-11-05",
+  "status": "pending",
+  "checks": []
+ },
+ "bai chilian": {
+  "name": "bai chilian",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-03",
+  "release": null,
+  "prerelease": false,
+  "term": "bai chilian",
+  "due": "2026-11-05",
+  "status": "pending",
+  "checks": []
+ },
+ "dusk phantom blade zero": {
+  "name": "dusk phantom blade zero",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-03",
+  "release": null,
+  "prerelease": false,
+  "term": "dusk phantom blade zero",
+  "due": "2026-11-05",
   "status": "pending",
   "checks": []
  }
