@@ -92,11 +92,27 @@ export function cleanRobloxName(name) {
 }
 
 /** 已否决候选只有复测翻转后才重新进头条；manual / closed 不被原始信号反复顶回来。 */
+// 名字比对只看字母数字；Steam 名带「 - 副标题」的也按主名比（账本记「Probably Stolen」，
+// 雷达报「Probably Stolen - Cyberpunk Shopkeeper Sim」——11-04 因为对不上，判过 ❌ 的又进了头条）
+const ledgerKey = (s) => String(s).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
 export function withoutRejected(items, ledger) {
   const rejected = new Set((ledger?.decisions ?? [])
     .filter((d) => d.name && d.status !== "flipped")
-    .map((d) => d.name.trim().toLowerCase()));
-  return items.filter((i) => !rejected.has(String(i.name).trim().toLowerCase()));
+    .map((d) => ledgerKey(d.name)));
+  return items.filter((i) => {
+    const name = String(i.name);
+    return !rejected.has(ledgerKey(name)) && !rejected.has(ledgerKey(name.split(/\s+[-–—]\s+/)[0]));
+  });
+}
+
+// 头条里的标签（2026-11-04 用户定）：关注者 / 畅销榜 / H5 热度只是「在涨」的信号，投入分没核竞品，
+// 都不是「可做」。子报告和判决记录照旧用 🟢（复盘脚本按它认），只在总报告头条换成信号写法。
+export function signalLabel(verdict) {
+  return String(verdict).trim()
+    .replace(/^🟢 起量/, "📈 关注者起量")
+    .replace(/^🟢 冲榜/, "📈 冲榜")
+    .replace(/^🟢 机会/, "📈 搜索在涨")
+    .replace(/^🟢 值得投入/, "📊 投入分高");
 }
 
 // ─── Roblox 层 ────────────────────────────────────────────────────────────────
@@ -342,12 +358,12 @@ async function daily() {
     }),
     ...steamTop.map((r) => {
       const [verdict, game, total, demand, structure, window, ad, longevity] = cells(r).map((c) => c.replace(/\*/g, ""));
-      return { kind: "steam", line: "steam-invest", name: r.split("|")[2]?.trim(), text: `- **Steam** ${r.split("|")[2]?.trim()}：${r.split("|")[1]?.trim()}（总分 ${r.split("|")[3]?.replace(/\*/g, "").trim()}）`,
+      return { kind: "steam", line: "steam-invest", name: r.split("|")[2]?.trim(), text: `- **Steam** ${r.split("|")[2]?.trim()}：${signalLabel(r.split("|")[1])}（总分 ${r.split("|")[3]?.replace(/\*/g, "").trim()}，没核竞品）`,
         data: { verdict, signals: { investScore: num(total), investDemand: num(demand), investStructure: num(structure), investWindow: num(window), investAd: num(ad), investLongevity: num(longevity), game: unlink(game) } } };
     }),
     ...followTop.map((r) => {
       const [verdict, game, followers, dailyGain, growth, release] = cells(r);
-      return { kind: "steam", line: "steam-follow", name: unlink(game), text: `- **Steam 关注者** ${unlink(game)}：${verdict}（关注者 ${followers}，日增 ${dailyGain}，7 天 ${growth}，发售 ${release}）`,
+      return { kind: "steam", line: "steam-follow", name: unlink(game), text: `- **Steam 关注者** ${unlink(game)}：${signalLabel(verdict)}（关注者 ${followers}，日增 ${dailyGain}，7 天 ${growth}，发售 ${release}）`,
         data: { verdict, signals: { followers: num(followers), followersDailyGain: num(dailyGain), followers7dGrowthPct: num(growth), release } } };
     }),
     // kind 不进 SIGNAL_KINDS：工具需求 / 投入价值本模块已经查过（写在这一行里），Steam 游戏基本没有 codes，不花 treg
@@ -355,7 +371,7 @@ async function daily() {
       const [verdict, game, hits, release, , tool, invest] = cells(r);
       const extra = [tool && tool !== "-" && tool !== "工具需求 0" ? tool : "", invest && invest !== "-" ? `投入价值 ${invest}` : ""].filter(Boolean).join(" · ");
       const bestRank = Math.min(...[...hits.matchAll(/#(\d+)/g)].map((m) => Number(m[1])));
-      return { kind: "steamcharts", line: "steam-charts", name: unlink(game), text: `- **Steam 畅销榜** ${unlink(game)}：${verdict.replace(/ 🆕$/, "")}（${hits.replace(/<br>/g, "；")}，发售 ${release}）${extra ? ` · ${extra}` : ""}`,
+      return { kind: "steamcharts", line: "steam-charts", name: unlink(game), text: `- **Steam 畅销榜** ${unlink(game)}：${signalLabel(verdict.replace(/ 🆕$/, ""))}（${hits.replace(/<br>/g, "；")}，发售 ${release}）${extra ? ` · ${extra}` : ""}`,
         data: { verdict, signals: { bestChartRank: Number.isFinite(bestRank) ? bestRank : undefined, charts: hits.replace(/<br>/g, "；").slice(0, 200), investScore: num(invest), release, toolDemandText: tool && tool !== "-" ? tool : undefined } } };
     }),
     ...suggestTop.map((r) => {
@@ -369,7 +385,7 @@ async function daily() {
     })),
     ...playableTop.map((r) => {
       const [verdict, , heat, growth, yoy, peak] = cells(r);
-      return { line: "playable", name: r.split("|")[2]?.trim(), text: `- **可玩游戏** ${r.split("|")[2]?.trim()}：${r.split("|")[1]?.trim()}`,
+      return { line: "playable", name: r.split("|")[2]?.trim(), text: `- **可玩游戏** ${r.split("|")[2]?.trim()}：${signalLabel(r.split("|")[1])}`,
         data: { verdict, signals: { heat: num(heat), growth: num(growth), yoy: num(yoy), peak } } };
     }),
     ...memeTop.map((r) => {
@@ -404,6 +420,8 @@ async function daily() {
     `> 「近 3 天 N 个新域名」= whoisds 免费新注册域名列表里含这个名字的个数（每天约 7 万个抽样，0 不等于没人注册；⚠️ = ≥3 个，同行在抢）${nrd.available ? `；用的是 ${nrd.dates.join(" / ")}（UTC）` : "；今天没拿到列表"}`,
     "",
     "## 今天最值得看",
+    "",
+    "> ⚠️ 这里是**信号，不是判决**：📈 = 热度在涨，📊 = 投入分高（只算热度 / 结构 / 域名，没核竞品和真实搜索）。要不要做，得过 SERP / 竞品复核，结论记在 `GAME-DECISIONS.md`；已经判过不做的（`data/rejections.json`）会自动从这里去掉。",
     "",
     ...(headline.length ? headline : ["今天没有达到「值得投入」线的候选。"]),
     "",

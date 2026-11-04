@@ -504,6 +504,114 @@
       "status": "manual",
       "nextRecheck": null,
       "history": []
+    },
+    {
+      "name": "Airline Legacy",
+      "platform": "steam",
+      "category": "demand",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "工具需求 0、CCU 样本 0；投入分 70 只来自旧 SERP 和域名窗口，没人搜攻略（见 GAME-DECISIONS.md 11-04）",
+      "status": "active",
+      "nextRecheck": "2026-11-07",
+      "history": []
+    },
+    {
+      "name": "Queen's Domain",
+      "platform": "steam",
+      "category": "demand",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "联想 4 条且一半是填字游戏义，工具需求 0（见 GAME-DECISIONS.md 11-04）",
+      "status": "active",
+      "nextRecheck": "2026-11-07",
+      "history": []
+    },
+    {
+      "name": "GRAVHOUNDS",
+      "platform": "steam",
+      "category": "demand",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "峰值 CCU 633，玩法长尾 0、工具需求 0，已有 4 个 .wiki（见 GAME-DECISIONS.md 11-04）",
+      "status": "active",
+      "nextRecheck": "2026-11-07",
+      "history": []
+    },
+    {
+      "name": "Potato Please",
+      "platform": "steam",
+      "category": "demand",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "工具需求 0（见 GAME-DECISIONS.md 11-04）",
+      "status": "active",
+      "nextRecheck": "2026-11-07",
+      "history": []
+    },
+    {
+      "name": "Godzilla: Destroy All Monsters Melee Remastered",
+      "platform": "steam",
+      "category": "demand",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "工具需求只有 1 条（value），名字归因失败（Godzilla 泛词）（见 GAME-DECISIONS.md 11-04）",
+      "status": "active",
+      "nextRecheck": "2026-11-07",
+      "history": []
+    },
+    {
+      "name": "Hull Rupture",
+      "platform": "steam",
+      "category": "structural",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "11-04 发售当天已有 5 个 .wiki，工具需求 0（见 GAME-DECISIONS.md 11-04）",
+      "status": "manual",
+      "nextRecheck": null,
+      "history": []
+    },
+    {
+      "name": "Moon Sweepers",
+      "platform": "steam",
+      "category": "structural",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "🟡 观察",
+      "verdict": "🟡 观察",
+      "reason": "moon-sweepers.wiki 227 URL + moonsweepers.site；只有拿到 ≥30 个工具/建筑真实数值做收益计算器才重估（见 GAME-DECISIONS.md 11-04）",
+      "status": "manual",
+      "nextRecheck": null,
+      "history": []
+    },
+    {
+      "name": "Football Manager 27",
+      "platform": "steam",
+      "category": "structural",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "database / wonderkids 需求真实，但官方 + FMInside + FMScout 已占位（见 GAME-DECISIONS.md 11-04）",
+      "status": "manual",
+      "nextRecheck": null,
+      "history": []
+    },
+    {
+      "name": "Loftia",
+      "platform": "steam",
+      "category": "structural",
+      "decidedAt": "2026-11-04",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "晚了约 10 天：loftians.com 1,043 网址 + loftiatools.com 602 条配方计算器 + 十几个专门站；重估=大版本且 loftians 停更（见 GAME-DECISIONS.md 11-04）",
+      "status": "manual",
+      "nextRecheck": null,
+      "history": []
     }
   ]
 }

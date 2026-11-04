@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { cleanRobloxName, collectSteadyRising, parseDemand, parseGrowth, parseMismatch, parseSteady, withoutRejected } from "../radar.mjs";
+import { cleanRobloxName, collectSteadyRising, parseDemand, parseGrowth, parseMismatch, parseSteady, signalLabel, withoutRejected } from "../radar.mjs";
 
 test("cleanRobloxName strips update tags and emoji", () => {
   assert.equal(cleanRobloxName("[🐟UPDATE] Hole Fishing"), "Hole Fishing");
@@ -19,6 +19,20 @@ test("已否决候选只有翻转后才重新进头条", () => {
     { name: "Hole Fishing", status: "flipped" },
   ] };
   assert.deepEqual(withoutRejected(items, ledger), [{ name: "Hole Fishing" }]);
+});
+
+test("否决账本按主名匹配：大小写、标点、Steam 副标题都不影响", () => {
+  const ledger = { decisions: [{ name: "Probably Stolen", status: "manual" }, { name: "Queen's Domain", status: "active" }] };
+  const items = [{ name: "Probably Stolen - Cyberpunk Shopkeeper Sim" }, { name: "QUEENS DOMAIN" }, { name: "Probably Stolen Twice" }];
+  assert.deepEqual(withoutRejected(items, ledger), [{ name: "Probably Stolen Twice" }]);
+});
+
+test("头条标签：热度信号不写成 🟢", () => {
+  assert.equal(signalLabel("🟢 起量"), "📈 关注者起量");
+  assert.equal(signalLabel(" 🟢 冲榜"), "📈 冲榜");
+  assert.equal(signalLabel("🟢 值得投入"), "📊 投入分高");
+  assert.equal(signalLabel("🟢 机会"), "📈 搜索在涨");
+  assert.equal(signalLabel("🔔 预埋（发售前抢位）"), "🔔 预埋（发售前抢位）");
 });
 
 test("collectSteadyRising adds wiki and H5 candidates without filtering existing verdicts", () => {
