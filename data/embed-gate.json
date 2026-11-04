@@ -1,0 +1,44 @@
+{
+  "krillion": {
+    "verdict": "已有",
+    "reason": "舰队已有 krillionanswers.xyz；可玩在官网 krillion.io，无 GD/GM/Scratch 授权嵌源（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "cyberpunk": {
+    "verdict": "弃",
+    "reason": "CDPR 大厂 IP / AAA 浏览器改编（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "reskate": {
+    "verdict": "弃",
+    "reason": "EA skate. 模组启动器（要 Steam）；浏览器版是非授权 WebGPU 粉丝移植（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "azeroth survivors": {
+    "verdict": "弃",
+    "reason": "魔兽主题 IP + 创作者 WebGPU 页且禁止第三方嵌入，非 GD/GM/Scratch（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "black ops zombies browser": {
+    "verdict": "弃",
+    "reason": "Activision 使命召唤大厂 IP / AAA 浏览器改编（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "threshing day game": {
+    "verdict": "已有",
+    "reason": "舰队已有 threshingday.app 可玩站（Grok 10-30）",
+    "at": "2026-11-04",
+    "by": "manual"
+  },
+  "hello kitty party land": {
+    "verdict": "弃",
+    "reason": "三丽鸥 IP、Switch / Switch 2 主机游戏，没有可嵌入的网页版（11-04 补判；wiki 方向另见 GAME-DECISIONS 🟡）",
+    "at": "2026-11-04",
+    "by": "manual"
+  }
+}

@@ -136,6 +136,11 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 #     不用 SearchAPI / SerpAPI / treg。→ reports/recheck/RADAR-RECHECK-<日期>.md；失败不挡管线。
 "$NODE" --env-file-if-exists=.env lib/fresh-recheck.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings -e '^\[pytrends\]'
 
+# 7c. 嵌壳闸门（2026-11-04 加：原来是 Grok Bot 工作日 10:30 人工日筛，用户 11-04 停了 Grok）
+#     当天 RADAR-PLAYABLE 的 🟢 → 判过的沿用 data/embed-gate.json；舰队已有 / 大厂 IP / GAME-DECISIONS 判过不做 自动标；
+#     其余标「待判」→ 写回同一份报告的「## 嵌壳闸门」小节，站群后台「今天要你拍板」从那里读。纯本地，几秒，失败不挡管线。
+"$NODE" lib/embed-gate.mjs 2>&1 | tail -2
+
 # 7.5 每天挑「今天能做的 codes 站」（2026-11-02 用户定：找到能做的就发、不限数量，没有就不做）：
 #     读当天 verdict-log + 复查 GO → Roblox / 联想 / SERP / 域名四道闸 → 推飞书「请买 X」或「今天没有」。
 #     只用免费接口（DDG 直连优先，Tavily 免费档兜底且有月上限），约 3–8 分钟；失败不挡管线。
@@ -143,7 +148,7 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 
 # 8. occupy / 否决账本数据入库（2026-10-16 加）：管线每天改、以前没人 commit → 巡检第二天必报「改了没 commit」。
 #    跑完顺手提交 + 推送（失败不挡管线，巡检会抓）。
-git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json data/pick-state.json
+git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json data/pick-state.json data/embed-gate.json
 if ! git diff --cached --quiet; then
   git commit -q -m "chore: occupy-queue 每日状态 $TODAY"
   GIT_TERMINAL_PROMPT=0 git push -q origin main \
