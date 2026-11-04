@@ -148,7 +148,7 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 
 # 8. occupy / 否决账本数据入库（2026-10-16 加）：管线每天改、以前没人 commit → 巡检第二天必报「改了没 commit」。
 #    跑完顺手提交 + 推送（失败不挡管线，巡检会抓）。
-git add data/occupy-state.json data/occupy-domains.json data/rejections.json data/fresh-recheck-queue.json data/pick-state.json data/embed-gate.json
+git add data/occupy-state.json data/occupy-domains.json data/occupy-demand.json data/rejections.json data/fresh-recheck-queue.json data/pick-state.json data/embed-gate.json data/steady-rising-state.json
 if ! git diff --cached --quiet; then
   git commit -q -m "chore: occupy-queue 每日状态 $TODAY"
   GIT_TERMINAL_PROMPT=0 git push -q origin main \
