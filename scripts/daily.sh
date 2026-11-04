@@ -136,7 +136,7 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 #     不用 SearchAPI / SerpAPI / treg。→ reports/recheck/RADAR-RECHECK-<日期>.md；失败不挡管线。
 "$NODE" --env-file-if-exists=.env lib/fresh-recheck.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings -e '^\[pytrends\]'
 
-# 7c. 嵌壳闸门（2026-11-04 加：原来是 Grok Bot 工作日 10:30 人工日筛，用户 11-04 停了 Grok）
+# 7c. 嵌壳闸门（2026-11-04 加：原来是 Grok Bot 工作日 10:30 人工日筛，11-04 起从 Grok 撤下改本机跑；Grok 仍负责外链提交）
 #     当天 RADAR-PLAYABLE 的 🟢 → 判过的沿用 data/embed-gate.json；舰队已有 / 大厂 IP / GAME-DECISIONS 判过不做 自动标；
 #     其余标「待判」→ 写回同一份报告的「## 嵌壳闸门」小节，站群后台「今天要你拍板」从那里读。纯本地，几秒，失败不挡管线。
 "$NODE" lib/embed-gate.mjs 2>&1 | tail -2
