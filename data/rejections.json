@@ -30,7 +30,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-04",
+      "nextRecheck": "2026-11-05",
       "history": [
         {
           "date": "2026-11-02",
@@ -43,9 +43,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "其他平台复测没有返回有效判决"
+        },
+        {
+          "date": "2026-11-04",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "其他平台复测没有返回有效判决"
         }
       ],
-      "lastChecked": "2026-11-03"
+      "lastChecked": "2026-11-04"
     },
     {
       "name": "Poké Jam",

@@ -3360,8 +3360,8 @@
   "checkedAt": "2026-11-03"
  },
  "ragdollsandboxwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-03"
+  "available": true,
+  "checkedAt": "2026-11-04"
  },
  "raidersofthenorth.wiki": {
   "available": true,
@@ -3532,5 +3532,59 @@
  "ripitcardcollectorwiki.com": {
   "available": true,
   "checkedAt": "2026-11-03"
+ },
+ "selkiessalvageco.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "selkiessalvagecogame.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "selkiessalvagecowiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "chartingtheunknown.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "chartingtheunknowngame.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "chartingtheunknownwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "mouthwashing.wiki": {
+  "available": false,
+  "registered": "2026-10-29",
+  "ns": "phil.ns.cloudflare.com,zariyah.ns.cloudflare.com",
+  "checkedAt": "2026-11-04"
+ },
+ "mouthwashinggame.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "archeagechronicles.wiki": {
+  "available": false,
+  "registered": "2026-09-08",
+  "ns": "mitchell.ns.cloudflare.com,brynne.ns.cloudflare.com",
+  "checkedAt": "2026-11-04"
+ },
+ "mouthwashingwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "archeagechroniclesgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-04"
+ },
+ "archeagechronicleswiki.com": {
+  "available": false,
+  "registered": "2025-03-11",
+  "ns": "DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM",
+  "checkedAt": "2026-11-04"
  }
 }
