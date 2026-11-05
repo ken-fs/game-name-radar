@@ -38,6 +38,10 @@ import { num, writeVerdictLog } from "./lib/verdict-log.mjs";
 import { reportPath } from "../scripts/lib/reports.mjs";
 import { robloxUpdated, serpGap, serpGapDetail, serpGapNote, steamUpdated } from "./lib/serp-gap.mjs";
 import { eventNote, robloxEvent } from "./lib/roblox-event.mjs";
+import { gateItems } from "./lib/headline-gate.mjs";
+// 查平台 / 名字清洗 / 否决账本过滤在 lib/game-lookup.mjs（2026-11-05 挪出：headline-gate 回测也要用，互相 import 会卡死）
+import { cleanRobloxName, onRoblox, onSteam, withoutRejected } from "./lib/game-lookup.mjs";
+export { cleanRobloxName, onRoblox, onSteam, withoutRejected };
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SHIP = join(HERE, "..");
@@ -80,30 +84,6 @@ function notify(title, body, sound = "Glass") {
   }
 }
 
-/** Roblox 名字去掉 [UPDATE] / 🎃 / 开头「+1」这类装饰，留给 Trends 和 SERP 用（玩家搜的是「assassin leveling codes」）。 */
-export function cleanRobloxName(name) {
-  return name
-    .replace(/\[[^\]]*\]|\([^)]*\)|【[^】]*】/g, " ")
-    .replace(/^\s*\+\d+\s+/, " ")
-    .replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, " ")
-    .replace(/\s+/g, " ")
-    .replace(/[!?.:,]+$/g, "")
-    .trim();
-}
-
-/** 已否决候选只有复测翻转后才重新进头条；manual / closed 不被原始信号反复顶回来。 */
-// 名字比对只看字母数字；Steam 名带「 - 副标题」的也按主名比（账本记「Probably Stolen」，
-// 雷达报「Probably Stolen - Cyberpunk Shopkeeper Sim」——11-04 因为对不上，判过 ❌ 的又进了头条）
-const ledgerKey = (s) => String(s).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
-export function withoutRejected(items, ledger) {
-  const rejected = new Set((ledger?.decisions ?? [])
-    .filter((d) => d.name && d.status !== "flipped")
-    .map((d) => ledgerKey(d.name)));
-  return items.filter((i) => {
-    const name = String(i.name);
-    return !rejected.has(ledgerKey(name)) && !rejected.has(ledgerKey(name.split(/\s+[-–—]\s+/)[0]));
-  });
-}
 
 // 头条里的标签（2026-11-04 用户定）：关注者 / 畅销榜 / H5 热度只是「在涨」的信号，投入分没核竞品，
 // 都不是「可做」。子报告和判决记录照旧用 🟢（复盘脚本按它认），只在总报告头条换成信号写法。
@@ -402,12 +382,24 @@ async function daily() {
     i.text += ` · ${eventNote(ev, { short: true })}，别买新域名`;
     i.data.signals.officialEvent = { endsAt: ev.endsAt?.toISOString().slice(0, 10) ?? null, daysLeft: ev.daysLeft };
   }
-  const signals = await siteShapeSignals(items);
-  const gaps = await serpGapSignals(items);
-  const headline = items.map((i) => {
-    const note = nrd.available ? nrdNote(nrd.byName[i.name], { days: nrd.dates.length }) : "";
-    const text = note && nrd.byName[i.name] !== null ? `${i.text} · ${note}` : i.text;
-    return [text, ...(signals.get(i) ?? []), gaps.get(i)].filter(Boolean).join(" · ");
+  // 头条闸门（2026-11-05 加，lib/headline-gate.mjs）：没做过 + 量够 + 没被占满，三关全过才进「今天最值得看」，
+  // 没过的折到「没过闸的信号」并写原因。站型 / SERP 空位只给过闸的查（省钱，也少噪音）。
+  const gate = await gateItems(items, { onRoblox, onSteam, nrdOf: (n) => nrd.byName[n]?.count ?? null });
+  for (const i of items) i.data.gate = gate.get(i) ?? { pass: true, why: null, facts: [] };
+  const passedItems = items.filter((i) => i.data.gate.pass);
+  const heldItems = items.filter((i) => !i.data.gate.pass);
+  const signals = await siteShapeSignals(passedItems);
+  const gaps = await serpGapSignals(passedItems);
+  const headline = passedItems.map((i) => {
+    // 「近 3 天 0 个新域名」读起来像空位，其实只是抽样里没碰到（Ebbtide 的 .wiki 10-21 就被注册了）——0 不写
+    const entry = nrd.byName[i.name];
+    const note = nrd.available && entry?.count ? nrdNote(entry, { days: nrd.dates.length }) : "";
+    return [note ? `${i.text} · ${note}` : i.text, ...(signals.get(i) ?? []), gaps.get(i), `✅ 过闸：${i.data.gate.facts.join(" · ") || "已核"}`].filter(Boolean).join(" · ");
+  });
+  const held = heldItems.map((i) => {
+    const head = i.text.match(/^- \*\*.+?\*\*\s*[^：]+/)?.[0] ?? `- ${i.name}`;
+    const signal = i.text.slice(head.length + 1).replace(/（[^（）]*）/g, "").trim().slice(0, 40);
+    return `${head}：❌ ${i.data.gate.why}${signal ? ` ｜信号：${signal}` : ""}`;
   });
 
   const lines = [
@@ -421,9 +413,15 @@ async function daily() {
     "",
     "## 今天最值得看",
     "",
-    "> ⚠️ 这里是**信号，不是判决**：📈 = 热度在涨，📊 = 投入分高（只算热度 / 结构 / 域名，没核竞品和真实搜索）。要不要做，得过 SERP / 竞品复核，结论记在 `GAME-DECISIONS.md`；已经判过不做的（`data/rejections.json`）会自动从这里去掉。",
+    `> 每条信号先过三关（\`lib/headline-gate.mjs\`）：① 没判过 / 自家没有 ② 量够（Roblox 在线 ≥1500；Steam 在线 ≥1000，预发布关注者 ≥1 万）③ 没被占满（专门站 <2 个、Fandom / wiki.gg <100 篇、近 3 天新域名 <3）。过了只代表**值得人去核**，不是 GO；判完写 \`GAME-DECISIONS.md\` + \`data/rejections.json\`。今天 ${items.length} 条信号 → **${headline.length} 条过闸**。`,
     "",
-    ...(headline.length ? headline : ["今天没有达到「值得投入」线的候选。"]),
+    ...(headline.length ? headline : [`今天 0 条过闸（${items.length} 条信号都卡在下面）。`]),
+    "",
+    `## 没过闸的信号（${held.length} 条）`,
+    "",
+    "> 热度是真的，但不值得开站：原因写在每条后面。只在原因变了（比如竞品停更、在线翻倍）时回来看。",
+    "",
+    ...(held.length ? held : ["（没有）"]),
     "",
     "## Roblox",
     "",
@@ -495,10 +493,14 @@ async function daily() {
   console.log(`✓ ${out}`);
   const logged = writeVerdictLog(items, { date: today, nrd });
   if (logged) console.log(`✓ 判决记录 ${logged} 条 → data/verdict-log.jsonl`);
-  console.log(headline.length ? headline.join("\n") : "今天没有达到「值得投入」线的候选。");
+  console.log(headline.length ? headline.join("\n") : `今天 0 条过闸（${items.length} 条信号）。`);
 
   // 每日成功跑完推一次「今天最值得看」（008-10-10 复盘：GO 只写进报告文件没人看，
   // 用户 10-08 的 GO 到 10-10 才知道）。失败重试由 daily.sh 管，这里只管内容推送。
+  // 0 条过闸也推一句（不推的话用户不知道管线跑没跑），但不列没过的信号
+  if (process.env.RADAR_NOTIFY === "1" && !headline.length) {
+    notify(`🎮 游戏雷达日报 ${today.slice(5)}（0 条过闸）`, `今天 ${items.length} 条信号都没过闸（判过 / 量太小 / 同行已占满），不用看。原因在 \`Ship/reports/summary/RADAR-${today}.md\`「没过闸的信号」。`, "Glass");
+  }
   if (process.env.RADAR_NOTIFY === "1" && headline.length) {
     // 2026-10-12：以前只推前 4 条（macOS 通知装不下），Roblox 一多新源（Steam 关注者 / 联想新词）就挤不进来。
     // 现在走飞书：按信号线分组，每组最多 4 条，其余写「还有 N 条」，完整版在报告里。
@@ -509,13 +511,12 @@ async function daily() {
     }
     const body = [...groups].map(([line, items]) => [`**${line}**`, ...items.slice(0, 4).map((i) => `- ${i}`),
       ...(items.length > 4 ? [`- …还有 ${items.length - 4} 条`] : [])].join("\n"));
-    notify(`🎮 游戏雷达日报 ${today.slice(5)}（${headline.length} 条）`, `${body.join("\n\n")}\n\n完整报告：\`Ship/reports/summary/RADAR-${today}.md\``, "Glass");
+    notify(`🎮 游戏雷达日报 ${today.slice(5)}（${headline.length} 条过闸 / ${items.length} 条信号）`, `${body.join("\n\n")}\n\n完整报告：\`Ship/reports/summary/RADAR-${today}.md\``, "Glass");
   }
 }
 
 // ─── 单查：自动判平台 ─────────────────────────────────────────────────────────
 
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
 
 /**
  * SERP 空位（2026-10-20 加，lib/serp-gap.mjs）：🌐 本地语言空位 + 🕰️ 前 10 过时。
@@ -536,42 +537,6 @@ export async function serpGapSignals(items, { limit = 5, gap = serpGap } = {}) {
   return out;
 }
 
-/** 判平台用的查询偶尔会超时（代理抖一下就漏判），失败重试两次。 */
-async function fetchJson(url, attempts = 3) {
-  for (let i = 0; i < attempts; i += 1) {
-    try {
-      const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" }, signal: AbortSignal.timeout(20_000) });
-      if (res.ok) {
-        return await res.json();
-      }
-    } catch {
-      // 重试
-    }
-    await new Promise((r) => setTimeout(r, 1500 * (i + 1)));
-  }
-  return null;
-}
-
-export async function onRoblox(name) {
-  const d = await fetchJson(
-    `https://apis.roblox.com/search-api/omni-search?searchQuery=${encodeURIComponent(name)}&sessionId=radar&pageType=all`,
-  );
-  const games = (d?.searchResults ?? []).flatMap((g) => g.contents ?? []).filter((c) => c.contentType === "Game");
-  // 只认名字对得上的：完全一致，或包含查询词且有一定在线（防「Dressmaker」匹到 11 人在线的同名小游戏）。
-  // 用包含不用开头：真名常带「+1 / Upd / 🔥」前缀，「Assassin Leveling」要能匹到「+1 Assassin Leveling」
-  const q = norm(cleanRobloxName(name));
-  const hit = games.find((g) => {
-    const n = norm(cleanRobloxName(g.name ?? ""));
-    return n === q || (n.includes(q) && (g.playerCount ?? 0) >= 300);
-  });
-  return hit ? { name: cleanRobloxName(hit.name), playing: hit.playerCount ?? 0, universeId: hit.universeId } : null;
-}
-
-async function onSteam(name) {
-  const d = await fetchJson(`https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(name)}&cc=US&l=en`);
-  const hit = (d?.items ?? []).find((i) => norm(i.name) === norm(name) || norm(i.name).startsWith(norm(name)));
-  return hit ? { appId: hit.id, name: hit.name } : null;
-}
 
 async function check(names) {
   for (const name of names) {

@@ -40,3 +40,4 @@ data/tavily-usage.json
 # Steam 畅销 / 在玩榜快照（2026-10-13 加，每天重写）
 data/steam-charts-state.json
 data/verdict-log.jsonl
+data/headline-gate-cache.json
