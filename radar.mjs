@@ -415,7 +415,7 @@ async function daily() {
     "",
     `> 每条信号先过三关（\`lib/headline-gate.mjs\`）：① 没判过 / 自家没有 ② 量够（Roblox 在线 ≥1500；Steam 在线 ≥1000，预发布关注者 ≥1 万）③ 没被占满（专门站 <2 个、Fandom / wiki.gg <100 篇、近 3 天新域名 <3）。过了只代表**值得人去核**，不是 GO；判完写 \`GAME-DECISIONS.md\` + \`data/rejections.json\`。今天 ${items.length} 条信号 → **${headline.length} 条过闸**。`,
     "",
-    ...(headline.length ? headline : [`今天 0 条过闸（${items.length} 条信号都卡在下面）。`]),
+    ...(headline.length ? headline : [`今天 0 条过闸（${items.length} 条信号都没过，原因见下）。`]),
     "",
     `## 没过闸的信号（${held.length} 条）`,
     "",
