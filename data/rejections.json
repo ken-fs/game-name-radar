@@ -30,7 +30,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-05",
+      "nextRecheck": "2026-11-06",
       "history": [
         {
           "date": "2026-11-02",
@@ -49,9 +49,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "其他平台复测没有返回有效判决"
+        },
+        {
+          "date": "2026-11-05",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "其他平台复测没有返回有效判决"
         }
       ],
-      "lastChecked": "2026-11-04"
+      "lastChecked": "2026-11-05"
     },
     {
       "name": "Poké Jam",
@@ -184,8 +190,8 @@
       "verdict": "🟡 观察",
       "reason": "至少 30 Index 档位，但实体需求未过、CCU 低于 2K",
       "status": "active",
-      "nextRecheck": "2026-11-05",
-      "lastChecked": "2026-11-01",
+      "nextRecheck": "2026-11-12",
+      "lastChecked": "2026-11-05",
       "history": [
         {
           "date": "2026-10-30",
@@ -201,6 +207,15 @@
           "outcome": "stable",
           "ccu": 2268,
           "trend": "no-data",
+          "guideWords": 2
+        },
+        {
+          "date": "2026-11-05",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 2193,
+          "trend": "declining",
           "guideWords": 2
         }
       ]

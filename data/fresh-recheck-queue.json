@@ -2205,8 +2205,18 @@
   "prerelease": true,
   "term": "archeage chronicles",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 16,
+    "now": 90,
+    "ratio": 5.63,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "elbab": {
   "name": "ELbab",
@@ -3026,6 +3036,15 @@
     "ratio": 0.64,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 5,
+    "base": 79,
+    "now": 44.7,
+    "ratio": 0.57,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -3062,6 +3081,11 @@
    {
     "date": "2026-11-04",
     "day": 4,
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 5,
     "sites": []
    }
   ]
@@ -3367,6 +3391,17 @@
     "sites": [
      "germanmopeddays.com"
     ]
+   },
+   {
+    "date": "2026-11-05",
+    "day": 5,
+    "base": 71.3,
+    "now": 21.7,
+    "ratio": 0.3,
+    "last": "2026-11-05",
+    "sites": [
+     "germanmopeddays.com"
+    ]
    }
   ]
  },
@@ -3429,6 +3464,15 @@
      "queensdomain.site",
      "queensdomainguide.wiki"
     ]
+   },
+   {
+    "date": "2026-11-05",
+    "day": 5,
+    "sites": [
+     "queens-domain.wiki",
+     "queensdomain.site",
+     "queensdomainguide.wiki"
+    ]
    }
   ]
  },
@@ -3473,6 +3517,11 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 5,
     "sites": []
    }
   ]
@@ -3545,6 +3594,18 @@
      "animepiece.xyz",
      "animepiece.wiki"
     ]
+   },
+   {
+    "date": "2026-11-05",
+    "day": 4,
+    "base": 68.3,
+    "now": 71.7,
+    "ratio": 1.05,
+    "last": "2026-11-05",
+    "sites": [
+     "animepiece.xyz",
+     "animepiece.wiki"
+    ]
    }
   ]
  },
@@ -3584,6 +3645,15 @@
     "now": 45.3,
     "ratio": 0.8,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 4,
+    "base": 56.3,
+    "now": 45,
+    "ratio": 0.8,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -3625,6 +3695,15 @@
     "ratio": 0.99,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 4,
+    "base": 56.3,
+    "now": 58,
+    "ratio": 1.03,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -3664,6 +3743,15 @@
     "now": 46,
     "ratio": 0.57,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 4,
+    "base": 75.3,
+    "now": 29,
+    "ratio": 0.38,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -3723,6 +3811,15 @@
     "ratio": 1.03,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 86,
+    "now": 88.3,
+    "ratio": 1.03,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -3753,6 +3850,15 @@
     "now": 38,
     "ratio": 0.54,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 65.3,
+    "now": 38,
+    "ratio": 0.58,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -3802,6 +3908,11 @@
     "ratio": 0,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 4,
+    "sites": []
    }
   ]
  },
@@ -3832,6 +3943,15 @@
     "now": 35.3,
     "ratio": 0.42,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 30.7,
+    "now": 13.3,
+    "ratio": 0.43,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -3864,6 +3984,17 @@
     "ratio": 0.47,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 15.7,
+    "now": 8.7,
+    "ratio": 0.55,
+    "last": "2026-11-05",
+    "sites": [
+     "euro-millions.space"
+    ]
    }
   ]
  },
@@ -3876,7 +4007,7 @@
   "prerelease": false,
   "term": "femboy tycoon",
   "due": "2026-11-03",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-03",
@@ -3886,6 +4017,15 @@
    {
     "date": "2026-11-04",
     "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 0,
+    "now": 33.3,
+    "ratio": 33.33,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -3909,6 +4049,17 @@
     "ratio": 1.05,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 52,
+    "now": 47.7,
+    "ratio": 0.92,
+    "last": "2026-11-05",
+    "sites": [
+     "cut-a-rock.wiki"
+    ]
    }
   ]
  },
@@ -3940,6 +4091,17 @@
     "ratio": 1.15,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 3,
+    "base": 50,
+    "now": 70,
+    "ratio": 1.4,
+    "last": "2026-11-05",
+    "sites": [
+     "canemall-wiki.wiki"
+    ]
    }
   ]
  },
@@ -3961,6 +4123,23 @@
     "now": 15.3,
     "ratio": 0.55,
     "last": "2026-11-04",
+    "sites": [
+     "farttogether.site",
+     "farttogether-wiki.site",
+     "farttogether-wiki.wiki",
+     "farttogether-game.wiki",
+     "farttogetherguide.wiki",
+     "farttogether.xyz",
+     "farttogether.io"
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 32.3,
+    "now": 30.3,
+    "ratio": 0.94,
+    "last": "2026-11-05",
     "sites": [
      "farttogether.site",
      "farttogether-wiki.site",
@@ -3992,6 +4171,15 @@
     "ratio": 0.83,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 73,
+    "now": 80,
+    "ratio": 1.1,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -4013,6 +4201,15 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -4036,6 +4233,15 @@
     "ratio": 0,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -4053,6 +4259,11 @@
    {
     "date": "2026-11-04",
     "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
     "sites": []
    }
   ]
@@ -4090,7 +4301,7 @@
   "prerelease": false,
   "term": "gravhounds",
   "due": "2026-11-04",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-04",
@@ -4099,6 +4310,15 @@
     "now": 86,
     "ratio": 1.48,
     "last": "2026-11-04",
+    "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 54.7,
+    "now": 86,
+    "ratio": 1.57,
+    "last": "2026-11-05",
     "sites": []
    }
   ]
@@ -4122,6 +4342,15 @@
     "ratio": 1,
     "last": "2026-11-04",
     "sites": []
+   },
+   {
+    "date": "2026-11-05",
+    "day": 2,
+    "base": 18.3,
+    "now": 21.3,
+    "ratio": 1.16,
+    "last": "2026-11-05",
+    "sites": []
    }
   ]
  },
@@ -4134,8 +4363,20 @@
   "prerelease": false,
   "term": "hajime rising",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 82.7,
+    "now": 66.3,
+    "ratio": 0.8,
+    "last": "2026-11-05",
+    "sites": [
+     "hajimerising.wiki"
+    ]
+   }
+  ]
  },
  "sip a lake": {
   "name": "sip a lake",
@@ -4146,8 +4387,18 @@
   "prerelease": false,
   "term": "sip a lake",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 33.3,
+    "now": 33.3,
+    "ratio": 1,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "bai chilian": {
   "name": "bai chilian",
@@ -4158,8 +4409,18 @@
   "prerelease": false,
   "term": "bai chilian",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 87.7,
+    "now": 71.7,
+    "ratio": 0.82,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "dusk phantom blade zero": {
   "name": "dusk phantom blade zero",
@@ -4170,8 +4431,18 @@
   "prerelease": false,
   "term": "dusk phantom blade zero",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 87.3,
+    "now": 42.3,
+    "ratio": 0.48,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "godzilla destroy all monsters melee remastered": {
   "name": "Godzilla: Destroy All Monsters Melee Remastered",
@@ -4182,8 +4453,18 @@
   "prerelease": false,
   "term": "godzilla",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 66,
+    "now": 86,
+    "ratio": 1.3,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "loftia": {
   "name": "Loftia",
@@ -4194,8 +4475,21 @@
   "prerelease": false,
   "term": "loftia game",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 61,
+    "now": 75.7,
+    "ratio": 1.24,
+    "last": "2026-11-05",
+    "sites": [
+     "loftia-guide.wiki",
+     "loftia.cn"
+    ]
+   }
+  ]
  },
  "potato please": {
   "name": "Potato Please",
@@ -4206,8 +4500,18 @@
   "prerelease": false,
   "term": "potato please",
   "due": "2026-11-05",
-  "status": "pending",
-  "checks": []
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-11-05",
+    "day": 1,
+    "base": 32,
+    "now": 62.7,
+    "ratio": 1.96,
+    "last": "2026-11-05",
+    "sites": []
+   }
+  ]
  },
  "own a cafe": {
   "name": "own a cafe",
@@ -4254,6 +4558,150 @@
   "prerelease": false,
   "term": "pixel quest",
   "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "mycelarium": {
+  "name": "Mycelarium",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-03",
+  "prerelease": false,
+  "term": "mycelarium",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "dungeons dynasties": {
+  "name": "Dungeons & Dynasties",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-03",
+  "prerelease": false,
+  "term": "dungeons dynasties",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "horses of hoofprint bay": {
+  "name": "Horses of Hoofprint Bay",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-04",
+  "prerelease": false,
+  "term": "horses of hoofprint bay",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "lightyear frontier": {
+  "name": "Lightyear Frontier",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-04",
+  "prerelease": false,
+  "term": "lightyear frontier",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "cozy game restoration": {
+  "name": "Cozy Game Restoration",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-05",
+  "prerelease": false,
+  "term": "cozy game restoration",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "eternal palace sakura": {
+  "name": "Eternal Palace Sakura",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-04",
+  "prerelease": false,
+  "term": "eternal palace sakura",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "playrooms": {
+  "name": "Playrooms",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-05",
+  "release": "2026-11-04",
+  "prerelease": false,
+  "term": "playrooms",
+  "due": "2026-11-06",
+  "status": "pending",
+  "checks": []
+ },
+ "dandys world": {
+  "name": "dandys world",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-05",
+  "release": null,
+  "prerelease": false,
+  "term": "dandys world",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "clover legends": {
+  "name": "clover legends",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-05",
+  "release": null,
+  "prerelease": false,
+  "term": "clover legends",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "evermore high": {
+  "name": "evermore high",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-05",
+  "release": null,
+  "prerelease": false,
+  "term": "evermore high",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "hit bout it": {
+  "name": "hit bout it",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-05",
+  "release": null,
+  "prerelease": false,
+  "term": "hit bout it",
+  "due": "2026-11-07",
+  "status": "pending",
+  "checks": []
+ },
+ "korean convenience store": {
+  "name": "korean convenience store",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-05",
+  "release": null,
+  "prerelease": false,
+  "term": "korean convenience store",
+  "due": "2026-11-07",
   "status": "pending",
   "checks": []
  }

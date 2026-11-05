@@ -2885,7 +2885,7 @@
   "available": false,
   "registered": "2026-10-22",
   "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
-  "checkedAt": "2026-10-23"
+  "checkedAt": "2026-11-05"
  },
  "everydaywefightwiki.com": {
   "available": true,
@@ -2893,11 +2893,13 @@
  },
  "groundworksimulatorgame.com": {
   "available": true,
-  "checkedAt": "2026-10-23"
+  "checkedAt": "2026-11-05"
  },
  "groundworksimulatorwiki.com": {
-  "available": true,
-  "checkedAt": "2026-10-23"
+  "available": false,
+  "registered": "2026-11-04",
+  "ns": "DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM",
+  "checkedAt": "2026-11-05"
  },
  "moadra.wiki": {
   "available": false,
@@ -3267,7 +3269,7 @@
   "available": false,
   "registered": "2021-09-05",
   "ns": "NSG1.NAMEBRIGHTDNS.COM,NSG2.NAMEBRIGHTDNS.COM",
-  "checkedAt": "2026-10-29"
+  "checkedAt": "2026-11-05"
  },
  "vampysbigday.wiki": {
   "available": true,
@@ -3586,5 +3588,45 @@
   "registered": "2025-03-11",
   "ns": "DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM",
   "checkedAt": "2026-11-04"
+ },
+ "thewolfamongusremasteredgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-05"
+ },
+ "thewolfamongusremastered.wiki": {
+  "available": false,
+  "registered": "2026-10-14",
+  "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
+  "checkedAt": "2026-11-05"
+ },
+ "boostvectorex.wiki": {
+  "available": false,
+  "registered": "2026-11-04",
+  "ns": "jonah.ns.cloudflare.com,nicole.ns.cloudflare.com",
+  "checkedAt": "2026-11-05"
+ },
+ "boostvectorexwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-05"
+ },
+ "boostvectorexgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-05"
+ },
+ "legendofdefenders.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-05"
+ },
+ "legendofdefendersgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-05"
+ },
+ "legendofdefenderswiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-05"
+ },
+ "thewolfamongusremasteredwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-05"
  }
 }
