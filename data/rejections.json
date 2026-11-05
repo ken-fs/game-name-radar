@@ -898,11 +898,20 @@
       "category": "structural",
       "decidedAt": "2026-11-04",
       "decidedVerdict": "❌ 放弃",
-      "verdict": "❌ 放弃",
-      "reason": "11-05 Trends ×1.96 后深核仍不翻案：potatoplease.wiki / potato-please.wiki / potato-please.top 已上线，已核 sitemap 至少 31 / 未测 / 188 URL；Whisper of the House 已覆盖 3 结局与 20 成就，工具需求 0 且实体结构不足以支撑新通用 Wiki",
-      "status": "manual",
+      "verdict": "🟢 GO",
+      "reason": "11-05 二次复核改判为 8–12 页实测攻略小站（非通用 Wiki）：两个 .wiki 是 9 月预发布泛文，.top 含虚构稀有度 / 交易 / Boss / 组队；YouTube 本周 20+ 频道、中位播放 128493，真实 SERP 的 golden key / quota / auto peel machine / walkthrough 仍有空位；whois 可买 potato-please.com，绝对月量未测",
+      "status": "flipped",
       "nextRecheck": null,
-      "history": []
+      "lastChecked": "2026-11-05",
+      "history": [
+        {
+          "date": "2026-11-05",
+          "from": "❌ 放弃",
+          "to": "🟢 GO",
+          "outcome": "flip",
+          "note": "用户质疑后核竞品正文与真实 SERP；只做 8–12 页实测攻略小站，不做通用 Wiki"
+        }
+      ]
     },
     {
       "name": "Godzilla: Destroy All Monsters Melee Remastered",
