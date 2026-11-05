@@ -52,13 +52,13 @@
     {
       "name": "Ebbtide",
       "platform": "steam",
-      "category": "demand",
+      "category": "structural",
       "decidedAt": "2026-11-05",
-      "decidedVerdict": "🟡 观察",
-      "verdict": "🟡 观察",
-      "reason": "预发布关注者 22743、日增 +974，但仍是 demo / playtest 信息意图，工具需求不足 2 条、实体数未测；正式发售且出现至少 3 条攻略 / 实体长尾再核",
-      "status": "active",
-      "nextRecheck": "2026-11-12",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "关注者 22743、日增 +974 且游戏结构适合 Wiki，但 ebbtide boat value 全是二手船意图；ebbtide game wiki 前排至少 6 个专门站，两站 sitemap 分别 108 / 140 URL，已覆盖单位、地图、基地与后勤；精确 .wiki 10-21 已注册，近 3 天 0 新域不等于空位",
+      "status": "manual",
+      "nextRecheck": null,
       "history": []
     },
     {
