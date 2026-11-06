@@ -346,16 +346,22 @@
       "verdict": "🟡 观察",
       "reason": "官方 iframe 实测可嵌，events.js 有事件库，但品牌词混杂且 answers / archive 联想仍为 0；10-31 补：官方自己挂 AdSense（ca-pub-4143517344869416），929 条事件是作者手写的题库、每日轮换在前端算——iframe 要先拿作者授权，答案页只放当天、不放未来、不搬 fun fact",
       "status": "active",
-      "nextRecheck": "2026-11-06",
+      "nextRecheck": "2026-11-13",
       "history": [
         {
           "date": "2026-11-02",
           "from": "🟡 观察",
           "to": "🟡 观察",
           "outcome": "stable"
+        },
+        {
+          "date": "2026-11-06",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable"
         }
       ],
-      "lastChecked": "2026-11-02"
+      "lastChecked": "2026-11-06"
     },
     {
       "name": "Tree Appreciator",
@@ -366,7 +372,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-06",
+      "nextRecheck": "2026-11-07",
       "history": [
         {
           "date": "2026-11-02",
@@ -391,9 +397,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "其他平台复测没有返回有效判决"
+        },
+        {
+          "date": "2026-11-06",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "其他平台复测没有返回有效判决"
         }
       ],
-      "lastChecked": "2026-11-05"
+      "lastChecked": "2026-11-06"
     },
     {
       "name": "Poké Jam",
@@ -632,7 +644,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具与攻略需求不足、峰值 CCU 低",
       "status": "active",
-      "nextRecheck": "2026-11-06",
+      "nextRecheck": "2026-11-13",
       "history": [
         {
           "date": "2026-11-02",
@@ -641,9 +653,17 @@
           "outcome": "stable",
           "ccu": 75,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-06",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 55,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-02"
+      "lastChecked": "2026-11-06"
     },
     {
       "name": "ATMOSFAR",
@@ -654,7 +674,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具需求 0、峰值 CCU 低",
       "status": "active",
-      "nextRecheck": "2026-11-06",
+      "nextRecheck": "2026-11-13",
       "history": [
         {
           "date": "2026-11-02",
@@ -663,9 +683,17 @@
           "outcome": "stable",
           "ccu": 1154,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-06",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 527,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-02"
+      "lastChecked": "2026-11-06"
     },
     {
       "name": "Portal Sandbox",

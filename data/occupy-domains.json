@@ -2543,7 +2543,7 @@
   "available": false,
   "registered": "2025-08-22",
   "ns": "tara.ns.cloudflare.com,clint.ns.cloudflare.com",
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "mycopunkgame.com": {
   "available": false,
@@ -2789,31 +2789,31 @@
   "available": false,
   "registered": "2026-10-21",
   "ns": "phil.ns.cloudflare.com,zariyah.ns.cloudflare.com",
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "gonefishinggame.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "gonefishingwiki.com": {
   "available": false,
   "registered": "2026-10-21",
   "ns": "FELIPE.NS.CLOUDFLARE.COM,WREN.NS.CLOUDFLARE.COM",
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "finalfantasyresonance.wiki": {
   "available": false,
   "registered": "2026-06-10",
   "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "finalfantasyresonancegame.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "finalfantasyresonancewiki.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "callofdutymodernwarfare4.wiki": {
   "available": false,
@@ -2871,11 +2871,11 @@
  },
  "grandgourmetgame.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "grandgourmetwiki.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "everydaywefightgame.com": {
   "available": true,
@@ -3243,7 +3243,7 @@
  },
  "reka.wiki": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "rekawiki.com": {
   "available": true,
@@ -3281,7 +3281,7 @@
  },
  "nomaddrivegame.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "vampysbigdaywiki.com": {
   "available": true,
@@ -3291,11 +3291,11 @@
   "available": false,
   "registered": "2026-09-11",
   "ns": "adel.ns.cloudflare.com,wesley.ns.cloudflare.com",
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "nomaddrivewiki.com": {
   "available": true,
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-11-06"
  },
  "virtueandasledgehammer.wiki": {
   "available": false,
@@ -3614,19 +3614,85 @@
   "checkedAt": "2026-11-05"
  },
  "legendofdefenders.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-05"
+  "available": false,
+  "registered": "2026-11-03",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-06"
  },
  "legendofdefendersgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-05"
+  "available": true,
+  "checkedAt": "2026-11-06"
  },
  "legendofdefenderswiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-05"
+  "available": true,
+  "checkedAt": "2026-11-06"
  },
  "thewolfamongusremasteredwiki.com": {
   "available": true,
   "checkedAt": "2026-11-05"
+ },
+ "dungeonsdynasties.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-06"
+ },
+ "dungeonsdynastieswiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-06"
+ },
+ "loftia.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "loftiagame.com": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "loftiawiki.com": {
+  "available": false,
+  "registered": "2025-04-14",
+  "ns": "FELIPE.NS.CLOUDFLARE.COM,IVY.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-06"
+ },
+ "mycelarium.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "mycelariumgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "mycelariumwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "silica.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "silicagame.com": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "silicawiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-06"
+ },
+ "potatoplease.wiki": {
+  "available": false,
+  "registered": "2026-09-24",
+  "ns": "robin.ns.cloudflare.com,damon.ns.cloudflare.com",
+  "checkedAt": "2026-11-06"
+ },
+ "potatopleasegame.com": {
+  "available": true,
+  "checkedAt": "2026-11-06"
+ },
+ "potatopleasewiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-06"
+ },
+ "dungeonsdynastiesgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-06"
  }
 }
