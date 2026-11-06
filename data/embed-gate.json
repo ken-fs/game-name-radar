@@ -40,5 +40,11 @@
     "reason": "三丽鸥 IP、Switch / Switch 2 主机游戏，没有可嵌入的网页版（11-04 补判；wiki 方向另见 GAME-DECISIONS 🟡）",
     "at": "2026-11-04",
     "by": "manual"
+  },
+  "noillirk": {
+    "verdict": "弃",
+    "reason": "官网已更名 Crowdict；真实 SERP 前 10 基本为完整同主题 EMD 站，未获开源或书面嵌入授权（2026-11-06 人工复核）",
+    "at": "2026-11-06",
+    "by": "manual"
   }
 }

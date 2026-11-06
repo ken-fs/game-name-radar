@@ -2,6 +2,18 @@
   "_comment": "否决账本。新增字段：name / platform(roblox|steam|other) / category(demand|structural|pre-release) / decidedAt(YYYY-MM-DD) / decidedVerdict / verdict / reason / status(active|flipped|manual|closed) / nextRecheck；pre-release 另填 releaseDate。active 才自动复测，flipped 等人工深核，manual 只留档，closed 已结束。history 由脚本维护。",
   "decisions": [
     {
+      "name": "Noillirk",
+      "platform": "other",
+      "category": "structural",
+      "decidedAt": "2026-11-06",
+      "decidedVerdict": "❌ 放弃",
+      "verdict": "❌ 放弃",
+      "reason": "真实 SERP 前 10 基本被完整同主题 EMD 站占据；官网已更名 Crowdict；答案长尾未验证，且未取得开源或书面嵌入授权（见 GAME-DECISIONS.md 11-06）",
+      "status": "manual",
+      "nextRecheck": null,
+      "history": []
+    },
+    {
       "name": "Korean Convenience Store",
       "platform": "roblox",
       "category": "demand",
