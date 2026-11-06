@@ -1,6 +1,6 @@
 #!/bin/bash
 source /Users/david/Desktop/david/Ship/scripts/notify.sh  # ship_notify：推飞书（2026-10-11）
-# 每日雷达（launchd com.ken.game-radar 调用；北京时间 08:30–18:30 每小时一个时间点，
+# 每日雷达（2026-11-06 起由 agent-autoloop 中台规则「游戏雷达管线」调用，原 launchd com.ken.game-radar；北京时间 08:30–18:30 每小时一个时间点，
 # 跑成功一次后当天其余时间点直接跳过。
 # 2026-10-23 提前：原来卡「美东当天 00:30 之后」（北京 12:30、冬令时 13:30 才起跑，管线 ~76 分钟，
 # 总报告 14 点后才出）→ 11:55 的站群后台快照永远只能带前一天的雷达。改到北京 08:30

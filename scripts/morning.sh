@@ -1,5 +1,5 @@
 #!/bin/bash
-# 早间 Roblox 快扫（launchd com.ken.roblox-morning，每天北京时间 09:00）
+# 早间 Roblox 快扫（2026-11-06 起由中台规则「Roblox 早报」调用，原 launchd com.ken.roblox-morning，每天北京时间 09:00）
 #
 # 为什么（2026-10-10 复盘）：主雷达每天 12:30 才跑，而竞品的建站动作比我们早 5 天，
 # 起量窗口正好落在管线的空档里。这班只看 Roblox 榜单（增长 + YouTube 错配），
