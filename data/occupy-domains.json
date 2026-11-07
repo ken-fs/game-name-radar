@@ -1237,7 +1237,7 @@
  },
  "projectcarlwiki.com": {
   "available": true,
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "animemysteriousgame.com": {
   "available": true,
@@ -2849,21 +2849,21 @@
   "available": false,
   "registered": "2026-10-11",
   "ns": "phil.ns.cloudflare.com,zariyah.ns.cloudflare.com",
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "onepiecegrandgourmetgame.com": {
   "available": true,
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "onepiecegrandgourmetwiki.com": {
   "available": true,
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "grandgourmet.wiki": {
   "available": false,
   "registered": "2026-10-23",
   "ns": "aldo.ns.cloudflare.com,ingrid.ns.cloudflare.com",
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "everydaywefight.wiki": {
   "available": true,
@@ -3253,7 +3253,7 @@
   "available": false,
   "registered": "2026-10-27",
   "ns": "ARAGORN.NS.CLOUDFLARE.COM,LADY.NS.CLOUDFLARE.COM",
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "paopao.wiki": {
   "available": false,
@@ -3329,17 +3329,17 @@
   "available": false,
   "registered": "2026-10-28",
   "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "geoplaneticalgame.com": {
   "available": true,
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "anomalith.wiki": {
   "available": false,
   "registered": "2026-09-15",
   "ns": "mona.ns.cloudflare.com,leonard.ns.cloudflare.com",
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-07"
  },
  "geoplaneticalwiki.com": {
   "available": true,
@@ -3640,12 +3640,16 @@
   "checkedAt": "2026-11-06"
  },
  "loftia.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-06"
+  "available": false,
+  "registered": "2023-12-31",
+  "ns": "ns0.dom.scw.cloud,ns1.dom.scw.cloud",
+  "checkedAt": "2026-11-07"
  },
  "loftiagame.com": {
-  "available": null,
-  "checkedAt": "2026-11-06"
+  "available": false,
+  "registered": "2026-11-04",
+  "ns": "ALDO.NS.CLOUDFLARE.COM,DARA.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-07"
  },
  "loftiawiki.com": {
   "available": false,
@@ -3654,28 +3658,30 @@
   "checkedAt": "2026-11-06"
  },
  "mycelarium.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-06"
+  "available": false,
+  "registered": "2026-10-30",
+  "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
+  "checkedAt": "2026-11-07"
  },
  "mycelariumgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-06"
+  "available": true,
+  "checkedAt": "2026-11-07"
  },
  "mycelariumwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-06"
+  "available": true,
+  "checkedAt": "2026-11-07"
  },
  "silica.wiki": {
   "available": null,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-07"
  },
  "silicagame.com": {
   "available": null,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-07"
  },
  "silicawiki.com": {
   "available": null,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-07"
  },
  "potatoplease.wiki": {
   "available": false,
@@ -3694,5 +3700,125 @@
  "dungeonsdynastiesgame.com": {
   "available": true,
   "checkedAt": "2026-11-06"
+ },
+ "deathatflemingmanor.wiki": {
+  "available": false,
+  "registered": "2026-10-29",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-07"
+ },
+ "deathatflemingmanorgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "deathatflemingmanorwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "beatforspeed.wiki": {
+  "available": false,
+  "registered": "2026-11-03",
+  "ns": "paislee.ns.cloudflare.com,nicolas.ns.cloudflare.com",
+  "checkedAt": "2026-11-07"
+ },
+ "beatforspeedgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "beatforspeedwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "gravhounds.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "gravhoundsgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "gravhoundswiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "huntingsimulator3.wiki": {
+  "available": false,
+  "registered": "2026-10-17",
+  "ns": "meg.ns.cloudflare.com,ben.ns.cloudflare.com",
+  "checkedAt": "2026-11-07"
+ },
+ "huntingsimulator3wiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "huntingsimulator3game.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "playrooms.wiki": {
+  "available": false,
+  "registered": "2026-11-01",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-07"
+ },
+ "playroomswiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "playroomsgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
+ },
+ "voidbreaker.wiki": {
+  "available": false,
+  "registered": "2026-10-12",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-07"
+ },
+ "voidbreakergame.com": {
+  "available": false,
+  "registered": "2024-10-30",
+  "ns": "NS-CLOUD-E1.GOOGLEDOMAINS.COM,NS-CLOUD-E2.GOOGLEDOMAINS.COM,NS-CLOUD-E3.GOOGLEDOMAINS.COM,NS-CLOUD-E4.GOOGLEDOMAINS.COM",
+  "checkedAt": "2026-11-07"
+ },
+ "voidbreakerwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "sushiamo.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "sushiamogame.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "sushiamowiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "lightyearfrontier.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "lightyearfrontiergame.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "lightyearfrontierwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "canemall.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "canemallgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-07"
+ },
+ "canemallwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-07"
  }
 }

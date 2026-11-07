@@ -3426,6 +3426,17 @@
     "sites": [
      "justvolleyball.online"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 54,
+    "now": 44.7,
+    "ratio": 0.83,
+    "last": "2026-11-07",
+    "sites": [
+     "justvolleyball.online"
+    ]
    }
   ]
  },
@@ -3880,6 +3891,15 @@
     "ratio": 0.96,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 5,
+    "base": 88,
+    "now": 87.7,
+    "ratio": 1,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -3928,6 +3948,15 @@
     "now": 5,
     "ratio": 0.54,
     "last": "2026-11-06",
+    "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 5,
+    "base": 10,
+    "now": 5.3,
+    "ratio": 0.53,
+    "last": "2026-11-07",
     "sites": []
    }
   ]
@@ -4038,6 +4067,15 @@
     "ratio": 0.36,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 5,
+    "base": 31.3,
+    "now": 29.3,
+    "ratio": 0.94,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4088,6 +4126,17 @@
     "now": 5.7,
     "ratio": 0.44,
     "last": "2026-11-06",
+    "sites": [
+     "euro-millions.space"
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 5,
+    "base": 14.7,
+    "now": 7.3,
+    "ratio": 0.5,
+    "last": "2026-11-07",
     "sites": [
      "euro-millions.space"
     ]
@@ -4167,6 +4216,17 @@
     "sites": [
      "cut-a-rock.wiki"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 53.3,
+    "now": 49,
+    "ratio": 0.92,
+    "last": "2026-11-07",
+    "sites": [
+     "cut-a-rock.wiki"
+    ]
    }
   ]
  },
@@ -4220,8 +4280,35 @@
     "sites": [
      "canemall-wiki.wiki"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 5,
+    "base": 77.3,
+    "now": 88.3,
+    "ratio": 1.14,
+    "last": "2026-11-07",
+    "sites": [
+     "canemall-wiki.wiki"
+    ]
    }
-  ]
+  ],
+  "steady": {
+   "date": "2026-11-07",
+   "ok": true,
+   "streak": 3,
+   "block": 3.73,
+   "weeks": [
+    8.4,
+    5.4,
+    5.1,
+    21.1,
+    11.7,
+    18.1,
+    32.7,
+    87.1
+   ]
+  }
  },
  "fart together": {
   "name": "Fart Together",
@@ -4284,6 +4371,23 @@
      "farttogether.xyz",
      "farttogether.io"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 37.3,
+    "now": 21.7,
+    "ratio": 0.58,
+    "last": "2026-11-07",
+    "sites": [
+     "farttogether.site",
+     "farttogether-wiki.site",
+     "farttogether-wiki.wiki",
+     "farttogether-game.wiki",
+     "farttogetherguide.wiki",
+     "farttogether.xyz",
+     "farttogether.io"
+    ]
    }
   ]
  },
@@ -4323,6 +4427,15 @@
     "now": 76,
     "ratio": 0.98,
     "last": "2026-11-06",
+    "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 77.3,
+    "now": 80.3,
+    "ratio": 1.04,
+    "last": "2026-11-07",
     "sites": []
    }
   ]
@@ -4364,6 +4477,15 @@
     "ratio": 0,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4400,6 +4522,15 @@
     "date": "2026-11-06",
     "day": 3,
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 33.3,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4431,6 +4562,11 @@
     "now": 0,
     "ratio": 0,
     "last": "2026-11-06",
+    "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
     "sites": []
    }
   ]
@@ -4468,8 +4604,14 @@
   "prerelease": true,
   "term": "lyssa game",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "gravhounds": {
   "name": "GRAVHOUNDS",
@@ -4541,6 +4683,17 @@
     "sites": [
      "legendofdefenderswiki.cfd"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 4,
+    "base": 11,
+    "now": 7,
+    "ratio": 0.64,
+    "last": "2026-11-07",
+    "sites": [
+     "legendofdefenderswiki.cfd"
+    ]
    }
   ]
  },
@@ -4576,6 +4729,18 @@
     "sites": [
      "hajimerising.wiki"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 3,
+    "base": 82.3,
+    "now": 63.7,
+    "ratio": 0.77,
+    "last": "2026-11-07",
+    "sites": [
+     "hajimerising.wiki",
+     "hajimerising.site"
+    ]
    }
   ]
  },
@@ -4602,6 +4767,11 @@
    {
     "date": "2026-11-06",
     "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 3,
     "sites": []
    }
   ]
@@ -4634,6 +4804,15 @@
     "ratio": 0.63,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 3,
+    "base": 86.3,
+    "now": 52,
+    "ratio": 0.6,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4664,6 +4843,15 @@
     "now": 22.7,
     "ratio": 0.42,
     "last": "2026-11-06",
+    "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 3,
+    "base": 84.7,
+    "now": 35.3,
+    "ratio": 0.42,
+    "last": "2026-11-07",
     "sites": []
    }
   ]
@@ -4733,6 +4921,19 @@
      "loftia-guide.wiki",
      "loftia.cn"
     ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 3,
+    "base": 66.7,
+    "now": 53,
+    "ratio": 0.79,
+    "last": "2026-11-07",
+    "sites": [
+     "loftia-guide.wiki",
+     "loftia.cn",
+     "loftiawiki.site"
+    ]
    }
   ]
  },
@@ -4777,6 +4978,15 @@
     "ratio": 0.57,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 35.7,
+    "now": 29.7,
+    "ratio": 0.83,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4798,6 +5008,17 @@
     "now": 53.3,
     "ratio": 0.58,
     "last": "2026-11-06",
+    "sites": [
+     "worldofnukes.online"
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 53,
+    "now": 60.3,
+    "ratio": 1.14,
+    "last": "2026-11-07",
     "sites": [
      "worldofnukes.online"
     ]
@@ -4823,6 +5044,11 @@
     "ratio": 0,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "sites": []
    }
   ]
  },
@@ -4845,6 +5071,15 @@
     "ratio": 0.53,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 25,
+    "now": 16.7,
+    "ratio": 0.67,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4866,6 +5101,17 @@
     "now": 44.7,
     "ratio": 1.44,
     "last": "2026-11-06",
+    "sites": [
+     "mycelariumguide.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 66.7,
+    "now": 66.3,
+    "ratio": 0.99,
+    "last": "2026-11-07",
     "sites": [
      "mycelariumguide.wiki"
     ]
@@ -4903,7 +5149,7 @@
   "prerelease": false,
   "term": "horses of hoofprint bay",
   "due": "2026-11-06",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-06",
@@ -4913,6 +5159,17 @@
     "ratio": 1.38,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 63.3,
+    "now": 97.7,
+    "ratio": 1.54,
+    "last": "2026-11-07",
+    "sites": [
+     "horsesofhoofprintbay-game.wiki"
+    ]
    }
   ]
  },
@@ -4947,8 +5204,20 @@
   "prerelease": false,
   "term": "cozy game restoration",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 51,
+    "now": 73,
+    "ratio": 1.43,
+    "last": "2026-11-07",
+    "sites": [
+     "cozygamerestoration-wiki.site"
+    ]
+   }
+  ]
  },
  "eternal palace sakura": {
   "name": "Eternal Palace Sakura",
@@ -4969,6 +5238,15 @@
     "ratio": 1,
     "last": "2026-11-06",
     "sites": []
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 47,
+    "now": 52,
+    "ratio": 1.11,
+    "last": "2026-11-07",
+    "sites": []
    }
   ]
  },
@@ -4981,7 +5259,7 @@
   "prerelease": false,
   "term": "playrooms",
   "due": "2026-11-06",
-  "status": "watch",
+  "status": "taken",
   "checks": [
    {
     "date": "2026-11-06",
@@ -4990,6 +5268,19 @@
     "now": 73.3,
     "ratio": 1.49,
     "last": "2026-11-06",
+    "sites": [
+     "playrooms.online",
+     "playrooms-game.wiki",
+     "playroomsdb.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "day": 2,
+    "base": 39.3,
+    "now": 91.3,
+    "ratio": 2.32,
+    "last": "2026-11-07",
     "sites": [
      "playrooms.online",
      "playrooms-game.wiki",
@@ -5007,8 +5298,18 @@
   "prerelease": false,
   "term": "dandys world",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 60.3,
+    "now": 80.3,
+    "ratio": 1.33,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
  },
  "clover legends": {
   "name": "clover legends",
@@ -5019,8 +5320,18 @@
   "prerelease": false,
   "term": "clover legends",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 3.7,
+    "now": 2.3,
+    "ratio": 0.64,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
  },
  "evermore high": {
   "name": "evermore high",
@@ -5031,8 +5342,18 @@
   "prerelease": false,
   "term": "evermore high",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 81.3,
+    "now": 76.7,
+    "ratio": 0.94,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
  },
  "hit bout it": {
   "name": "hit bout it",
@@ -5043,8 +5364,18 @@
   "prerelease": false,
   "term": "hit bout it",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 82.7,
+    "now": 40.7,
+    "ratio": 0.49,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
  },
  "korean convenience store": {
   "name": "korean convenience store",
@@ -5055,8 +5386,18 @@
   "prerelease": false,
   "term": "korean convenience store",
   "due": "2026-11-07",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 26,
+    "now": 18.7,
+    "ratio": 0.72,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
  },
  "tap simulator reborn": {
   "name": "Tap Simulator REBORN",
@@ -5079,6 +5420,65 @@
   "prerelease": false,
   "term": "underkeep",
   "due": "2026-11-07",
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-11-07",
+    "day": 1,
+    "base": 50,
+    "now": 78.3,
+    "ratio": 1.57,
+    "last": "2026-11-07",
+    "sites": []
+   }
+  ]
+ },
+ "roburbia": {
+  "name": "Roburbia",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-07",
+  "release": null,
+  "prerelease": false,
+  "term": "roburbia",
+  "due": "2026-11-09",
+  "status": "pending",
+  "checks": []
+ },
+ "zed zone": {
+  "name": "ZED ZONE",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-07",
+  "release": "2026-11-06",
+  "prerelease": false,
+  "term": "zed zone game",
+  "due": "2026-11-08",
+  "status": "pending",
+  "checks": []
+ },
+ "kingfisher": {
+  "name": "kingfisher",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-07",
+  "release": null,
+  "prerelease": false,
+  "term": "kingfisher",
+  "due": "2026-11-09",
+  "status": "pending",
+  "checks": []
+ },
+ "poople": {
+  "name": "poople",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-11-07",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "poople game",
+  "due": "2026-11-09",
   "status": "pending",
   "checks": []
  }
