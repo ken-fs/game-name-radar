@@ -92,7 +92,7 @@ for (const f of files) {
     rows.push({
       pushDate,
       keyword: w.keyword,
-      platform: w.platform,
+      platform: w.platform ?? "-", // 2026-11-08：TrendOracle 有的词没给平台，null 让 141 行 padEnd 崩（11-02 那次）
       kd: w.kd,
       volume: w.search_volume_estimate,
       peakIn7d: w.trend_peak && daysBetween(pushDate, w.trend_peak.date) >= -7 && w.trend_peak.daysBeforeEnd <= 0,
