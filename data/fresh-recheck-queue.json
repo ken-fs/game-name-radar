@@ -3437,6 +3437,17 @@
     "sites": [
      "justvolleyball.online"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 48.7,
+    "now": 37,
+    "ratio": 0.76,
+    "last": "2026-11-08",
+    "sites": [
+     "justvolleyball.online"
+    ]
    }
   ]
  },
@@ -4227,6 +4238,17 @@
     "sites": [
      "cut-a-rock.wiki"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 52.7,
+    "now": 51.3,
+    "ratio": 0.97,
+    "last": "2026-11-08",
+    "sites": [
+     "cut-a-rock.wiki"
+    ]
    }
   ]
  },
@@ -4388,6 +4410,23 @@
      "farttogether.xyz",
      "farttogether.io"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 35,
+    "now": 39.3,
+    "ratio": 1.12,
+    "last": "2026-11-08",
+    "sites": [
+     "farttogether.site",
+     "farttogether-wiki.site",
+     "farttogether-wiki.wiki",
+     "farttogether-game.wiki",
+     "farttogetherguide.wiki",
+     "farttogether.xyz",
+     "farttogether.io"
+    ]
    }
   ]
  },
@@ -4437,8 +4476,33 @@
     "ratio": 1.04,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 78.3,
+    "now": 92,
+    "ratio": 1.17,
+    "last": "2026-11-08",
+    "sites": []
    }
-  ]
+  ],
+  "steady": {
+   "date": "2026-11-08",
+   "ok": true,
+   "streak": 3,
+   "block": 2.56,
+   "weeks": [
+    27,
+    0,
+    19,
+    17.6,
+    6.9,
+    10.3,
+    62.7,
+    83
+   ]
+  }
  },
  "fall for brainrots": {
   "name": "fall for brainrots",
@@ -4486,6 +4550,15 @@
     "ratio": 0,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -4531,6 +4604,15 @@
     "ratio": 0,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -4567,6 +4649,11 @@
    {
     "date": "2026-11-07",
     "day": 4,
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
     "sites": []
    }
   ]
@@ -4609,6 +4696,11 @@
    {
     "date": "2026-11-07",
     "day": 1,
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
     "sites": []
    }
   ]
@@ -4694,6 +4786,17 @@
     "sites": [
      "legendofdefenderswiki.cfd"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 5,
+    "base": 16.3,
+    "now": 12,
+    "ratio": 0.73,
+    "last": "2026-11-08",
+    "sites": [
+     "legendofdefenderswiki.cfd"
+    ]
    }
   ]
  },
@@ -4741,6 +4844,18 @@
      "hajimerising.wiki",
      "hajimerising.site"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 4,
+    "base": 83.3,
+    "now": 76.3,
+    "ratio": 0.92,
+    "last": "2026-11-08",
+    "sites": [
+     "hajimerising.wiki",
+     "hajimerising.site"
+    ]
    }
   ]
  },
@@ -4772,6 +4887,11 @@
    {
     "date": "2026-11-07",
     "day": 3,
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 4,
     "sites": []
    }
   ]
@@ -4813,6 +4933,15 @@
     "ratio": 0.6,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 4,
+    "base": 88.7,
+    "now": 51,
+    "ratio": 0.58,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -4852,6 +4981,15 @@
     "now": 35.3,
     "ratio": 0.42,
     "last": "2026-11-07",
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 4,
+    "base": 84,
+    "now": 54,
+    "ratio": 0.64,
+    "last": "2026-11-08",
     "sites": []
    }
   ]
@@ -4934,6 +5072,19 @@
      "loftia.cn",
      "loftiawiki.site"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 4,
+    "base": 73,
+    "now": 53.7,
+    "ratio": 0.74,
+    "last": "2026-11-08",
+    "sites": [
+     "loftia-guide.wiki",
+     "loftia.cn",
+     "loftiawiki.site"
+    ]
    }
   ]
  },
@@ -4987,6 +5138,15 @@
     "ratio": 0.83,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 32.3,
+    "now": 29.3,
+    "ratio": 0.91,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -5022,6 +5182,17 @@
     "sites": [
      "worldofnukes.online"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 92,
+    "now": 67,
+    "ratio": 0.73,
+    "last": "2026-11-08",
+    "sites": [
+     "worldofnukes.online"
+    ]
    }
   ]
  },
@@ -5048,6 +5219,15 @@
    {
     "date": "2026-11-07",
     "day": 2,
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 0,
+    "now": 0,
+    "ratio": 0,
+    "last": "2026-11-08",
     "sites": []
    }
   ]
@@ -5080,6 +5260,15 @@
     "ratio": 0.67,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 19,
+    "now": 19,
+    "ratio": 1,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -5092,7 +5281,7 @@
   "prerelease": false,
   "term": "mycelarium",
   "due": "2026-11-06",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-06",
@@ -5112,6 +5301,17 @@
     "now": 66.3,
     "ratio": 0.99,
     "last": "2026-11-07",
+    "sites": [
+     "mycelariumguide.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 30,
+    "now": 57,
+    "ratio": 1.9,
+    "last": "2026-11-08",
     "sites": [
      "mycelariumguide.wiki"
     ]
@@ -5216,6 +5416,17 @@
     "sites": [
      "cozygamerestoration-wiki.site"
     ]
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 53,
+    "now": 45.7,
+    "ratio": 0.86,
+    "last": "2026-11-08",
+    "sites": [
+     "cozygamerestoration-wiki.site"
+    ]
    }
   ]
  },
@@ -5247,6 +5458,18 @@
     "ratio": 1.11,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 3,
+    "base": 48.7,
+    "now": 26.7,
+    "ratio": 0.55,
+    "last": "2026-11-08",
+    "sites": [
+     "eternal-palace-sakura.wiki",
+     "eternalpalacesakura-game.wiki"
+    ]
    }
   ]
  },
@@ -5308,6 +5531,15 @@
     "ratio": 1.33,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 60.3,
+    "now": 84.3,
+    "ratio": 1.4,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -5329,6 +5561,15 @@
     "now": 2.3,
     "ratio": 0.64,
     "last": "2026-11-07",
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 3.7,
+    "now": 5.3,
+    "ratio": 1.45,
+    "last": "2026-11-08",
     "sites": []
    }
   ]
@@ -5352,6 +5593,15 @@
     "ratio": 0.94,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 59,
+    "now": 82.3,
+    "ratio": 1.4,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -5373,6 +5623,15 @@
     "now": 40.7,
     "ratio": 0.49,
     "last": "2026-11-07",
+    "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 17.7,
+    "now": 9.3,
+    "ratio": 0.53,
+    "last": "2026-11-08",
     "sites": []
    }
   ]
@@ -5396,6 +5655,15 @@
     "ratio": 0.72,
     "last": "2026-11-07",
     "sites": []
+   },
+   {
+    "date": "2026-11-08",
+    "day": 2,
+    "base": 62.7,
+    "now": 69.7,
+    "ratio": 1.11,
+    "last": "2026-11-08",
+    "sites": []
    }
   ]
  },
@@ -5408,8 +5676,21 @@
   "prerelease": false,
   "term": "tap simulator reborn",
   "due": "2026-11-08",
-  "status": "pending",
-  "checks": []
+  "status": "taken",
+  "checks": [
+   {
+    "date": "2026-11-08",
+    "day": 1,
+    "base": 25.3,
+    "now": 39,
+    "ratio": 1.54,
+    "last": "2026-11-08",
+    "sites": [
+     "tap-simulator-reborn.wiki",
+     "tapsimulator-reborn.wiki"
+    ]
+   }
+  ]
  },
  "underkeep": {
   "name": "Underkeep",
@@ -5454,8 +5735,18 @@
   "prerelease": false,
   "term": "zed zone game",
   "due": "2026-11-08",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-08",
+    "day": 1,
+    "base": 2,
+    "now": 2,
+    "ratio": 1,
+    "last": "2026-11-08",
+    "sites": []
+   }
+  ]
  },
  "kingfisher": {
   "name": "kingfisher",
@@ -5479,6 +5770,42 @@
   "license": null,
   "term": "poople game",
   "due": "2026-11-09",
+  "status": "pending",
+  "checks": []
+ },
+ "survive your ideas": {
+  "name": "Survive Your Ideas",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-08",
+  "release": null,
+  "prerelease": false,
+  "term": "survive your ideas",
+  "due": "2026-11-10",
+  "status": "pending",
+  "checks": []
+ },
+ "illegal soccer": {
+  "name": "illegal soccer",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-08",
+  "release": null,
+  "prerelease": false,
+  "term": "illegal soccer",
+  "due": "2026-11-10",
+  "status": "pending",
+  "checks": []
+ },
+ "objects of terror": {
+  "name": "objects of terror",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-08",
+  "release": null,
+  "prerelease": false,
+  "term": "objects of terror",
+  "due": "2026-11-10",
   "status": "pending",
   "checks": []
  }

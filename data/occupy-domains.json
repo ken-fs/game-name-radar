@@ -1223,7 +1223,7 @@
  },
  "projectcarl.wiki": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "animemysterious.wiki": {
   "available": false,
@@ -1233,7 +1233,7 @@
  },
  "projectcarlgame.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "projectcarlwiki.com": {
   "available": true,
@@ -2549,11 +2549,11 @@
   "available": false,
   "registered": "2024-02-28",
   "ns": "NS-CLOUD-C1.GOOGLEDOMAINS.COM,NS-CLOUD-C2.GOOGLEDOMAINS.COM,NS-CLOUD-C3.GOOGLEDOMAINS.COM,NS-CLOUD-C4.GOOGLEDOMAINS.COM",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "mycopunkwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "akibalostgame.com": {
   "available": true,
@@ -3117,17 +3117,15 @@
   "available": false,
   "registered": "2026-10-25",
   "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "tapetotapegame.com": {
-  "available": false,
-  "registered": "2020-10-17",
-  "ns": "ABDULLAH.NS.CLOUDFLARE.COM,GRACE.NS.CLOUDFLARE.COM",
-  "checkedAt": "2026-11-01"
+  "available": null,
+  "checkedAt": "2026-11-08"
  },
  "tapetotapewiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "moonsweepers.wiki": {
   "available": false,
@@ -3247,7 +3245,7 @@
  },
  "rekawiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "rekagame.com": {
   "available": false,
@@ -3343,7 +3341,7 @@
  },
  "geoplaneticalwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "anomalithgame.com": {
   "available": true,
@@ -3351,7 +3349,7 @@
  },
  "anomalithwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "ragdollsandbox.wiki": {
   "available": true,
@@ -3381,25 +3379,25 @@
   "available": false,
   "registered": "2026-10-30",
   "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "deadlydaysroadtripgame.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "deadlydaysroadtripwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "roadtrip.wiki": {
   "available": true,
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "roadtripgame.com": {
   "available": false,
   "registered": "2013-10-23",
   "ns": "DOMAIN-FOR-SALE.HUGEDOMAINSDNS.COM,FORSALE.HUGEDOMAINSDNS.COM",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-08"
  },
  "roadtripwiki.com": {
   "available": true,
@@ -3672,16 +3670,18 @@
   "checkedAt": "2026-11-07"
  },
  "silica.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "silicagame.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": false,
+  "registered": "2021-12-06",
+  "ns": "NS1.BISTUDIO.CZ,NS2.BISTUDIO.CZ,NS3.BISTUDIO.CZ",
+  "checkedAt": "2026-11-08"
  },
  "silicawiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "potatoplease.wiki": {
   "available": false,
@@ -3726,20 +3726,22 @@
   "checkedAt": "2026-11-07"
  },
  "beatforspeedwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "gravhounds.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": false,
+  "registered": "2026-08-26",
+  "ns": "uriah.ns.cloudflare.com,barbara.ns.cloudflare.com",
+  "checkedAt": "2026-11-08"
  },
  "gravhoundsgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "gravhoundswiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "huntingsimulator3.wiki": {
   "available": false,
@@ -3782,43 +3784,101 @@
   "checkedAt": "2026-11-07"
  },
  "voidbreakerwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "sushiamo.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "sushiamogame.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "sushiamowiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": true,
+  "checkedAt": "2026-11-08"
  },
  "lightyearfrontier.wiki": {
   "available": null,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-08"
  },
  "lightyearfrontiergame.com": {
   "available": null,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-08"
  },
  "lightyearfrontierwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-08"
  },
  "canemall.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-07"
+  "available": false,
+  "registered": "2026-10-31",
+  "ns": "jade.ns.cloudflare.com,kellen.ns.cloudflare.com",
+  "checkedAt": "2026-11-08"
  },
  "canemallgame.com": {
   "available": null,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-08"
  },
  "canemallwiki.com": {
   "available": true,
   "checkedAt": "2026-11-07"
+ },
+ "worship.wiki": {
+  "available": false,
+  "registered": "2026-01-19",
+  "ns": "dns1.registrar-servers.com,dns2.registrar-servers.com",
+  "checkedAt": "2026-11-08"
+ },
+ "worshipgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-08"
+ },
+ "worshipwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "messagefromaliensgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "messagefromaliens.wiki": {
+  "available": false,
+  "registered": "2026-11-02",
+  "ns": "paislee.ns.cloudflare.com,nicolas.ns.cloudflare.com",
+  "checkedAt": "2026-11-08"
+ },
+ "horsesofhoofprintbay.wiki": {
+  "available": false,
+  "registered": "2026-11-05",
+  "ns": "elijah.ns.cloudflare.com,annabel.ns.cloudflare.com",
+  "checkedAt": "2026-11-08"
+ },
+ "messagefromalienswiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "horsesofhoofprintbaywiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "horsesofhoofprintbaygame.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "dummylab.wiki": {
+  "available": false,
+  "registered": "2026-10-23",
+  "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
+  "checkedAt": "2026-11-08"
+ },
+ "dummylabgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
+ },
+ "dummylabwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-08"
  }
 }

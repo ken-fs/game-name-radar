@@ -1,8 +1,8 @@
 {
  "_usage": {
   "month": "2026-11",
-  "ddg": 28,
-  "tavily": 7
+  "ddg": 34,
+  "tavily": 9
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -27,5 +27,17 @@
   "firstPicked": "2026-11-06",
   "lastPicked": "2026-11-06",
   "buy": "tapsimulatorreborn.site"
+ },
+ "10323282681": {
+  "name": "Roburbia",
+  "firstPicked": "2026-11-08",
+  "lastPicked": "2026-11-08",
+  "buy": "roburbia.com"
+ },
+ "9376104520": {
+  "name": "Objects of Terror",
+  "firstPicked": "2026-11-08",
+  "lastPicked": "2026-11-08",
+  "buy": "objectsofterror.com"
  }
 }
