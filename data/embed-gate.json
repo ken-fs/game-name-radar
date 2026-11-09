@@ -46,5 +46,11 @@
     "reason": "官网已更名 Crowdict；真实 SERP 前 10 基本为完整同主题 EMD 站，未获开源或书面嵌入授权（2026-11-06 人工复核）",
     "at": "2026-11-06",
     "by": "manual"
+  },
+  "poople": {
+    "verdict": "弃",
+    "reason": "未查到 GD/GM/Scratch 授权嵌源，官网 poople.io 为独立日更词游戏，同名站已多（用户飞书拍板 2026-11-08）",
+    "at": "2026-11-08",
+    "by": "manual"
   }
 }

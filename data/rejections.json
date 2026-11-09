@@ -2,6 +2,18 @@
   "_comment": "否决账本。新增字段：name / platform(roblox|steam|other) / category(demand|structural|pre-release) / decidedAt(YYYY-MM-DD) / decidedVerdict / verdict / reason / status(active|flipped|manual|closed) / nextRecheck；pre-release 另填 releaseDate。active 才自动复测，flipped 等人工深核，manual 只留档，closed 已结束。history 由脚本维护。",
   "decisions": [
     {
+      "name": "Roburbia",
+      "platform": "roblox",
+      "category": "demand",
+      "decidedAt": "2026-11-08",
+      "decidedVerdict": "🟡 观察",
+      "verdict": "🟡 观察",
+      "reason": "官方 4684 CCU、增长强且 roburbia.wiki 仅 16 个薄页，但独立需求只有 codes 两种写法与 how to get a car；Trends 为低刻度上界，公开来源未确认码或兑换入口，YouTube 本周 9 频道 / 今日爆发为混入其他游戏后的高估。暂不买 roburbia.com、不建完整 Wiki（见 GAME-SCAN-2026-11-08）",
+      "status": "active",
+      "nextRecheck": "2026-11-11",
+      "history": []
+    },
+    {
       "name": "Noillirk",
       "platform": "other",
       "category": "structural",
@@ -384,7 +396,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-09",
+      "nextRecheck": "2026-11-10",
       "history": [
         {
           "date": "2026-11-02",
@@ -427,9 +439,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "其他平台复测没有返回有效判决"
+        },
+        {
+          "date": "2026-11-09",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "其他平台复测没有返回有效判决"
         }
       ],
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "Poké Jam",
@@ -624,17 +642,25 @@
       "category": "demand",
       "decidedAt": "2026-10-10",
       "decidedVerdict": "❌",
-      "verdict": "❌",
+      "verdict": "❌ 放弃",
       "reason": "低 CCU、攻略需求弱；只保留低成本复测",
-      "status": "active",
-      "nextRecheck": "2026-11-09",
-      "lastChecked": "2026-10-30",
+      "status": "closed",
+      "nextRecheck": null,
+      "lastChecked": "2026-11-09",
       "history": [
         {
           "date": "2026-10-30",
           "from": "❌",
           "to": "❌",
           "outcome": "stable"
+        },
+        {
+          "date": "2026-11-09",
+          "from": "❌",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 24,
+          "guideWords": 0
         }
       ]
     },

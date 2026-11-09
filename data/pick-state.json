@@ -2,7 +2,7 @@
  "_usage": {
   "month": "2026-11",
   "ddg": 34,
-  "tavily": 9
+  "tavily": 17
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -31,7 +31,7 @@
  "10323282681": {
   "name": "Roburbia",
   "firstPicked": "2026-11-08",
-  "lastPicked": "2026-11-08",
+  "lastPicked": "2026-11-09",
   "buy": "roburbia.com"
  },
  "9376104520": {
@@ -39,5 +39,17 @@
   "firstPicked": "2026-11-08",
   "lastPicked": "2026-11-08",
   "buy": "objectsofterror.com"
+ },
+ "10768652372": {
+  "name": "GloryBound",
+  "firstPicked": "2026-11-09",
+  "lastPicked": "2026-11-09",
+  "buy": "glorybound.site"
+ },
+ "10767537135": {
+  "name": "Evermore High",
+  "firstPicked": "2026-11-09",
+  "lastPicked": "2026-11-09",
+  "buy": "evermorehigh.site"
  }
 }

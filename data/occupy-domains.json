@@ -3120,8 +3120,10 @@
   "checkedAt": "2026-11-08"
  },
  "tapetotapegame.com": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": false,
+  "registered": "2020-10-17",
+  "ns": "ABDULLAH.NS.CLOUDFLARE.COM,GRACE.NS.CLOUDFLARE.COM",
+  "checkedAt": "2026-11-09"
  },
  "tapetotapewiki.com": {
   "available": true,
@@ -3345,7 +3347,7 @@
  },
  "anomalithgame.com": {
   "available": true,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-11-09"
  },
  "anomalithwiki.com": {
   "available": true,
@@ -3401,7 +3403,7 @@
  },
  "roadtripwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-11-09"
  },
  "ghostinthesqldata.wiki": {
   "available": false,
@@ -3432,8 +3434,10 @@
   "checkedAt": "2026-11-02"
  },
  "finalsweek.wiki": {
-  "available": true,
-  "checkedAt": "2026-11-02"
+  "available": false,
+  "registered": "2026-11-02",
+  "ns": "dan.ns.cloudflare.com,serena.ns.cloudflare.com",
+  "checkedAt": "2026-11-09"
  },
  "epicseven.wiki": {
   "available": false,
@@ -3465,13 +3469,13 @@
  },
  "finalsweekwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-11-09"
  },
  "finalsweekgame.com": {
   "available": false,
   "registered": "2026-06-29",
   "ns": "DNS106.OVH.NET,NS106.OVH.NET",
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-11-09"
  },
  "sulfurgame.com": {
   "available": false,
@@ -3800,16 +3804,18 @@
   "checkedAt": "2026-11-08"
  },
  "lightyearfrontier.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": false,
+  "registered": "2026-11-05",
+  "ns": "paislee.ns.cloudflare.com,nicolas.ns.cloudflare.com",
+  "checkedAt": "2026-11-09"
  },
  "lightyearfrontiergame.com": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": true,
+  "checkedAt": "2026-11-09"
  },
  "lightyearfrontierwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": true,
+  "checkedAt": "2026-11-09"
  },
  "canemall.wiki": {
   "available": false,
@@ -3818,8 +3824,8 @@
   "checkedAt": "2026-11-08"
  },
  "canemallgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": true,
+  "checkedAt": "2026-11-09"
  },
  "canemallwiki.com": {
   "available": true,
@@ -3832,8 +3838,8 @@
   "checkedAt": "2026-11-08"
  },
  "worshipgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-08"
+  "available": true,
+  "checkedAt": "2026-11-09"
  },
  "worshipwiki.com": {
   "available": true,
@@ -3880,5 +3886,43 @@
  "dummylabwiki.com": {
   "available": true,
   "checkedAt": "2026-11-08"
+ },
+ "hullrupture.wiki": {
+  "available": false,
+  "registered": "2026-10-30",
+  "ns": "jade.ns.cloudflare.com,kellen.ns.cloudflare.com",
+  "checkedAt": "2026-11-09"
+ },
+ "hullrupturegame.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "roadrash30thanniversary.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "hullrupturewiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "roadrash30thanniversarygame.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "30thanniversary.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "roadrash30thanniversarywiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "30thanniversarywiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
+ },
+ "30thanniversarygame.com": {
+  "available": true,
+  "checkedAt": "2026-11-09"
  }
 }
