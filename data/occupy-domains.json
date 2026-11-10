@@ -3354,12 +3354,14 @@
   "checkedAt": "2026-11-08"
  },
  "ragdollsandbox.wiki": {
-  "available": true,
-  "checkedAt": "2026-11-03"
+  "available": false,
+  "registered": "2026-11-06",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-10"
  },
  "ragdollsandboxgame.com": {
   "available": true,
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "ragdollsandboxwiki.com": {
   "available": true,
@@ -3491,19 +3493,19 @@
   "available": false,
   "registered": "2026-09-25",
   "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "terriblelizardsgame.com": {
   "available": false,
   "registered": "2023-11-25",
   "ns": "DNS1.P08.NSONE.NET,DNS2.P08.NSONE.NET,DNS3.P08.NSONE.NET,DNS4.P08.NSONE.NET,NS01.SQUARESPACEDNS.COM,NS02.SQUARESPACEDNS.COM,NS03.SQUARESPACEDNS.COM,NS04.SQUARESPACEDNS.COM",
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "terriblelizardswiki.com": {
   "available": false,
   "registered": "2026-11-02",
   "ns": "GABRIELLA.NS.CLOUDFLARE.COM,PIERS.NS.CLOUDFLARE.COM",
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "queensdomain.wiki": {
   "available": false,
@@ -3519,7 +3521,7 @@
   "available": false,
   "registered": "2026-10-23",
   "ns": "cruz.ns.cloudflare.com,vick.ns.cloudflare.com",
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "queensdomaingame.com": {
   "available": true,
@@ -3531,11 +3533,11 @@
  },
  "ripitcardcollectorgame.com": {
   "available": true,
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-10"
  },
  "ripitcardcollectorwiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-03"
+  "available": null,
+  "checkedAt": "2026-11-10"
  },
  "selkiessalvageco.wiki": {
   "available": true,
@@ -3924,5 +3926,93 @@
  "30thanniversarygame.com": {
   "available": true,
   "checkedAt": "2026-11-09"
+ },
+ "escapeacademy2back2school.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "escapeacademy2back2schoolgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "escapeacademy2back2schoolwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "back2school.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "back2schoolgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "back2schoolwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "underkeep.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "underkeepgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "underkeepwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "cleanstart.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-10"
+ },
+ "cleanstartgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-10"
+ },
+ "cleanstartwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-10"
+ },
+ "countyoffortune.wiki": {
+  "available": false,
+  "registered": "2026-10-30",
+  "ns": "camilo.ns.cloudflare.com,novalee.ns.cloudflare.com",
+  "checkedAt": "2026-11-10"
+ },
+ "countyoffortunegame.com": {
+  "available": true,
+  "checkedAt": "2026-11-10"
+ },
+ "psychosleuth.wiki": {
+  "available": false,
+  "registered": "2026-11-06",
+  "ns": "lynn.ns.cloudflare.com,josephine.ns.cloudflare.com",
+  "checkedAt": "2026-11-10"
+ },
+ "countyoffortunewiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-10"
+ },
+ "psychosleuthgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "psychosleuthwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "cozygamerestoration.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "cozygamerestorationgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
+ },
+ "cozygamerestorationwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-10"
  }
 }
