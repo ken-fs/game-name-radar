@@ -2,7 +2,7 @@
  "_usage": {
   "month": "2026-11",
   "ddg": 34,
-  "tavily": 23
+  "tavily": 27
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -31,7 +31,7 @@
  "10323282681": {
   "name": "Roburbia",
   "firstPicked": "2026-11-08",
-  "lastPicked": "2026-11-10",
+  "lastPicked": "2026-11-11",
   "buy": "roburbia.com"
  },
  "9376104520": {
@@ -51,5 +51,11 @@
   "firstPicked": "2026-11-09",
   "lastPicked": "2026-11-09",
   "buy": "evermorehigh.site"
+ },
+ "10765476543": {
+  "name": "State Connect",
+  "firstPicked": "2026-11-11",
+  "lastPicked": "2026-11-11",
+  "buy": "stateconnect.site"
  }
 }

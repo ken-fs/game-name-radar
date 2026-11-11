@@ -4734,6 +4734,11 @@
     "date": "2026-11-10",
     "day": 4,
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "sites": []
    }
   ]
  },
@@ -5603,6 +5608,15 @@
     "ratio": 0.65,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "base": 52.7,
+    "now": 19,
+    "ratio": 0.36,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -5758,6 +5772,15 @@
     "ratio": 1.21,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "base": 61.7,
+    "now": 70,
+    "ratio": 1.14,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -5806,6 +5829,15 @@
     "now": 2.7,
     "ratio": 0.73,
     "last": "2026-11-10",
+    "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "base": 3.7,
+    "now": 1.3,
+    "ratio": 0.36,
+    "last": "2026-11-11",
     "sites": []
    }
   ]
@@ -5896,6 +5928,15 @@
     "ratio": 1.09,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "base": 7.3,
+    "now": 4.3,
+    "ratio": 0.59,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -5908,7 +5949,7 @@
   "prerelease": false,
   "term": "korean convenience store",
   "due": "2026-11-07",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-07",
@@ -5944,6 +5985,15 @@
     "now": 20,
     "ratio": 1.2,
     "last": "2026-11-10",
+    "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 5,
+    "base": 39,
+    "now": 63.3,
+    "ratio": 1.62,
+    "last": "2026-11-11",
     "sites": []
    }
   ]
@@ -6076,6 +6126,15 @@
     "ratio": 0.87,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 3,
+    "base": 76,
+    "now": 66,
+    "ratio": 0.87,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -6108,6 +6167,15 @@
     "ratio": 1.05,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 3,
+    "base": 58.7,
+    "now": 62,
+    "ratio": 1.06,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -6133,6 +6201,19 @@
      "playsurviveyourideas.wiki",
      "surviveyourideasgame.wiki"
     ]
+   },
+   {
+    "date": "2026-11-11",
+    "day": 2,
+    "base": 76.7,
+    "now": 64,
+    "ratio": 0.83,
+    "last": "2026-11-11",
+    "sites": [
+     "playsurviveyourideas.wiki",
+     "surviveyourideasgame.wiki",
+     "surviveyourideas.org"
+    ]
    }
   ]
  },
@@ -6154,6 +6235,15 @@
     "now": 43.7,
     "ratio": 0.87,
     "last": "2026-11-10",
+    "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 2,
+    "base": 38.3,
+    "now": 25.3,
+    "ratio": 0.66,
+    "last": "2026-11-11",
     "sites": []
    }
   ]
@@ -6177,6 +6267,15 @@
     "ratio": 0.98,
     "last": "2026-11-10",
     "sites": []
+   },
+   {
+    "date": "2026-11-11",
+    "day": 2,
+    "base": 84,
+    "now": 74,
+    "ratio": 0.88,
+    "last": "2026-11-11",
+    "sites": []
    }
   ]
  },
@@ -6189,6 +6288,103 @@
   "prerelease": false,
   "term": "glorybound",
   "due": "2026-11-11",
+  "status": "pending",
+  "checks": []
+ },
+ "state connect": {
+  "name": "State Connect",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-11",
+  "release": null,
+  "prerelease": false,
+  "term": "state connect",
+  "due": "2026-11-13",
+  "status": "pending",
+  "checks": []
+ },
+ "dreamworks shrek 2 remastered": {
+  "name": "DreamWorks Shrek 2 Remastered",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-11",
+  "release": "2026-11-10",
+  "prerelease": false,
+  "term": "dreamworks shrek 2 remastered",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "warhammer survivors": {
+  "name": "Warhammer Survivors",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-11",
+  "release": "2026-11-10",
+  "prerelease": false,
+  "term": "warhammer survivors",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "booster pack heroes": {
+  "name": "Booster Pack Heroes",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-11",
+  "release": "2026-11-10",
+  "prerelease": false,
+  "term": "booster pack heroes",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "never sort by color": {
+  "name": "Never Sort By Color",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-11",
+  "release": "2026-11-10",
+  "prerelease": false,
+  "term": "never sort by color",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "annihilated": {
+  "name": "Annihilated",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-11",
+  "release": "2026-11-10",
+  "prerelease": false,
+  "term": "annihilated",
+  "due": "2026-11-12",
+  "status": "pending",
+  "checks": []
+ },
+ "ro bass fishing": {
+  "name": "ro bass fishing",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-11",
+  "release": null,
+  "prerelease": false,
+  "term": "ro bass fishing",
+  "due": "2026-11-13",
+  "status": "pending",
+  "checks": []
+ },
+ "cork7": {
+  "name": "cork7",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-11-11",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "cork7 game",
+  "due": "2026-11-13",
   "status": "pending",
   "checks": []
  }

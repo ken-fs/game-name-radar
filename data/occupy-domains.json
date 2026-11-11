@@ -3364,8 +3364,8 @@
   "checkedAt": "2026-11-10"
  },
  "ragdollsandboxwiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-04"
+  "available": null,
+  "checkedAt": "2026-11-11"
  },
  "raidersofthenorth.wiki": {
   "available": true,
@@ -3536,8 +3536,8 @@
   "checkedAt": "2026-11-10"
  },
  "ripitcardcollectorwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "selkiessalvageco.wiki": {
   "available": true,
@@ -3928,40 +3928,44 @@
   "checkedAt": "2026-11-09"
  },
  "escapeacademy2back2school.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": false,
+  "registered": "2026-11-07",
+  "ns": "harlee.ns.cloudflare.com,edward.ns.cloudflare.com",
+  "checkedAt": "2026-11-11"
  },
  "escapeacademy2back2schoolgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "escapeacademy2back2schoolwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "back2school.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "back2schoolgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "back2schoolwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "underkeep.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": false,
+  "registered": "2026-10-31",
+  "ns": "kayden.ns.cloudflare.com,athena.ns.cloudflare.com",
+  "checkedAt": "2026-11-11"
  },
  "underkeepgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "underkeepwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "cleanstart.wiki": {
   "available": true,
@@ -3996,23 +4000,105 @@
   "checkedAt": "2026-11-10"
  },
  "psychosleuthgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "psychosleuthwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": true,
+  "checkedAt": "2026-11-11"
  },
  "cozygamerestoration.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-10"
+  "available": false,
+  "registered": "2026-08-12",
+  "ns": "drew.ns.cloudflare.com,aida.ns.cloudflare.com",
+  "checkedAt": "2026-11-11"
  },
  "cozygamerestorationgame.com": {
   "available": null,
-  "checkedAt": "2026-11-10"
+  "checkedAt": "2026-11-11"
  },
  "cozygamerestorationwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-10"
+  "checkedAt": "2026-11-11"
+ },
+ "findtheneedle.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "findtheneedlegame.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "findtheneedlewiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "pianoglow.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "pianoglowgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "pianoglowwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "zedzone.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "zedzonegame.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "zedzonewiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "ruinsofmythdrannor.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-11"
+ },
+ "ruinsofmythdrannorgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-11"
+ },
+ "hunger.wiki": {
+  "available": false,
+  "registered": "2026-04-21",
+  "ns": "dns1.registrar-servers.com,dns2.registrar-servers.com",
+  "checkedAt": "2026-11-11"
+ },
+ "ruinsofmythdrannorwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-11"
+ },
+ "hungergame.com": {
+  "available": false,
+  "registered": "2010-04-14",
+  "ns": "NS3.AFTERNIC.COM,NS4.AFTERNIC.COM",
+  "checkedAt": "2026-11-11"
+ },
+ "worstclassever.wiki": {
+  "available": false,
+  "registered": "2026-10-27",
+  "ns": "stanley.ns.cloudflare.com,rayne.ns.cloudflare.com",
+  "checkedAt": "2026-11-11"
+ },
+ "hungerwiki.com": {
+  "available": false,
+  "registered": "2013-06-29",
+  "ns": "NS.BUYDOMAINS.COM,THIS-DOMAIN-FOR-SALE.COM",
+  "checkedAt": "2026-11-11"
+ },
+ "worstclassevergame.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
+ },
+ "worstclasseverwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-11"
  }
 }

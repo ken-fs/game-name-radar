@@ -10,8 +10,19 @@
       "verdict": "🟡 观察",
       "reason": "官方 4684 CCU、增长强且 roburbia.wiki 仅 16 个薄页，但独立需求只有 codes 两种写法与 how to get a car；Trends 为低刻度上界，公开来源未确认码或兑换入口，YouTube 本周 9 频道 / 今日爆发为混入其他游戏后的高估。暂不买 roburbia.com、不建完整 Wiki（见 GAME-SCAN-2026-11-08）",
       "status": "active",
-      "nextRecheck": "2026-11-11",
-      "history": []
+      "nextRecheck": "2026-11-15",
+      "history": [
+        {
+          "date": "2026-11-11",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 7545,
+          "trend": "no-data",
+          "guideWords": 3
+        }
+      ],
+      "lastChecked": "2026-11-11"
     },
     {
       "name": "Noillirk",
@@ -396,7 +407,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-11",
+      "nextRecheck": "2026-11-12",
       "history": [
         {
           "date": "2026-11-02",
@@ -451,9 +462,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "其他平台复测没有返回有效判决"
+        },
+        {
+          "date": "2026-11-11",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "Command failed: /Users/sh/.nvm/versions/node/v22.22.0/bin/node radar.mjs check Tree Appreciator\n(node:77689) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experim"
         }
       ],
-      "lastChecked": "2026-11-10"
+      "lastChecked": "2026-11-11"
     },
     {
       "name": "Poké Jam",
@@ -958,7 +975,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具需求 0、CCU 样本 0；投入分 70 只来自旧 SERP 和域名窗口，没人搜攻略（见 GAME-DECISIONS.md 11-04）",
       "status": "active",
-      "nextRecheck": "2026-11-11",
+      "nextRecheck": "2026-11-18",
       "history": [
         {
           "date": "2026-11-07",
@@ -967,9 +984,17 @@
           "outcome": "stable",
           "ccu": 10,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-11",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 6,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-07"
+      "lastChecked": "2026-11-11"
     },
     {
       "name": "Queen's Domain",
@@ -980,7 +1005,7 @@
       "verdict": "❌ 放弃",
       "reason": "联想 4 条且一半是填字游戏义，工具需求 0（见 GAME-DECISIONS.md 11-04）",
       "status": "active",
-      "nextRecheck": "2026-11-11",
+      "nextRecheck": "2026-11-18",
       "history": [
         {
           "date": "2026-11-07",
@@ -989,9 +1014,17 @@
           "outcome": "stable",
           "ccu": 7905,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-11",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 7895,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-07"
+      "lastChecked": "2026-11-11"
     },
     {
       "name": "GRAVHOUNDS",
@@ -1035,7 +1068,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具需求只有 1 条（value），名字归因失败（Godzilla 泛词）（见 GAME-DECISIONS.md 11-04）",
       "status": "active",
-      "nextRecheck": "2026-11-11",
+      "nextRecheck": "2026-11-18",
       "history": [
         {
           "date": "2026-11-07",
@@ -1044,9 +1077,17 @@
           "outcome": "stable",
           "ccu": 2309,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-11",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 1493,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-07"
+      "lastChecked": "2026-11-11"
     },
     {
       "name": "Hull Rupture",
