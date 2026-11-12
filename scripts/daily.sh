@@ -29,6 +29,12 @@ TODAY=$(date +%F)                          # 报告文件名用的本地日期
 BJ_HM=$(date +%H%M)
 DONE="$LOGDIR/game-radar-ok-$TODAY"
 LAST_SLOT_HOUR=18
+# 推送范围（2026-11-12 用户定：「codes 推荐还是要的，其他的不要推荐出来」）：
+#   codes（默认）= 整条管线照跑（codes 候选来自 radar.mjs 的 verdict-log + fresh-recheck 队列），但只推 🎯 codes 站推荐和「没跑成」故障；
+#                 日报 / 梗游戏 🚨 / 可玩游戏 / 🟢 可抢域名 / 否决翻转 / 新词复查 GO 都静音（scripts/notify.mjs 的 NOTIFY_MUTE），嵌壳闸门不跑（不出待判卡片）
+#   all         = 全部照推（以前的样子）。临时全推：GAME_RADAR_PUSH=all bash scripts/daily.sh --force
+GAME_RADAR_PUSH="${GAME_RADAR_PUSH:-codes}"
+if [ "$GAME_RADAR_PUSH" = "codes" ]; then export NOTIFY_MUTE=1; fi
 mkdir -p "$LOGDIR"
 exec >>"$LOGDIR/game-radar.log" 2>&1
 cd "$HERE" || exit 1
@@ -98,7 +104,7 @@ echo "$verdict"
 
 if [[ "$verdict" != OK* ]]; then
   if [ "$(date +%H)" -ge "$LAST_SLOT_HOUR" ]; then
-    ship_notify "每日任务未跑成" "游戏雷达：$verdict。日志：Ship/out/logs/game-radar.log"
+    NOTIFY_MUTE=0 ship_notify "每日任务未跑成" "游戏雷达：$verdict。日志：Ship/out/logs/game-radar.log"
   fi
   exit 1
 fi
@@ -139,12 +145,12 @@ RADAR_NOTIFY=1 "$NODE" radar.mjs 2>&1 | grep --line-buffered -v -e EnvHttpProxyA
 # 7c. 嵌壳闸门（2026-11-04 加：原来是 Grok Bot 工作日 10:30 人工日筛，11-04 起从 Grok 撤下改本机跑；Grok 仍负责外链提交）
 #     当天 RADAR-PLAYABLE 的 🟢 → 判过的沿用 data/embed-gate.json；舰队已有 / 大厂 IP / GAME-DECISIONS 判过不做 自动标；
 #     其余标「待判」→ 写回同一份报告的「## 嵌壳闸门」小节，站群后台「今天要你拍板」从那里读。纯本地，几秒，失败不挡管线。
-"$NODE" lib/embed-gate.mjs 2>&1 | tail -2
+if [ "$GAME_RADAR_PUSH" = "codes" ]; then echo "嵌壳闸门：推送范围 codes，不跑（不出待判卡片）"; else "$NODE" lib/embed-gate.mjs 2>&1 | tail -2; fi
 
 # 7.5 每天挑「今天能做的 codes 站」（2026-11-02 用户定：找到能做的就发、不限数量，没有就不做）：
 #     读当天 verdict-log + 复查 GO → Roblox / 联想 / SERP / 域名四道闸 → 推飞书「请买 X」或「今天没有」。
 #     只用免费接口（DDG 直连优先，Tavily 免费档兜底且有月上限），约 3–8 分钟；失败不挡管线。
-"$NODE" --env-file-if-exists=.env lib/codes-pick.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings | tail -5
+NOTIFY_MUTE=0 "$NODE" --env-file-if-exists=.env lib/codes-pick.mjs --notify 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings | tail -5
 
 # 8. occupy / 否决账本数据入库（2026-10-16 加）：管线每天改、以前没人 commit → 巡检第二天必报「改了没 commit」。
 #    跑完顺手提交 + 推送（失败不挡管线，巡检会抓）。

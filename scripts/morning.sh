@@ -32,5 +32,6 @@ fi
 
 export NODE_USE_ENV_PROXY=1 https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897
 cd "$HERE" || exit 1
-"$NODE" --env-file-if-exists=.env radar.mjs --morning 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings
+# 2026-11-12 用户：游戏雷达只要 codes 推荐，早间扫描「🆕 早间扫描」不推（照跑、照写日志）；要恢复推送把 NOTIFY_MUTE=1 去掉
+NOTIFY_MUTE=1 "$NODE" --env-file-if-exists=.env radar.mjs --morning 2>&1 | grep --line-buffered -v -e EnvHttpProxyAgent -e trace-warnings
 echo "=== $(date '+%F %T') 完成"
