@@ -2,7 +2,7 @@
  "_usage": {
   "month": "2026-11",
   "ddg": 34,
-  "tavily": 27
+  "tavily": 35
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -31,7 +31,7 @@
  "10323282681": {
   "name": "Roburbia",
   "firstPicked": "2026-11-08",
-  "lastPicked": "2026-11-11",
+  "lastPicked": "2026-11-12",
   "buy": "roburbia.com"
  },
  "9376104520": {
@@ -57,5 +57,17 @@
   "firstPicked": "2026-11-11",
   "lastPicked": "2026-11-11",
   "buy": "stateconnect.site"
+ },
+ "9293926625": {
+  "name": "UMA DASH",
+  "firstPicked": "2026-11-12",
+  "lastPicked": "2026-11-12",
+  "buy": "umadash.wiki"
+ },
+ "10419211403": {
+  "name": "Cultivation Unbound",
+  "firstPicked": "2026-11-12",
+  "lastPicked": "2026-11-12",
+  "buy": "cultivationunbound.com"
  }
 }

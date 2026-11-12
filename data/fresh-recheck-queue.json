@@ -6135,6 +6135,15 @@
     "ratio": 0.87,
     "last": "2026-11-11",
     "sites": []
+   },
+   {
+    "date": "2026-11-12",
+    "day": 4,
+    "base": 73.7,
+    "now": 76.3,
+    "ratio": 1.04,
+    "last": "2026-11-12",
+    "sites": []
    }
   ]
  },
@@ -6176,6 +6185,15 @@
     "ratio": 1.06,
     "last": "2026-11-11",
     "sites": []
+   },
+   {
+    "date": "2026-11-12",
+    "day": 4,
+    "base": 60.3,
+    "now": 63.7,
+    "ratio": 1.06,
+    "last": "2026-11-12",
+    "sites": []
    }
   ]
  },
@@ -6214,6 +6232,20 @@
      "surviveyourideasgame.wiki",
      "surviveyourideas.org"
     ]
+   },
+   {
+    "date": "2026-11-12",
+    "day": 3,
+    "base": 77.7,
+    "now": 75.3,
+    "ratio": 0.97,
+    "last": "2026-11-12",
+    "sites": [
+     "playsurviveyourideas.wiki",
+     "surviveyourideasgame.wiki",
+     "surviveyourideas.org",
+     "surviveyourideas.top"
+    ]
    }
   ]
  },
@@ -6244,6 +6276,15 @@
     "now": 25.3,
     "ratio": 0.66,
     "last": "2026-11-11",
+    "sites": []
+   },
+   {
+    "date": "2026-11-12",
+    "day": 3,
+    "base": 33,
+    "now": 25,
+    "ratio": 0.76,
+    "last": "2026-11-12",
     "sites": []
    }
   ]
@@ -6276,6 +6317,15 @@
     "ratio": 0.88,
     "last": "2026-11-11",
     "sites": []
+   },
+   {
+    "date": "2026-11-12",
+    "day": 3,
+    "base": 61,
+    "now": 48,
+    "ratio": 0.79,
+    "last": "2026-11-12",
+    "sites": []
    }
   ]
  },
@@ -6288,8 +6338,20 @@
   "prerelease": false,
   "term": "glorybound",
   "due": "2026-11-11",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 2,
+    "base": 73.7,
+    "now": 61.7,
+    "ratio": 0.84,
+    "last": "2026-11-12",
+    "sites": [
+     "glorybound-wiki.wiki"
+    ]
+   }
+  ]
  },
  "state connect": {
   "name": "State Connect",
@@ -6312,8 +6374,18 @@
   "prerelease": false,
   "term": "dreamworks shrek 2 remastered",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 1,
+    "base": 61.7,
+    "now": 53.3,
+    "ratio": 0.86,
+    "last": "2026-11-12",
+    "sites": []
+   }
+  ]
  },
  "warhammer survivors": {
   "name": "Warhammer Survivors",
@@ -6324,8 +6396,21 @@
   "prerelease": false,
   "term": "warhammer survivors",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "taken",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 1,
+    "base": 51.3,
+    "now": 82,
+    "ratio": 1.6,
+    "last": "2026-11-12",
+    "sites": [
+     "warhammersurvivors.com",
+     "warhammer-survivors-guide.wiki"
+    ]
+   }
+  ]
  },
  "booster pack heroes": {
   "name": "Booster Pack Heroes",
@@ -6336,8 +6421,18 @@
   "prerelease": false,
   "term": "booster pack heroes",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 1,
+    "base": 55.3,
+    "now": 74.3,
+    "ratio": 1.34,
+    "last": "2026-11-12",
+    "sites": []
+   }
+  ]
  },
  "never sort by color": {
   "name": "Never Sort By Color",
@@ -6348,8 +6443,18 @@
   "prerelease": false,
   "term": "never sort by color",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 1,
+    "base": 62.7,
+    "now": 57.3,
+    "ratio": 0.91,
+    "last": "2026-11-12",
+    "sites": []
+   }
+  ]
  },
  "annihilated": {
   "name": "Annihilated",
@@ -6360,8 +6465,18 @@
   "prerelease": false,
   "term": "annihilated",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-12",
+    "day": 1,
+    "base": 20.7,
+    "now": 23,
+    "ratio": 1.11,
+    "last": "2026-11-12",
+    "sites": []
+   }
+  ]
  },
  "ro bass fishing": {
   "name": "ro bass fishing",
@@ -6385,6 +6500,55 @@
   "license": null,
   "term": "cork7 game",
   "due": "2026-11-13",
+  "status": "pending",
+  "checks": []
+ },
+ "stack a butter squishy": {
+  "name": "Stack A Butter Squishy",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-12",
+  "release": null,
+  "prerelease": false,
+  "term": "stack a butter squishy",
+  "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "uma dash": {
+  "name": "UMA DASH",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-12",
+  "release": null,
+  "prerelease": false,
+  "term": "uma dash game",
+  "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "cultivation unbound": {
+  "name": "Cultivation Unbound",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-12",
+  "release": null,
+  "prerelease": false,
+  "term": "cultivation unbound",
+  "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "farflung": {
+  "name": "farflung",
+  "type": "可玩游戏",
+  "kind": "h5",
+  "firstSeen": "2026-11-12",
+  "release": null,
+  "prerelease": false,
+  "license": null,
+  "term": "farflung",
+  "due": "2026-11-14",
   "status": "pending",
   "checks": []
  }

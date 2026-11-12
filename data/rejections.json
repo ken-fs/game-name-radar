@@ -42,11 +42,21 @@
       "category": "demand",
       "decidedAt": "2026-11-05",
       "decidedVerdict": "❌ 放弃",
-      "verdict": "❌ 放弃",
+      "verdict": "🟡 观察",
       "reason": "真名 Convenience Store in Korea ASMR，在线 430，Trends 平（0.12×、峰值 2025-11），只有 3 条美国联想（见 GAME-DECISIONS.md 11-05）",
-      "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "status": "flipped",
+      "nextRecheck": null,
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "❌ 放弃",
+          "to": "🟡 观察",
+          "outcome": "flip",
+          "trend": "no-data",
+          "guideWords": 1
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Hit Bout' It!",
@@ -57,8 +67,19 @@
       "verdict": "❌ 放弃",
       "reason": "在线 773，攻略词 0、名字归因失败（见 GAME-DECISIONS.md 11-05）",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 857,
+          "trend": "no-data",
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Clover Legends",
@@ -66,11 +87,22 @@
       "category": "demand",
       "decidedAt": "2026-11-05",
       "decidedVerdict": "❌ 放弃",
-      "verdict": "❌ 放弃",
+      "verdict": "🟡 观察",
       "reason": "在线 619，codes Trends declining，codes 媒体 7 家；value 联想 4 条但量级 ≤ 锚点 8%（见 GAME-DECISIONS.md 11-05）",
-      "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "status": "flipped",
+      "nextRecheck": null,
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "❌ 放弃",
+          "to": "🟡 观察",
+          "outcome": "flip",
+          "ccu": 257,
+          "trend": "no-data",
+          "guideWords": 6
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Azeroth Survivors",
@@ -162,11 +194,20 @@
       "category": "demand",
       "decidedAt": "2026-11-05",
       "decidedVerdict": "🟡 观察",
-      "verdict": "🟡 观察",
+      "verdict": "❌ 放弃",
       "reason": "对应真实 Steam Data Center app 4170200，不是网友梗；当前 34 CCU，已有 Fandom 19 页与日语 Wikichree 38 页；JP 30 天 Trends 近期多为 5–13，未见当前持续尖峰，不做梗游戏或新通用 Wiki",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "🟡 观察",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "femboy tycoon",
@@ -177,8 +218,18 @@
       "verdict": "🟡 观察",
       "reason": "有 Roblox / codes / 2 player 联想，但雷达未识别 Roblox / Steam 官方游戏，可玩趋势 0；首见 0 → 33.3 是低基数，官方归属与 CCU 未验证，今天不买域",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "trend": "no-data",
+          "guideWords": 1
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "wonder woman",
@@ -258,11 +309,21 @@
       "category": "demand",
       "decidedAt": "2026-11-05",
       "decidedVerdict": "🟡 观察",
-      "verdict": "🟡 观察",
+      "verdict": "❌ 放弃",
       "reason": "峰值 CCU 647，仅 guide / cheats / itch 3 条长尾，工具需求 0，实体数未测；等 CCU 稳在 1500+ 且出现至少 3 条玩法 / 实体词再核",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "🟡 观察",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 468,
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Ebbtide",
@@ -309,8 +370,18 @@
       "verdict": "❌ 放弃",
       "reason": "峰值 CCU 52、玩法长尾 0、工具需求 0；日本畅销榜热度不能替代独立搜索需求",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 38,
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Textlife",
@@ -318,11 +389,22 @@
       "category": "demand",
       "decidedAt": "2026-11-05",
       "decidedVerdict": "❌ 放弃",
-      "verdict": "❌ 放弃",
+      "verdict": "🟡 观察",
       "reason": "上线 367 天，当前约 1454–1702 CCU，快照增长比高但攻略词 0、工具需求 0，不开 Wiki",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "from": "❌ 放弃",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 486,
+          "trend": "no-data",
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-12"
     },
     {
       "name": "Monster Maker",
