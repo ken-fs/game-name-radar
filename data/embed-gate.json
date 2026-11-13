@@ -52,5 +52,11 @@
     "reason": "未查到 GD/GM/Scratch 授权嵌源，官网 poople.io 为独立日更词游戏，同名站已多（用户飞书拍板 2026-11-08）",
     "at": "2026-11-08",
     "by": "manual"
+  },
+  "cork7": {
+    "verdict": "弃",
+    "reason": "没查到 GD/GM/Scratch 授权嵌源（用户飞书拍板 2026-11-12）",
+    "at": "2026-11-12",
+    "by": "manual"
   }
 }

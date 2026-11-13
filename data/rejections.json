@@ -415,8 +415,19 @@
       "verdict": "🟡 观察",
       "reason": "上线 13 天、当前约 4282 CCU，但 codes Trends declining、攻略词 0、工具需求 0；等至少 3 条 Wiki / tier / 实体名归因联想再核",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-13",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 4234,
+          "trend": "no-data",
+          "guideWords": 2
+        }
+      ],
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Ball Knowledge",
@@ -427,8 +438,19 @@
       "verdict": "🟡 观察",
       "reason": "上线 21 天、当前约 1730 CCU，攻略词 0、Trends 未测；单凭 9.3x 增长不开 Wiki",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-13",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 4496,
+          "trend": "no-data",
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Bloxian Business",
@@ -439,8 +461,19 @@
       "verdict": "❌ 放弃",
       "reason": "当前约 986 CCU，仅 codes 一条攻略联想，Trends 未测，无 Wiki / 实体词",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "history": []
+      "nextRecheck": "2026-11-19",
+      "history": [
+        {
+          "date": "2026-11-13",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 497,
+          "trend": "no-data",
+          "guideWords": 0
+        }
+      ],
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Steal a Superpower!",
@@ -460,10 +493,10 @@
       "category": "demand",
       "decidedAt": "2026-10-30",
       "decidedVerdict": "🟡 观察",
-      "verdict": "🟡 观察",
+      "verdict": "❌ 放弃",
       "reason": "官方 iframe 实测可嵌，events.js 有事件库，但品牌词混杂且 answers / archive 联想仍为 0；10-31 补：官方自己挂 AdSense（ca-pub-4143517344869416），929 条事件是作者手写的题库、每日轮换在前端算——iframe 要先拿作者授权，答案页只放当天、不放未来、不搬 fun fact",
       "status": "active",
-      "nextRecheck": "2026-11-13",
+      "nextRecheck": "2026-11-29",
       "history": [
         {
           "date": "2026-11-02",
@@ -476,9 +509,15 @@
           "from": "🟡 观察",
           "to": "🟡 观察",
           "outcome": "stable"
+        },
+        {
+          "date": "2026-11-13",
+          "from": "🟡 观察",
+          "to": "❌ 放弃",
+          "outcome": "stable"
         }
       ],
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Tree Appreciator",
@@ -489,7 +528,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-12",
+      "nextRecheck": "2026-11-14",
       "history": [
         {
           "date": "2026-11-02",
@@ -550,9 +589,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "Command failed: /Users/sh/.nvm/versions/node/v22.22.0/bin/node radar.mjs check Tree Appreciator\n(node:77689) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experim"
+        },
+        {
+          "date": "2026-11-13",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "Command failed: /Users/sh/.nvm/versions/node/v22.22.0/bin/node radar.mjs check Tree Appreciator\n(node:11861) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experim"
         }
       ],
-      "lastChecked": "2026-11-11"
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Poké Jam",
@@ -694,8 +739,8 @@
       "verdict": "🟡 观察",
       "reason": "至少 30 Index 档位，但实体需求未过、CCU 低于 2K",
       "status": "active",
-      "nextRecheck": "2026-11-12",
-      "lastChecked": "2026-11-05",
+      "nextRecheck": "2026-11-28",
+      "lastChecked": "2026-11-13",
       "history": [
         {
           "date": "2026-10-30",
@@ -721,6 +766,15 @@
           "ccu": 2193,
           "trend": "declining",
           "guideWords": 2
+        },
+        {
+          "date": "2026-11-13",
+          "from": "🟡 观察",
+          "to": "🟡 观察",
+          "outcome": "stable",
+          "ccu": 1641,
+          "trend": "no-data",
+          "guideWords": 1
         }
       ]
     },
@@ -808,7 +862,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具与攻略需求不足、峰值 CCU 低",
       "status": "active",
-      "nextRecheck": "2026-11-13",
+      "nextRecheck": "2026-11-29",
       "history": [
         {
           "date": "2026-11-02",
@@ -825,9 +879,17 @@
           "outcome": "stable",
           "ccu": 55,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-13",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 26,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "ATMOSFAR",
@@ -838,7 +900,7 @@
       "verdict": "❌ 放弃",
       "reason": "工具需求 0、峰值 CCU 低",
       "status": "active",
-      "nextRecheck": "2026-11-13",
+      "nextRecheck": "2026-11-29",
       "history": [
         {
           "date": "2026-11-02",
@@ -855,9 +917,17 @@
           "outcome": "stable",
           "ccu": 527,
           "guideWords": 0
+        },
+        {
+          "date": "2026-11-13",
+          "from": "❌ 放弃",
+          "to": "❌ 放弃",
+          "outcome": "stable",
+          "ccu": 202,
+          "guideWords": 0
         }
       ],
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-13"
     },
     {
       "name": "Portal Sandbox",

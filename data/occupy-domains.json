@@ -3365,7 +3365,7 @@
  },
  "ragdollsandboxwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "raidersofthenorth.wiki": {
   "available": true,
@@ -3511,7 +3511,7 @@
   "available": false,
   "registered": "2026-10-04",
   "ns": "jade.ns.cloudflare.com,kellen.ns.cloudflare.com",
-  "checkedAt": "2026-11-03"
+  "checkedAt": "2026-11-13"
  },
  "sulfurwiki.com": {
   "available": true,
@@ -3524,12 +3524,16 @@
   "checkedAt": "2026-11-10"
  },
  "queensdomaingame.com": {
-  "available": true,
-  "checkedAt": "2026-11-03"
+  "available": false,
+  "registered": "2026-11-12",
+  "ns": "LAUNCH1.SPACESHIP.NET,LAUNCH2.SPACESHIP.NET",
+  "checkedAt": "2026-11-13"
  },
  "queensdomainwiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-03"
+  "available": false,
+  "registered": "2026-11-11",
+  "ns": "NS1.VERCEL-DNS.COM,NS2.VERCEL-DNS.COM",
+  "checkedAt": "2026-11-13"
  },
  "ripitcardcollectorgame.com": {
   "available": true,
@@ -3636,12 +3640,14 @@
   "checkedAt": "2026-11-12"
  },
  "dungeonsdynasties.wiki": {
-  "available": true,
-  "checkedAt": "2026-11-06"
+  "available": false,
+  "registered": "2026-11-08",
+  "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
+  "checkedAt": "2026-11-13"
  },
  "dungeonsdynastieswiki.com": {
   "available": true,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-13"
  },
  "loftia.wiki": {
   "available": false,
@@ -3693,19 +3699,19 @@
   "available": false,
   "registered": "2026-09-24",
   "ns": "robin.ns.cloudflare.com,damon.ns.cloudflare.com",
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-13"
  },
  "potatopleasegame.com": {
   "available": true,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-13"
  },
  "potatopleasewiki.com": {
   "available": true,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-13"
  },
  "dungeonsdynastiesgame.com": {
   "available": true,
-  "checkedAt": "2026-11-06"
+  "checkedAt": "2026-11-13"
  },
  "deathatflemingmanor.wiki": {
   "available": false,
@@ -4049,19 +4055,21 @@
  },
  "pianoglowwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "zedzone.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-12"
+  "available": false,
+  "registered": "2026-11-06",
+  "ns": "dan.ns.cloudflare.com,serena.ns.cloudflare.com",
+  "checkedAt": "2026-11-13"
  },
  "zedzonegame.com": {
-  "available": null,
-  "checkedAt": "2026-11-12"
+  "available": true,
+  "checkedAt": "2026-11-13"
  },
  "zedzonewiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "ruinsofmythdrannor.wiki": {
   "available": true,
@@ -4109,31 +4117,31 @@
  },
  "takeover2.wiki": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "takeover2game.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "takeover2wiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "whatthebuck.wiki": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "whatthebuckgame.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "whatthebuckwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "oboronoichi.wiki": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "casualtiesunknown.wiki": {
   "available": false,
@@ -4193,26 +4201,44 @@
  },
  "funeralforthesun.wiki": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-13"
  },
  "funeralforthesungame.com": {
-  "available": null,
-  "checkedAt": "2026-11-12"
+  "available": true,
+  "checkedAt": "2026-11-13"
  },
  "funeralforthesunwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-12"
+  "available": true,
+  "checkedAt": "2026-11-13"
  },
  "robrun.wiki": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-05"
  },
  "robrungame.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-05"
  },
  "robrunwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-12"
+  "checkedAt": "2026-11-05"
+ },
+ "stormforge.wiki": {
+  "available": false,
+  "registered": "2026-09-07",
+  "ns": "ns4lqx.name.com,ns3sxz.name.com,ns1crv.name.com,ns2knz.name.com",
+  "checkedAt": "2026-11-13"
+ },
+ "stormforgegame.com": {
+  "available": false,
+  "registered": "2024-05-07",
+  "ns": "NS1CRV.NAME.COM,NS2KNZ.NAME.COM,NS3SXZ.NAME.COM,NS4LQX.NAME.COM",
+  "checkedAt": "2026-11-13"
+ },
+ "stormforgewiki.com": {
+  "available": false,
+  "registered": "2026-08-24",
+  "ns": "NS.SECOND-NS.COM,NS1.YOUR-SERVER.DE,NS3.SECOND-NS.DE",
+  "checkedAt": "2026-11-13"
  }
 }

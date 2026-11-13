@@ -696,8 +696,18 @@
   "prerelease": true,
   "term": "football manager 27",
   "due": "2026-11-12",
-  "status": "pending",
-  "checks": []
+  "status": "go",
+  "checks": [
+   {
+    "date": "2026-11-13",
+    "day": 2,
+    "base": 0,
+    "now": 54,
+    "ratio": 54,
+    "last": "2026-11-13",
+    "sites": []
+   }
+  ]
  },
  "probably stolen cyberpunk shopkeeper sim": {
   "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
@@ -6144,6 +6154,15 @@
     "ratio": 1.04,
     "last": "2026-11-12",
     "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 5,
+    "base": 71,
+    "now": 79.3,
+    "ratio": 1.12,
+    "last": "2026-11-13",
+    "sites": []
    }
   ]
  },
@@ -6193,6 +6212,15 @@
     "now": 63.7,
     "ratio": 1.06,
     "last": "2026-11-12",
+    "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 5,
+    "base": 53.3,
+    "now": 58.3,
+    "ratio": 1.09,
+    "last": "2026-11-13",
     "sites": []
    }
   ]
@@ -6246,6 +6274,21 @@
      "surviveyourideas.org",
      "surviveyourideas.top"
     ]
+   },
+   {
+    "date": "2026-11-13",
+    "day": 4,
+    "base": 77.7,
+    "now": 76.7,
+    "ratio": 0.99,
+    "last": "2026-11-13",
+    "sites": [
+     "playsurviveyourideas.wiki",
+     "surviveyourideasgame.wiki",
+     "surviveyourideas.org",
+     "surviveyourideas.top",
+     "survive-your-ideas.org"
+    ]
    }
   ]
  },
@@ -6285,6 +6328,15 @@
     "now": 25,
     "ratio": 0.76,
     "last": "2026-11-12",
+    "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 4,
+    "base": 46.7,
+    "now": 32.3,
+    "ratio": 0.69,
+    "last": "2026-11-13",
     "sites": []
    }
   ]
@@ -6326,6 +6378,15 @@
     "ratio": 0.79,
     "last": "2026-11-12",
     "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 4,
+    "base": 88.7,
+    "now": 37,
+    "ratio": 0.42,
+    "last": "2026-11-13",
+    "sites": []
    }
   ]
  },
@@ -6347,6 +6408,17 @@
     "now": 61.7,
     "ratio": 0.84,
     "last": "2026-11-12",
+    "sites": [
+     "glorybound-wiki.wiki"
+    ]
+   },
+   {
+    "date": "2026-11-13",
+    "day": 3,
+    "base": 74.7,
+    "now": 48.7,
+    "ratio": 0.65,
+    "last": "2026-11-13",
     "sites": [
      "glorybound-wiki.wiki"
     ]
@@ -6383,6 +6455,15 @@
     "now": 53.3,
     "ratio": 0.86,
     "last": "2026-11-12",
+    "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 2,
+    "base": 13.3,
+    "now": 12,
+    "ratio": 0.9,
+    "last": "2026-11-13",
     "sites": []
    }
   ]
@@ -6431,8 +6512,33 @@
     "ratio": 1.34,
     "last": "2026-11-12",
     "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 2,
+    "base": 54,
+    "now": 59.7,
+    "ratio": 1.1,
+    "last": "2026-11-13",
+    "sites": []
    }
-  ]
+  ],
+  "steady": {
+   "date": "2026-11-13",
+   "ok": true,
+   "streak": 3,
+   "block": 3.92,
+   "weeks": [
+    9.6,
+    8.1,
+    9.3,
+    0,
+    11.1,
+    19,
+    27.3,
+    48.4
+   ]
+  }
  },
  "never sort by color": {
   "name": "Never Sort By Color",
@@ -6443,7 +6549,7 @@
   "prerelease": false,
   "term": "never sort by color",
   "due": "2026-11-12",
-  "status": "watch",
+  "status": "go",
   "checks": [
    {
     "date": "2026-11-12",
@@ -6452,6 +6558,15 @@
     "now": 57.3,
     "ratio": 0.91,
     "last": "2026-11-12",
+    "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 2,
+    "base": 27.7,
+    "now": 58,
+    "ratio": 2.1,
+    "last": "2026-11-13",
     "sites": []
    }
   ]
@@ -6475,6 +6590,15 @@
     "ratio": 1.11,
     "last": "2026-11-12",
     "sites": []
+   },
+   {
+    "date": "2026-11-13",
+    "day": 2,
+    "base": 18.3,
+    "now": 21,
+    "ratio": 1.15,
+    "last": "2026-11-13",
+    "sites": []
    }
   ]
  },
@@ -6487,8 +6611,18 @@
   "prerelease": false,
   "term": "ro bass fishing",
   "due": "2026-11-13",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-13",
+    "day": 1,
+    "base": 61,
+    "now": 66,
+    "ratio": 1.08,
+    "last": "2026-11-13",
+    "sites": []
+   }
+  ]
  },
  "cork7": {
   "name": "cork7",
@@ -6500,8 +6634,18 @@
   "license": null,
   "term": "cork7 game",
   "due": "2026-11-13",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-13",
+    "day": 1,
+    "base": 63,
+    "now": 38.7,
+    "ratio": 0.61,
+    "last": "2026-11-13",
+    "sites": []
+   }
+  ]
  },
  "stack a butter squishy": {
   "name": "Stack A Butter Squishy",
@@ -6549,6 +6693,66 @@
   "license": null,
   "term": "farflung",
   "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "rejected draft": {
+  "name": "Rejected Draft",
+  "type": "Steam",
+  "kind": "steam",
+  "firstSeen": "2026-11-13",
+  "release": null,
+  "prerelease": false,
+  "term": "rejected draft",
+  "due": "2026-11-15",
+  "status": "pending",
+  "checks": []
+ },
+ "warota i live next to the demon king s castle lol": {
+  "name": "Warota: I Live Next to The Demon King's Castle LOL",
+  "type": "Steam 关注者",
+  "kind": "steam",
+  "firstSeen": "2026-11-13",
+  "release": "2026-11-12",
+  "prerelease": false,
+  "term": "warota game",
+  "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "everyone s tier list": {
+  "name": "EVERYONE'S TIER LIST!",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-13",
+  "release": "2026-11-12",
+  "prerelease": false,
+  "term": "everyone s tier list",
+  "due": "2026-11-14",
+  "status": "pending",
+  "checks": []
+ },
+ "do not stop": {
+  "name": "do not stop",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-13",
+  "release": null,
+  "prerelease": false,
+  "term": "do not stop",
+  "due": "2026-11-15",
+  "status": "pending",
+  "checks": []
+ },
+ "jail": {
+  "name": "jail",
+  "type": "联想新词",
+  "kind": "roblox",
+  "firstSeen": "2026-11-13",
+  "release": null,
+  "prerelease": false,
+  "term": "jail game",
+  "due": "2026-11-15",
   "status": "pending",
   "checks": []
  }

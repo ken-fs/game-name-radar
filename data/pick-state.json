@@ -2,7 +2,7 @@
  "_usage": {
   "month": "2026-11",
   "ddg": 34,
-  "tavily": 35
+  "tavily": 39
  },
  "10766468833": {
   "name": "Cut a Rock",
@@ -69,5 +69,17 @@
   "firstPicked": "2026-11-12",
   "lastPicked": "2026-11-12",
   "buy": "cultivationunbound.com"
+ },
+ "10772946647": {
+  "name": "Do Not Stop",
+  "firstPicked": "2026-11-13",
+  "lastPicked": "2026-11-13",
+  "buy": "donotstop.site"
+ },
+ "10768613071": {
+  "name": "Project Soul's",
+  "firstPicked": "2026-11-13",
+  "lastPicked": "2026-11-13",
+  "buy": "projectsouls.site"
  }
 }
