@@ -3365,7 +3365,7 @@
  },
  "ragdollsandboxwiki.com": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-06"
  },
  "raidersofthenorth.wiki": {
   "available": true,
@@ -3671,15 +3671,15 @@
   "available": false,
   "registered": "2026-10-30",
   "ns": "pearl.ns.cloudflare.com,gabe.ns.cloudflare.com",
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "mycelariumgame.com": {
   "available": true,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "mycelariumwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "silica.wiki": {
   "available": true,
@@ -3714,18 +3714,16 @@
   "checkedAt": "2026-11-13"
  },
  "deathatflemingmanor.wiki": {
-  "available": false,
-  "registered": "2026-10-29",
-  "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "deathatflemingmanorgame.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "deathatflemingmanorwiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "beatforspeed.wiki": {
   "available": false,
@@ -3759,41 +3757,37 @@
   "available": false,
   "registered": "2026-10-17",
   "ns": "meg.ns.cloudflare.com,ben.ns.cloudflare.com",
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "huntingsimulator3wiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "huntingsimulator3game.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "playrooms.wiki": {
   "available": false,
   "registered": "2026-11-01",
   "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "playroomswiki.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "playroomsgame.com": {
-  "available": true,
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "voidbreaker.wiki": {
-  "available": false,
-  "registered": "2026-10-12",
-  "ns": "launch1.spaceship.net,launch2.spaceship.net",
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "voidbreakergame.com": {
-  "available": false,
-  "registered": "2024-10-30",
-  "ns": "NS-CLOUD-E1.GOOGLEDOMAINS.COM,NS-CLOUD-E2.GOOGLEDOMAINS.COM,NS-CLOUD-E3.GOOGLEDOMAINS.COM,NS-CLOUD-E4.GOOGLEDOMAINS.COM",
-  "checkedAt": "2026-11-07"
+  "available": null,
+  "checkedAt": "2026-11-14"
  },
  "voidbreakerwiki.com": {
   "available": true,
@@ -3837,7 +3831,7 @@
  },
  "canemallwiki.com": {
   "available": true,
-  "checkedAt": "2026-11-07"
+  "checkedAt": "2026-11-14"
  },
  "worship.wiki": {
   "available": false,
@@ -4054,8 +4048,8 @@
   "checkedAt": "2026-11-12"
  },
  "pianoglowwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-13"
+  "available": true,
+  "checkedAt": "2026-11-14"
  },
  "zedzone.wiki": {
   "available": false,
@@ -4069,7 +4063,7 @@
  },
  "zedzonewiki.com": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-14"
  },
  "ruinsofmythdrannor.wiki": {
   "available": true,
@@ -4117,31 +4111,33 @@
  },
  "takeover2.wiki": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-14"
  },
  "takeover2game.com": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-14"
  },
  "takeover2wiki.com": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-14"
  },
  "whatthebuck.wiki": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-14"
  },
  "whatthebuckgame.com": {
-  "available": null,
-  "checkedAt": "2026-11-13"
+  "available": true,
+  "checkedAt": "2026-11-14"
  },
  "whatthebuckwiki.com": {
-  "available": null,
-  "checkedAt": "2026-11-13"
+  "available": true,
+  "checkedAt": "2026-11-14"
  },
  "oboronoichi.wiki": {
-  "available": null,
-  "checkedAt": "2026-11-13"
+  "available": false,
+  "registered": "2026-11-07",
+  "ns": "launch1.spaceship.net,launch2.spaceship.net",
+  "checkedAt": "2026-11-14"
  },
  "casualtiesunknown.wiki": {
   "available": false,
@@ -4201,7 +4197,7 @@
  },
  "funeralforthesun.wiki": {
   "available": null,
-  "checkedAt": "2026-11-13"
+  "checkedAt": "2026-11-06"
  },
  "funeralforthesungame.com": {
   "available": true,
@@ -4240,5 +4236,77 @@
   "registered": "2026-08-24",
   "ns": "NS.SECOND-NS.COM,NS1.YOUR-SERVER.DE,NS3.SECOND-NS.DE",
   "checkedAt": "2026-11-13"
+ },
+ "throwaseedwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "throwaseedgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "throwaseed.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "pokemonrebirth.wiki": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "pokemonrebirthgame.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "pokemonrebirthwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "neversortbycolor.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "neversortbycolorgame.com": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "footballmanager27.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "neversortbycolorwiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "footballmanager27game.com": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "hillthorn.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "footballmanager27wiki.com": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "hillthorngame.com": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "westealfromoldpeoplethe.wiki": {
+  "available": null,
+  "checkedAt": "2026-11-14"
+ },
+ "hillthornwiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "westealfromoldpeoplethegame.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
+ },
+ "westealfromoldpeoplethewiki.com": {
+  "available": true,
+  "checkedAt": "2026-11-14"
  }
 }

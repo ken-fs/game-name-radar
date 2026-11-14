@@ -6289,6 +6289,22 @@
      "surviveyourideas.top",
      "survive-your-ideas.org"
     ]
+   },
+   {
+    "date": "2026-11-14",
+    "day": 5,
+    "base": 76.3,
+    "now": 58.3,
+    "ratio": 0.76,
+    "last": "2026-11-14",
+    "sites": [
+     "playsurviveyourideas.wiki",
+     "surviveyourideasgame.wiki",
+     "surviveyourideas.org",
+     "surviveyourideas.top",
+     "survive-your-ideas.org",
+     "survive-your-ideas.top"
+    ]
    }
   ]
  },
@@ -6337,6 +6353,15 @@
     "now": 32.3,
     "ratio": 0.69,
     "last": "2026-11-13",
+    "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 5,
+    "base": 55.7,
+    "now": 34.3,
+    "ratio": 0.62,
+    "last": "2026-11-14",
     "sites": []
    }
   ]
@@ -6387,6 +6412,15 @@
     "ratio": 0.42,
     "last": "2026-11-13",
     "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 5,
+    "base": 91.7,
+    "now": 58.3,
+    "ratio": 0.64,
+    "last": "2026-11-14",
+    "sites": []
    }
   ]
  },
@@ -6422,6 +6456,18 @@
     "sites": [
      "glorybound-wiki.wiki"
     ]
+   },
+   {
+    "date": "2026-11-14",
+    "day": 4,
+    "base": 74.3,
+    "now": 41.7,
+    "ratio": 0.56,
+    "last": "2026-11-14",
+    "sites": [
+     "glorybound-wiki.wiki",
+     "glorybound-game.wiki"
+    ]
    }
   ]
  },
@@ -6434,8 +6480,20 @@
   "prerelease": false,
   "term": "state connect",
   "due": "2026-11-13",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 2,
+    "base": 60.7,
+    "now": 53.3,
+    "ratio": 0.88,
+    "last": "2026-11-14",
+    "sites": [
+     "state-connect.wiki"
+    ]
+   }
+  ]
  },
  "dreamworks shrek 2 remastered": {
   "name": "DreamWorks Shrek 2 Remastered",
@@ -6464,6 +6522,15 @@
     "now": 12,
     "ratio": 0.9,
     "last": "2026-11-13",
+    "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 3,
+    "base": 16.3,
+    "now": 9,
+    "ratio": 0.55,
+    "last": "2026-11-14",
     "sites": []
    }
   ]
@@ -6520,6 +6587,15 @@
     "now": 59.7,
     "ratio": 1.1,
     "last": "2026-11-13",
+    "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 3,
+    "base": 63.3,
+    "now": 74,
+    "ratio": 1.17,
+    "last": "2026-11-14",
     "sites": []
    }
   ],
@@ -6599,6 +6675,15 @@
     "ratio": 1.15,
     "last": "2026-11-13",
     "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 3,
+    "base": 18.7,
+    "now": 22,
+    "ratio": 1.18,
+    "last": "2026-11-14",
+    "sites": []
    }
   ]
  },
@@ -6620,6 +6705,15 @@
     "now": 66,
     "ratio": 1.08,
     "last": "2026-11-13",
+    "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 2,
+    "base": 59.7,
+    "now": 59.7,
+    "ratio": 1,
+    "last": "2026-11-14",
     "sites": []
    }
   ]
@@ -6643,6 +6737,15 @@
     "now": 38.7,
     "ratio": 0.61,
     "last": "2026-11-13",
+    "sites": []
+   },
+   {
+    "date": "2026-11-14",
+    "day": 2,
+    "base": 44.3,
+    "now": 32.3,
+    "ratio": 0.73,
+    "last": "2026-11-14",
     "sites": []
    }
   ]
@@ -6668,8 +6771,14 @@
   "prerelease": false,
   "term": "uma dash game",
   "due": "2026-11-14",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "cultivation unbound": {
   "name": "Cultivation Unbound",
@@ -6680,8 +6789,20 @@
   "prerelease": false,
   "term": "cultivation unbound",
   "due": "2026-11-14",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 1,
+    "base": 66.7,
+    "now": 71.3,
+    "ratio": 1.07,
+    "last": "2026-11-14",
+    "sites": [
+     "cultivationunbound.wiki"
+    ]
+   }
+  ]
  },
  "farflung": {
   "name": "farflung",
@@ -6693,8 +6814,22 @@
   "license": null,
   "term": "farflung",
   "due": "2026-11-14",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 1,
+    "base": 91.7,
+    "now": 82.3,
+    "ratio": 0.9,
+    "last": "2026-11-14",
+    "sites": [
+     "playfarflunggame.com",
+     "farflunggame.fun",
+     "farflung.live"
+    ]
+   }
+  ]
  },
  "rejected draft": {
   "name": "Rejected Draft",
@@ -6717,8 +6852,14 @@
   "prerelease": false,
   "term": "warota game",
   "due": "2026-11-14",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "everyone s tier list": {
   "name": "EVERYONE'S TIER LIST!",
@@ -6729,8 +6870,14 @@
   "prerelease": false,
   "term": "everyone s tier list",
   "due": "2026-11-14",
-  "status": "pending",
-  "checks": []
+  "status": "watch",
+  "checks": [
+   {
+    "date": "2026-11-14",
+    "day": 1,
+    "sites": []
+   }
+  ]
  },
  "do not stop": {
   "name": "do not stop",
@@ -6752,6 +6899,30 @@
   "release": null,
   "prerelease": false,
   "term": "jail game",
+  "due": "2026-11-15",
+  "status": "pending",
+  "checks": []
+ },
+ "a bizarre run": {
+  "name": "A Bizarre Run",
+  "type": "Roblox",
+  "kind": "roblox",
+  "firstSeen": "2026-11-14",
+  "release": null,
+  "prerelease": false,
+  "term": "a bizarre run",
+  "due": "2026-11-16",
+  "status": "pending",
+  "checks": []
+ },
+ "zombies aren t real": {
+  "name": "Zombies Aren't Real",
+  "type": "Steam 畅销榜",
+  "kind": "steam",
+  "firstSeen": "2026-11-14",
+  "release": "2026-11-13",
+  "prerelease": false,
+  "term": "zombies aren t real",
   "due": "2026-11-15",
   "status": "pending",
   "checks": []

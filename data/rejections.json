@@ -528,7 +528,7 @@
       "verdict": "🟡 观察",
       "reason": "社交信号强，但 Google Trends / 补全未形成，独立 SEO 词未验证；10-31 补：官方页 tools.simonwillison.net/tree-appreciator 无 XFO/CSP，但不用 iframe——源码 Apache 2.0（simonw/tools 单个 HTML + three.js），翻转时直接自托管（可挂 H5 游戏内广告），treeappreciator.com 10-31 可注册",
       "status": "active",
-      "nextRecheck": "2026-11-14",
+      "nextRecheck": "2026-11-15",
       "history": [
         {
           "date": "2026-11-02",
@@ -595,9 +595,15 @@
           "from": "🟡 观察",
           "outcome": "error",
           "error": "Command failed: /Users/sh/.nvm/versions/node/v22.22.0/bin/node radar.mjs check Tree Appreciator\n(node:11861) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experim"
+        },
+        {
+          "date": "2026-11-14",
+          "from": "🟡 观察",
+          "outcome": "error",
+          "error": "Command failed: /Users/sh/.nvm/versions/node/v22.22.0/bin/node radar.mjs check Tree Appreciator\n(node:24317) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experim"
         }
       ],
-      "lastChecked": "2026-11-13"
+      "lastChecked": "2026-11-14"
     },
     {
       "name": "Poké Jam",
